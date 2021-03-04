@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<add sel="//index">
+	<entry name="Cluster_DAL1" value="extensions\egp_deadairfactiondaldari\assets\environments\cluster\cluster_dal1" />
+	<entry name="Cluster_DAL2" value="extensions\egp_deadairfactiondaldari\assets\environments\cluster\cluster_dal2" />
+	<entry name="Cluster_DAL3" value="extensions\egp_deadairfactiondaldari\assets\environments\cluster\cluster_dal3" />
+	<entry name="Cluster_DAL4" value="extensions\egp_deadairfactiondaldari\assets\environments\cluster\cluster_dal4" />
+	<entry name="Cluster_DAL5" value="extensions\egp_deadairfactiondaldari\assets\environments\cluster\cluster_dal5" />
+	<entry name="Cluster_DAL6" value="extensions\egp_deadairfactiondaldari\assets\environments\cluster\cluster_dal6" />
+	<entry name="Cluster_DAL7" value="extensions\egp_deadairfactiondaldari\assets\environments\cluster\cluster_dal7" />
+	<entry name="Cluster_DAL8" value="extensions\egp_deadairfactiondaldari\assets\environments\cluster\cluster_dal8" />
+</add>
+</diff>
