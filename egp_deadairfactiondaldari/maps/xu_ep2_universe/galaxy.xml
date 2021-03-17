@@ -15,31 +15,31 @@
 	</connection>
 	<connection name="Cluster_DAL3_connection" ref="clusters">
 		<offset>
-			<position x="105000000" y="0" z="-43300000" />
+			<position x="120000000" y="0" z="-34640000" />
         </offset>
         <macro ref="Cluster_DAL3_macro" connection="galaxy" />
 	</connection>
 	<connection name="Cluster_DAL4_connection" ref="clusters">
 		<offset>
-			<position x="105000000" y="0" z="-60620000" />
+			<position x="120000000" y="0" z="-69280000" />
         </offset>
         <macro ref="Cluster_DAL4_macro" connection="galaxy" />
 	</connection>
 	<connection name="Cluster_DAL5_connection" ref="clusters">
 		<offset>
-			<position x="105000000" y="0" z="-77940000" />
+			<position x="120000000" y="0" z="-103920000" />
         </offset>
         <macro ref="Cluster_DAL5_macro" connection="galaxy" />
 	</connection>
 	<connection name="Cluster_DAL6_connection" ref="clusters">
 		<offset>
-			<position x="120000000" y="0" z="-51960000" />
+			<position x="150000000" y="0" z="-51960000" />
         </offset>
         <macro ref="Cluster_DAL6_macro" connection="galaxy" />
 	</connection>
 	<connection name="Cluster_DAL7_connection" ref="clusters">
 		<offset>
-			<position x="120000000" y="0" z="-69280000" />
+			<position x="150000000" y="0" z="-86600000" />
         </offset>
         <macro ref="Cluster_DAL7_macro" connection="galaxy" />
 	</connection>
