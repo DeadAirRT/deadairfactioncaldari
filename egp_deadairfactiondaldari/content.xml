@@ -2,15 +2,15 @@
 <content id="DeadAirFactionDaldari" name="DeadAir Faction Daldari" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir" version="003" date="2021-03-16" save="1" sync="false">
   <dependency id="ego_dlc_split" optional="true" name="Split Vendetta" />
   <dependency id="ego_dlc_terran" optional="true" name="Cradle of Humanity" />
-  <text language="7" name="DeadAir Faction Mindatar" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
-  <text language="33" name="DeadAir Faction Mindatar" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
-  <text language="34" name="DeadAir Faction Mindatar" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
-  <text language="39" name="DeadAir Faction Mindatar" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
-  <text language="44" name="DeadAir Faction Mindatar" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
-  <text language="45" name="DeadAir Faction Mindatar" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
-  <text language="49" name="DeadAir Faction Mindatar" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
-  <text language="81" name="DeadAir Faction Mindatar" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
-  <text language="82" name="DeadAir Faction Mindatar" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
-  <text language="86" name="DeadAir Faction Mindatar" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
-  <text language="88" name="DeadAir Faction Mindatar" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="7" name="DeadAir Faction Daldari" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="33" name="DeadAir Faction Daldari" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="34" name="DeadAir Faction Daldari" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="39" name="DeadAir Faction Daldari" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="44" name="DeadAir Faction Daldari" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="45" name="DeadAir Faction Daldari" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="49" name="DeadAir Faction Daldari" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="81" name="DeadAir Faction Daldari" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="82" name="DeadAir Faction Daldari" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="86" name="DeadAir Faction Daldari" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="88" name="DeadAir Faction Daldari" description="Adds the faction Daldari State with logic, sectors, and complete economy" author="DeadAir"></text>
 </content>
