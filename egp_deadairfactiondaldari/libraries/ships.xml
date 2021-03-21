@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libraries.xsd">
-  <ship id="daldari_builder_xl" group="tel_builder_xl">
+  <ship id="daldari_builder_xl" group="dal_builder_xl">
     <category tags="[builder, mission]" faction="[daldari]" size="ship_xl"/>
     <pilot>
       <select faction="daldari" tags="traderpilot"/>
@@ -8,7 +8,7 @@
     <drop ref="ship_large_civilian"/>
     <people ref="argon_elite_freighter_crew"/>
   </ship>
-  <ship id="daldari_resupplier_xl" group="tel_resupplier_xl">
+  <ship id="daldari_resupplier_xl" group="dal_resupplier_xl">
     <category tags="[resupplier, mission]" faction="[daldari]" size="ship_xl"/>
     <pilot>
       <select faction="daldari" tags="traderpilot"/>
@@ -16,7 +16,7 @@
     <drop ref="ship_large_civilian"/>
     <people ref="argon_elite_freighter_crew"/>
   </ship>
-  <ship id="daldari_trader_container_l" group="tel_trader_container_l">
+  <ship id="daldari_trader_container_l" group="dal_trader_container_l">
     <category tags="[trader, container, mission]" faction="[daldari]" size="ship_l"/>
     <pilot>
       <select faction="daldari" tags="traderpilot"/>
@@ -25,7 +25,7 @@
     <drop ref="ship_large_civilian"/>
     <people ref="argon_veteran_freighter_crew"/>
   </ship>
-  <ship id="daldari_trader_container_m" group="tel_trader_container_m">
+  <ship id="daldari_trader_container_m" group="dal_trader_container_m">
     <category tags="[trader, container, mission]" faction="[daldari]" size="ship_m"/>
     <pilot>
       <select faction="daldari" tags="traderpilot"/>
@@ -34,7 +34,7 @@
     <drop ref="ship_medium_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="daldari_trader_container_s" group="tel_trader_container_s">
+  <ship id="daldari_trader_container_s" group="dal_trader_container_s">
     <category tags="[trader, container, mission]" faction="[daldari]" size="ship_s"/>
     <pilot>
       <select faction="daldari" tags="traderpilot"/>
@@ -43,7 +43,7 @@
     <drop ref="ship_small_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="daldari_miner_solid_l" group="tel_miner_solid_l">
+  <ship id="daldari_miner_solid_l" group="dal_miner_solid_l">
     <category tags="[miner, solid, mission]" faction="[daldari]" size="ship_l"/>
     <pilot>
       <select faction="daldari" tags="traderpilot"/>
@@ -52,7 +52,7 @@
     <drop ref="ship_large_civilian"/>
     <people ref="argon_veteran_freighter_crew"/>
   </ship>
-  <ship id="daldari_miner_liquid_l" group="tel_miner_liquid_l">
+  <ship id="daldari_miner_liquid_l" group="dal_miner_liquid_l">
     <category tags="[miner, liquid, mission]" faction="[daldari]" size="ship_l"/>
     <pilot>
       <select faction="daldari" tags="traderpilot"/>
@@ -61,7 +61,7 @@
     <drop ref="ship_large_civilian"/>
     <people ref="argon_veteran_freighter_crew"/>
   </ship>
-  <ship id="daldari_miner_solid_m" group="tel_miner_solid_m">
+  <ship id="daldari_miner_solid_m" group="dal_miner_solid_m">
     <category tags="[miner, solid, mission]" faction="[daldari]" size="ship_m"/>
     <pilot>
       <select faction="daldari" tags="traderpilot"/>
@@ -70,7 +70,7 @@
     <drop ref="ship_medium_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="daldari_miner_liquid_m" group="tel_miner_liquid_m">
+  <ship id="daldari_miner_liquid_m" group="dal_miner_liquid_m">
     <category tags="[miner, liquid, mission]" faction="[daldari]" size="ship_m"/>
     <pilot>
       <select faction="daldari" tags="traderpilot"/>
@@ -79,7 +79,7 @@
     <drop ref="ship_medium_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="daldari_miner_solid_s" group="tel_miner_solid_s">
+  <ship id="daldari_miner_solid_s" group="dal_miner_solid_s">
     <category tags="[miner, solid, mission]" faction="[daldari]" size="ship_s"/>
     <pilot>
       <select faction="daldari" tags="traderpilot"/>
@@ -88,7 +88,7 @@
     <drop ref="ship_small_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="daldari_miner_solid_mixed"  group="tel_miner_solid_mixed">
+  <ship id="daldari_miner_solid_mixed"  group="dal_miner_solid_mixed">
     <category tags="[miner, solid, mixed]" faction="[daldari]"/>
     <owner exact="argon" overridenpc="true"/>
     <pilot>
@@ -98,7 +98,7 @@
     <drop ref="ship_medium_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="daldari_miner_liquid_mixed"  group="tel_miner_liquid_mixed">
+  <ship id="daldari_miner_liquid_mixed"  group="dal_miner_liquid_mixed">
     <category tags="[miner, liquid, mixed]" faction="[daldari]"/>
     <owner exact="argon" overridenpc="true"/>
     <pilot>
@@ -108,7 +108,7 @@
     <drop ref="ship_medium_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="daldari_carrier_xl" group="tel_carrier_xl">
+  <ship id="daldari_carrier_xl" group="dal_carrier_xl">
     <category tags="[military, carrier, mission]" faction="[daldari]" size="ship_xl"/>
     <pilot>
       <select faction="daldari" tags="fighterpilot"/>
@@ -116,7 +116,7 @@
     <drop ref="ship_large_military"/>
     <people ref="argon_elite_military_crew"/>
   </ship>
-  <ship id="daldari_destroyer_l" group="tel_destroyer_l">
+  <ship id="daldari_destroyer_l" group="dal_destroyer_l">
     <category tags="[military, destroyer, mission]" faction="[daldari]" size="ship_l"/>
     <pilot>
       <select faction="daldari" tags="fighterpilot"/>
@@ -124,7 +124,7 @@
     <drop ref="ship_large_military"/>
     <people ref="argon_elite_military_crew"/>
   </ship>
-  <ship id="daldari_frigate_m" group="tel_frigate_m">
+  <ship id="daldari_frigate_m" group="dal_frigate_m">
     <category tags="[military, medium, frigate, mission]" faction="[daldari]" size="ship_m"/>
     <pilot>
       <select faction="daldari" tags="fighterpilot"/>
@@ -132,7 +132,7 @@
     <drop ref="ship_small_military"/>
     <people ref="argon_veteran_military_crew"/>
   </ship>
-  <ship id="daldari_gunboat_m" group="tel_gunboat_m">
+  <ship id="daldari_gunboat_m" group="dal_gunboat_m">
     <category tags="[military, medium, gunboat, mission]" faction="[daldari]" size="ship_m"/>
     <pilot>
       <select faction="daldari" tags="fighterpilot"/>
@@ -140,7 +140,7 @@
     <drop ref="ship_small_military"/>
     <people ref="argon_veteran_military_crew"/>
   </ship>
-  <ship id="daldari_fighter_s" group="tel_fighter_s">
+  <ship id="daldari_fighter_s" group="dal_fighter_s">
     <category tags="[military, fighter, heavy, light, selection, mission]" faction="[daldari]" size="ship_s"/>
     <pilot>
       <select faction="daldari" tags="fighterpilot"/>
@@ -148,7 +148,7 @@
     <drop ref="ship_small_military"/>
     <people ref="argon_military_crew"/>
   </ship>
-  <ship id="daldari_scout_s" group="tel_scout_s">
+  <ship id="daldari_scout_s" group="dal_scout_s">
     <category tags="[military, scout, light, mission]" faction="[daldari]" size="ship_s"/>
     <pilot>
       <select faction="daldari" tags="fighterpilot"/>

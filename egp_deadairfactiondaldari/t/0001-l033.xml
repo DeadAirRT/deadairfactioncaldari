@@ -3,26 +3,26 @@
 
 <page id="4816304" title="DeadAir T Files" descr="names used in DeadAir Mods" voice="no">
 <!-- 3323247 == deadair --><!--48163x69 == 3323247 since there is a character limit --><!--48163##-->
- <t id="100">Daldari State</t>
- <t id="101">The Daldari State is ruled by several mega-corporations. There is no central government to speak of - all territories within the State are owned and ruled by corporations. Duty and discipline are required traits in Daldari citizens, plus unquestioning loyalty to the corporation they live to serve. The corporations compete aggressively amongst themselves and with companies outside the State, resulting in a highly capitalistic society.</t>
+ <t id="100">L'État Daldari</t>
+ <t id="101">Les Daldari sont dirigés par plusieurs méga-corporations. Il n'y a pas de gouvernement central à proprement parler - tous les territoires de l'État sont détenus et dirigés par des sociétés. Le devoir et la discipline sont des qualités requises chez les citoyens de Daldari, ainsi qu'une loyauté sans faille envers la société pour laquelle ils vivent. Les sociétés se livrent une concurrence agressive entre elles et avec les entreprises extérieures à l'État, ce qui donne lieu à une société hautement capitaliste.</t>
  <t id="102">DAL</t>
- <t id="103">Daldari Capital Equipment Licence</t>
- <t id="104">Daldari Capital Ship Licence</t>
- <t id="105">Managing Partner of the State</t>
- <t id="106">Member of the State</t>
- <t id="107">Daldari General Use Equipment Licence</t>
- <t id="108">Daldari General Use Ship Licence</t>
- <t id="109">Daldari Military Equipment Licence</t>
- <t id="110">Daldari Military Ship Licence</t>
- <t id="111">Daldari Police Licence</t>
- <t id="112">Daldari Capital Ship Building Module Licence</t>
- <t id="113">Daldari Ancillary Ship Building Module Licence</t>
- <t id="114">Daldari Advanced Module Licence</t>
- <t id="115">Daldari Basic Module Licence</t>
- <t id="116">Daldari Intermediate Module Licence</t>
- <t id="117">Daldari Trade Offer Subscription</t>
- <t id="118">State</t>
- <t id="119">Daldari Ship Sale Contract</t>
+ <t id="103">Licence d'équipement Daldari</t>
+ <t id="104">Licence de vaisseaux capitaux Daldari</t>
+ <t id="105">Associé de l'État</t>
+ <t id="106">Membre de l'État</t>
+ <t id="107">Licence d'équipement à usage général Daldari</t>
+ <t id="108">Licence de vaisseaux à usage général Daldari</t>
+ <t id="109">Licence d'équipement militaire Daldari</t>
+ <t id="110">Licence de vaisseaux militaire Daldari</t>
+ <t id="111">Licence de police Daldari</t>
+ <t id="112">Licence du module de construction de vaisseaux capitaux Daldari</t>
+ <t id="113">Licence pour les modules auxiliaires de construction navale Daldari</t>
+ <t id="114">Licence pour les modules avancés Daldari</t>
+ <t id="115">Licence des modules de bases Daldari</t>
+ <t id="116">Licence des modules intermédiaires Daldari</t>
+ <t id="117">Abonnement à l'offre commerciale Daldari</t>
+ <t id="118">État</t>
+ <t id="119">Contrat de vente du navire Daldari</t>
  <t id="120">(4RX-EE){20404,4}{20403,18}{20403,24}{20005,8004}{20403,5}{20403,5}</t>
  <t id="121">(SS-GED){20403,19}{20403,19}{20005,8004}{20403,7}{20403,5}{20403,4}</t>
  <t id="122">(6NJ8-V){20404,6}{20403,14}{20403,10}{20404,8}{20005,8004}{20403,22}</t>
