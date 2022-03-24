@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="engine_dal_t3bc_macro" class="engine">
+    <component ref="engine_dal_t3bc" />
+    <properties>
+      <identification name="{20107,3024}" basename="{20107,3021}" shortname="{20107,3025}" description="{20107,3022}"/>
+      <boost duration="45" thrust="2" attack="10" release="2" />
+      <travel charge="10" thrust="20" attack="19" release="17" />
+      <thrust forward="5130" reverse="5424" />
+      <angular />
+      <hull max="25180" threshold="0.3" />
+      <effects>
+        <boosting ref="arg_boost_fx_l" />
+      </effects>
+      <sounds>
+        <enginedetail ref="enginedetail_ship_l_01" />
+      </sounds>
+    </properties>
+  </macro>
+</macros>

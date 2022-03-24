@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="weapon_dal_l_macro" class="weapon">
+		<component ref="weapon_dal_l"/>
+		<properties>
+			<identification name="{4816304,203}" basename="{20105,1121}" shortname="{4816304,201}" description="{4816301,210}"/>
+			<bullet class="bullet_arg_l_laser_01_mk1_macro"/>
+			<heat overheat="10000" cooldelay="1.13" coolrate="1850" reenable="0"/>
+			<rotationspeed max="3"/>
+			<rotationacceleration max="6"/>
+			<reload/>
+			<hull threshold="0.2" integrated="1" hittable="0"/>
+		</properties>
+	</macro>
+</macros>

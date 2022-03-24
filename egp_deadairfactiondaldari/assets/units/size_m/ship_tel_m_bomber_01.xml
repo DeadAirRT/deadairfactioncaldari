@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<diff>
+<replace sel="//connection[@name='con_turret_L01']/@tags">turret medium standard missile platformcollision unhittable</replace>
+<replace sel="//connection[@name='con_turret_L02']/@tags">turret medium standard missile platformcollision unhittable</replace>
+<replace sel="//connection[@name='con_turret_L03']/@tags">turret medium standard missile platformcollision unhittable</replace>
+<replace sel="//connection[@name='con_turret_L04']/@tags">turret medium standard missile platformcollision unhittable</replace>
+</diff>

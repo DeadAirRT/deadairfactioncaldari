@@ -124,6 +124,14 @@
     <drop ref="ship_large_military"/>
     <people ref="argon_elite_military_crew"/>
   </ship>
+  <ship id="daldari_escort_l" group="dal_escort_l">
+    <category tags="[military, escort, mission]" faction="[daldari]" size="ship_l"/>
+    <pilot>
+      <select faction="daldari" tags="fighterpilot"/>
+    </pilot>
+    <drop ref="ship_large_military"/>
+    <people ref="argon_elite_military_crew"/>
+  </ship>
   <ship id="daldari_frigate_m" group="dal_frigate_m">
     <category tags="[military, medium, frigate, mission]" faction="[daldari]" size="ship_m"/>
     <pilot>

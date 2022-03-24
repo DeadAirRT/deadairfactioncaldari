@@ -3,26 +3,26 @@
 
 <page id="4816304" title="DeadAir T Files" descr="names used in DeadAir Mods" voice="no">
 <!-- 3323247 == deadair --><!--48163x69 == 3323247 since there is a character limit --><!--48163##-->
- <t id="100">L'État Daldari</t>
- <t id="101">Les Daldari sont dirigés par plusieurs méga-corporations. Il n'y a pas de gouvernement central à proprement parler - tous les territoires de l'État sont détenus et dirigés par des sociétés. Le devoir et la discipline sont des qualités requises chez les citoyens de Daldari, ainsi qu'une loyauté sans faille envers la société pour laquelle ils vivent. Les sociétés se livrent une concurrence agressive entre elles et avec les entreprises extérieures à l'État, ce qui donne lieu à une société hautement capitaliste.</t>
+ <t id="100">L'État Caldari</t>
+ <t id="101">Les Caldari sont dirigés par plusieurs méga-corporations. Il n'y a pas de gouvernement central à proprement parler - tous les territoires de l'État sont détenus et dirigés par des sociétés. Le devoir et la discipline sont des qualités requises chez les citoyens de Caldari, ainsi qu'une loyauté sans faille envers la société pour laquelle ils vivent. Les sociétés se livrent une concurrence agressive entre elles et avec les entreprises extérieures à l'État, ce qui donne lieu à une société hautement capitaliste.</t>
  <t id="102">DAL</t>
- <t id="103">Licence d'équipement Daldari</t>
- <t id="104">Licence de vaisseaux capitaux Daldari</t>
+ <t id="103">Licence d'équipement Caldari</t>
+ <t id="104">Licence de vaisseaux capitaux Caldari</t>
  <t id="105">Associé de l'État</t>
  <t id="106">Membre de l'État</t>
- <t id="107">Licence d'équipement à usage général Daldari</t>
- <t id="108">Licence de vaisseaux à usage général Daldari</t>
- <t id="109">Licence d'équipement militaire Daldari</t>
- <t id="110">Licence de vaisseaux militaire Daldari</t>
- <t id="111">Licence de police Daldari</t>
- <t id="112">Licence du module de construction de vaisseaux capitaux Daldari</t>
- <t id="113">Licence pour les modules auxiliaires de construction navale Daldari</t>
- <t id="114">Licence pour les modules avancés Daldari</t>
- <t id="115">Licence des modules de bases Daldari</t>
- <t id="116">Licence des modules intermédiaires Daldari</t>
- <t id="117">Abonnement à l'offre commerciale Daldari</t>
+ <t id="107">Licence d'équipement à usage général Caldari</t>
+ <t id="108">Licence de vaisseaux à usage général Caldari</t>
+ <t id="109">Licence d'équipement militaire Caldari</t>
+ <t id="110">Licence de vaisseaux militaire Caldari</t>
+ <t id="111">Licence de police Caldari</t>
+ <t id="112">Licence du module de construction de vaisseaux capitaux Caldari</t>
+ <t id="113">Licence pour les modules auxiliaires de construction navale Caldari</t>
+ <t id="114">Licence pour les modules avancés Caldari</t>
+ <t id="115">Licence des modules de bases Caldari</t>
+ <t id="116">Licence des modules intermédiaires Caldari</t>
+ <t id="117">Abonnement à l'offre commerciale Caldari</t>
  <t id="118">État</t>
- <t id="119">Contrat de vente du navire Daldari</t>
+ <t id="119">Contrat de vente du navire Caldari</t>
  <t id="120">(4RX-EE){20404,4}{20403,18}{20403,24}{20005,8004}{20403,5}{20403,5}</t>
  <t id="121">(SS-GED){20403,19}{20403,19}{20005,8004}{20403,7}{20403,5}{20403,4}</t>
  <t id="122">(6NJ8-V){20404,6}{20403,14}{20403,10}{20404,8}{20005,8004}{20403,22}</t>
@@ -36,5 +36,14 @@
  <t id="130">(V3X-L8){20403,22}{20404,3}{20403,24}{20005,8004}{20403,12}{20404,8}</t>
  <t id="131">xxx</t>
  <t id="132">xxx</t>
+<!-- Turrets -->
+ <t id="200">{4816304,102}(DAL) {20111,5031}(L) Heavy Assault {20105,4281}(Tracking Turret)</t>
+ <t id="201">HAM</t>
+ <t id="202">{4816304,102}(DAL) {20111,5021}(M) Heavy Assault {20105,4281}(Tracking Turret)</t>
+ <t id="203">{4816304,102}(DAL) {20111,5031}(L) Heavy Assault {20105,1121}(Dumbfire Launcher)</t>
+ <t id="204">{4816304,102}(DAL) {20111,3001}(XL) Oblivion Kinetic Doomsday</t>
+<!-- Turret Description -->
+ <t id="210">A launcher intended for use on cruiser-class spacecraft. While assault launchers do not possess the sheer damage-dealing capability of regular heavy missile launchers, their blend of speed and attack power lends them application across a good range of tactical situations.</t>
+ <t id="304">Using a targeting and tracking control system more advanced than any other in existence, this weapon launches and controls a storm of missile fire capable of neutralizing almost any target.</t>
 </page>
 </language>

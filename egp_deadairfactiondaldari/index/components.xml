@@ -9,5 +9,15 @@
 	<entry name="Cluster_DAL6" value="extensions\egp_deadairfactiondaldari\assets\environments\cluster\cluster_dal6" />
 	<entry name="Cluster_DAL7" value="extensions\egp_deadairfactiondaldari\assets\environments\cluster\cluster_dal7" />
 	<entry name="Cluster_DAL8" value="extensions\egp_deadairfactiondaldari\assets\environments\cluster\cluster_dal8" />
+	<!-- Turrets -->
+	<entry name="turret_dal_*" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\guided\turret_dal_*" />
+	<entry name="turret_dal_l_ham_01_mk1" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\guided\turret_dal_l_ham_01_mk1" />
+	<entry name="turret_dal_m_ham_01_mk1" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\guided\turret_dal_m_ham_01_mk1" />
+	<entry name="turret_dal_m_ham_02_mk1" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\guided\turret_dal_m_ham_02_mk1" />
+	<entry name="weapon_dal_l" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\capital\weapon_dal_l" />
+	<entry name="weapon_dal_xl" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\capital\weapon_dal_xl" />
+	<!-- T3BC -->
+	<entry name="turret_dal_t3bc_ham" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\guided\turret_dal_t3bc_ham" />
+	<entry name="engine_dal_t3bc" value="extensions\egp_deadairfactiondaldari\assets\props\engines\engine_dal_t3bc" />
 </add>
 </diff>
