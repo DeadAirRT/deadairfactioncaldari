@@ -4,7 +4,7 @@
   <macro name="turret_dal_m_ham_02_mk1_macro" class="missileturret">
     <component ref="turret_dal_m_ham_02_mk1" />
     <properties>
-      <identification name="{4816304,202}" basename="{20105,4301}" shortname="{4816304,201}" makerrace="teladi" description="{4816304,210}" mk="1" />
+      <identification name="{4816304,202}" basename="{20105,4301}" shortname="{4816304,201}" makerrace="teladi" description="{4816304,300}" mk="1" />
       <ammunition tags="guided" />
       <bullet class="missile_guided_light_mk1_macro" />
       <rotationspeed max="90" />
