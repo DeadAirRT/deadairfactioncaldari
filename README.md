@@ -1,13 +1,13 @@
-# DeadAir Faction Daldari
+# DeadAir Faction Caldari
 
-## Adds a new faction - Daldari State
+## Adds a new faction - Caldari State
 - Uses Teladi ships with a focus on missiles and rail guns.
 - Has a complete economy and logic.
-- At war with Ministry, Teladi, Holy Order, Galdente, and Mindatar.
-- Allied with Paranid, Zyarth, and Damarr.
+- At war with Ministry, Teladi, Holy Order, Gallente, and Minmatar.
+- Allied with Paranid, Zyarth, and Amarr.
 
 ## Adds 8 Clusters
-- 7 Clusters owned by Daldari state with a connection to Paranid and Xenon.
+- 7 Clusters owned by Caldari state with a connection to Paranid and Xenon.
 - 1 neutral cluster available to player initially. Upon claiming any of DeadAir Faction neutral systems, the AI will move to capture the others.
 
 ## Designed to be used with
