@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="weapon_dal_m_ham_macro" class="missilelauncher">
+    <component ref="weapon_dal_m_ham" />
+    <properties>
+      <identification name="{4816304,202}" basename="{4816304,201}" shortname="{4816304,291}" description="{4816304,300}"/>
+      <ammunition tags="mham" />
+      <bullet class="missile_dal_ham_m_kinetic_macro" />
+      <reload />
+      <storage capacity="20" />
+      <hull max="1001" hittable="0" />
+    </properties>
+  </macro>
+</macros>

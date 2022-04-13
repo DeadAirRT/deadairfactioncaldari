@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <language id="33">
-	<page id="4816304" title="DeadAir T Files" descr="names used in DeadAir Mods" voice="no">
+	<page id="4816304" title="DeadAir T Files" descr="names used in DeadAir Mods" voice="yes">
 		<!-- 3323247 == deadair -->
 		<!--48163x69 == 3323247 since there is a character limit -->
 		<!--48163##-->
 		<t id="100">L'État Caldari</t>
 		<t id="101">Les Caldari sont dirigés par plusieurs méga-corporations. Il n'y a pas de gouvernement central à proprement parler - tous les territoires de l'État sont détenus et dirigés par des sociétés. Le devoir et la discipline sont des qualités requises chez les citoyens de Caldari, ainsi qu'une loyauté sans faille envers la société pour laquelle ils vivent. Les sociétés se livrent une concurrence agressive entre elles et avec les entreprises extérieures à l'État, ce qui donne lieu à une société hautement capitaliste.</t>
-		<t id="102">DAL</t>
+		<t id="102">CAL</t>
 		<t id="103">Licence d'équipement Caldari</t>
 		<t id="104">Licence de vaisseaux capitaux Caldari</t>
 		<t id="105">Associé de l'État</t>
@@ -24,28 +24,56 @@
 		<t id="117">Abonnement à l'offre commerciale Caldari</t>
 		<t id="118">État</t>
 		<t id="119">Contrat de vente du navire Caldari</t>
-		<t id="120">(4RX-EE){20404,4}{20403,18}{20403,24}{20005,8004}{20403,5}{20403,5}</t>
-		<t id="121">(SS-GED){20403,19}{20403,19}{20005,8004}{20403,7}{20403,5}{20403,4}</t>
-		<t id="122">(6NJ8-V){20404,6}{20403,14}{20403,10}{20404,8}{20005,8004}{20403,22}</t>
-		<t id="123">(Y-4CFK){20403,25}{20005,8004}{20404,4}{20403,3}{20403,6}{20403,11}</t>
-		<t id="124">(AJCJ-1){20403,1}{20403,10}{20403,3}{20403,10}{20005,8004}{20404,1}</t>
-		<t id="125">(BV-1JG){20403,2}{20403,22}{20005,8004}{20404,1}{20403,10}{20403,7}</t>
-		<t id="126">(9-266Q){20404,9}{20005,8004}{20404,2}{20404,6}{20404,6}{20403,17}</t>
+		<t id="120">Perimeter</t>
+		<t id="121">Niyabainen</t>
+		<t id="122">Ikuchi</t>
+		<t id="123">New Caldari</t>
+		<t id="124">Jita</t>
+		<t id="125">Hirtamon</t>
+		<t id="126">Kisogo</t>
 		<t id="127">xxx</t>
 		<t id="128">xxx</t>
 		<t id="129">xxx</t>
-		<t id="130">(V3X-L8){20403,22}{20404,3}{20403,24}{20005,8004}{20403,12}{20404,8}</t>
+		<t id="130">Maila</t>
 		<t id="131">xxx</t>
 		<t id="132">xxx</t>
-		<!-- Turrets -->
-		<t id="200">{4816304,102}(DAL) {20111,5031}(L) Heavy Assault {20105,4281}(Tracking Turret)</t>
+		<!-- Equipment -->
+		<t id="200">{4816304,102}(CAL) {20111,5031}(L) Heavy Assault Missile Launcher</t>
 		<t id="201">HAM</t>
-		<t id="202">{4816304,102}(DAL) {20111,5021}(M) Heavy Assault {20105,4281}(Tracking Turret)</t>
-		<t id="203">{4816304,102}(DAL) {20111,5031}(L) Heavy Assault {20105,1121}(Dumbfire Launcher)</t>
-		<t id="204">{4816304,102}(DAL) {20111,3001}(XL) Oblivion Kinetic Doomsday</t>
-		<t id="280">{4816304,102}(DAL) {20111,5031}(L) {20107,3021}(All-round Engine)</t>
+		<t id="202">{4816304,102}(CAL) {20111,5021}(M) Heavy Assault Missile Launcher</t>
+		<t id="203">{4816304,102}(CAL) {20111,5031}(L) Heavy Assault {20105,1121}(Dumbfire Launcher)</t>
+		<t id="204">{4816304,102}(CAL) {20111,3001}(XL) Oblivion Kinetic Doomsday</t>
+		<t id="205">{4816304,102}(CAL) {20111,5031}(L) Mjolnir(EM) Heavy Assault Missile</t>
+		<t id="206">{4816304,102}(CAL) {20111,5031}(L) Scourge(K) Heavy Assault Missile</t>
+		<t id="207">{4816304,102}(CAL) {20111,5031}(L) Inferno(T) Heavy Assault Missile</t>
+		<t id="208">{4816304,102}(CAL) {20111,5031}(L) Nova(E) Heavy Assault Missile</t>
+		<t id="209">{4816304,102}(CAL) {20111,5021}(M) Mjolnir(EM) Heavy Assault Missile</t>
+		<t id="210">{4816304,102}(CAL) {20111,5021}(M) Scourge(K) Heavy Assault Missile</t>
+		<t id="211">{4816304,102}(CAL) {20111,5021}(M) Inferno(T) Heavy Assault Missile</t>
+		<t id="212">{4816304,102}(CAL) {20111,5021}(M) Nova(E) Heavy Assault Missile</t>
+		<t id="213">{4816304,102}(CAL) {20111,5011}(S) Light Assault Missile Launcher</t>
+		<t id="214">{4816304,102}(CAL) {20111,5011}(S) Mjolnir(EM) Light Assault Missile</t>
+		<t id="215">{4816304,102}(CAL) {20111,5011}(S) Scourge(K) Light Assault Missile</t>
+		<t id="216">{4816304,102}(CAL) {20111,5011}(S) Inferno(T) Light Assault Missile</t>
+		<t id="217">{4816304,102}(CAL) {20111,5011}(S) Nova(E) Light Assault Missile</t>
+		<t id="218">LAM</t>
+		<t id="280">{4816304,102}(CAL) {20111,5031}(L) {20107,3021}(All-round Engine)</t>
+		<t id="290">{20111,5031}(L) Heavy Assault Missile Launcher</t>
+		<t id="291">{20111,5021}(M) Heavy Assault Missile Launcher</t>
+		<t id="292">{20111,5011}(S) Light Assault Missile Launcher</t>
+		<t id="298">Light Assault Missile</t>
+		<t id="299">Heavy Assault Missile</t>
 		<!-- Turret Description -->
 		<t id="300">A launcher intended for use on cruiser-class spacecraft. While assault launchers do not possess the sheer damage-dealing capability of regular heavy missile launchers, their blend of speed and attack power lends them application across a good range of tactical situations.</t>
 		<t id="304">Using a targeting and tracking control system more advanced than any other in existence, this weapon launches and controls a storm of missile fire capable of neutralizing almost any target.</t>
+		<t id="305">An EMP warhead designed for use with heavy assault launchers. Heavy assault missiles can be fired at a greater rate than heavy missiles, at the expense of effective range.</t>
+		<t id="306">A kinetic warhead designed for use with heavy assault launchers. Heavy assault missiles can be fired at a greater rate than heavy missiles, at the expense of effective range.</t>
+		<t id="307">A plasma warhead designed for use with heavy assault launchers. Heavy assault missiles can be fired at a greater rate than heavy missiles, at the expense of effective range.</t>
+		<t id="308">A nuclear warhead designed for use with heavy assault launchers. Heavy assault missiles can be fired at a greater rate than heavy missiles, at the expense of effective range.</t>
+		<t id="309">Favored by many for its average capacity and firing rate. Useful in both fast attack raids and longer battles.</t>
+		<t id="310">An EMP warhead designed for use with light assault launchers. Light assault missiles can be fired at a greater rate than light missiles, at the expense of effective range.</t>
+		<t id="311">A kinetic warhead designed for use with light assault launchers. Light assault missiles can be fired at a greater rate than light missiles, at the expense of effective range.</t>
+		<t id="312">A plasma warhead designed for use with light assault launchers. Light assault missiles can be fired at a greater rate than light missiles, at the expense of effective range.</t>
+		<t id="313">A nuclear warhead designed for use with light assault launchers. Light assault missiles can be fired at a greater rate than light missiles, at the expense of effective range.</t>
 	</page>
 </language>

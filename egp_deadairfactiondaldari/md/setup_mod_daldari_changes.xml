@@ -1,20 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
 <mdscript name="Setup_Daldari_Mod_Changes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
-  <cues>
-    <!--Run Start_Actions when loading a savegame with the mod enabled for the first time-->
-    <cue name="Game_Loaded" namespace="this" instantiate="true">
-      <conditions>
-        <event_game_loaded/>
-      </conditions>
-      <actions>
-        <include_actions ref="Change_Actions"/>
-      </actions>
-    </cue>
-
-    <library name="Change_Actions">
-      <actions>
-        <get_ware_definition result="md.$EquipmentTable.{faction.daldari}" faction="faction.daldari" flags="equipment" comment="This should update the equipment table on game load for future content updates"/>
-      </actions>
-    </library>
-  </cues>
+	<cues>
+		<!--Run Start_Actions when loading a savegame with the mod enabled for the first time-->
+		<cue name="Game_Loaded" namespace="this" instantiate="true">
+			<conditions>
+				<event_game_loaded/>
+			</conditions>
+			<actions>
+				<include_actions ref="Change_Actions"/>
+			</actions>
+		</cue>
+		<library name="Change_Actions">
+			<actions>
+				<get_ware_definition result="md.$EquipmentTable.{faction.daldari}" faction="faction.daldari" flags="equipment" comment="This should update the equipment table on game load for future content updates"/>
+			</actions>
+		</library>
+		<cue name="ResetAmmo" instantiate="false">
+			<conditions>
+				<event_game_loaded/>
+			</conditions>
+			<actions>
+				<find_ship_by_true_owner groupname="$DalShips" faction="faction.daldari" multiple="true" space="player.galaxy"/>
+				<do_for_each name="$DalShip" in="$DalShips">
+					<do_if value="($DalShip.exists) and ($DalShip.ammostorage.missile.count)">
+						<create_list name="$missileweaponmacros"/>
+						<create_list name="$missileweapons"/>
+						<create_list name="$allmissileweapons"/>
+						<debug_text text="'MOD: Caldari -- %1 -- Checking: %2 %3 %4'.[player.age,$DalShip.trueowner.id,$DalShip.name,$DalShip.idcode]" context="false" filter="scripts" chance="0"/>
+						<evaluate_missile_storage object="$DalShip" level="1" amounts="$missileamounts" macros="$missilemacros"/>
+						<do_for_each name="$weaponDA" in="$DalShip.weapons.all.list">
+							<do_if value="($weaponDA.isclass.[class.missileturret,class.missilelauncher]) and ($missileweaponmacros.indexof.{$weaponDA.macro} lt 1)">
+								<append_to_list name="$missileweaponmacros" exact="$weaponDA.macro"/>
+								<append_to_list name="$missileweapons" exact="$weaponDA"/>
+							</do_if>
+							<do_if value="$weaponDA.isclass.[class.missileturret]">
+								<append_to_list name="$allmissileweapons" exact="$weaponDA"/>
+							</do_if>
+						</do_for_each>
+						<do_if value="$missileweaponmacros.count and $missilemacros.count">
+							<do_all exact="$missileweaponmacros.count" counter="$A">
+								<set_value name="$missileweaponmacro" exact="$missileweaponmacros.{$A}"/>
+								<set_value name="$missileweapon" exact="$missileweapons.{$A}"/>
+								<debug_text text="'MOD: Caldari -- %1 -- Checking: %2 %3 %4 -- Turret: %5'.[player.age,$DalShip.trueowner.id,$DalShip.name,$DalShip.idcode,$missileweaponmacro]" context="false" filter="scripts" chance="0"/>
+								<do_all exact="$missilemacros.count" counter="$B">
+									<set_value name="$missilemacro" exact="$missilemacros.{$B}"/>
+									<debug_text text="'MOD: Caldari -- %1 -- Checking: %2 %3 %4 -- Turret: %5 -- Ammo: %6'.[player.age,$DalShip.trueowner.id,$DalShip.name,$DalShip.idcode,$missileweaponmacro,$missilemacro]" context="false" filter="scripts" chance="0"/>
+									<do_if value="$missileweapon.ammo.iscompatible.{$missilemacro}">
+										<debug_text text="'MOD: Caldari -- %1 -- Fixing: %2 %3 %4 -- Turret: %5 -- Ammo: %6'.[player.age,$DalShip.trueowner.id,$DalShip.name,$DalShip.idcode,$missileweaponmacro,$missilemacro]" context="false" filter="scripts" chance="0"/>
+										<set_weapon_ammo object="$DalShip" macro="$missileweaponmacro" ammo="$missilemacro"/>
+										<remove_value name="$missilemacro"/>
+										<set_value name="$failed" exact="false"/>
+										<break/>
+									</do_if>
+									<do_elseif value="[macro.turret_dal_l_ham_01_mk1_macro,macro.turret_dal_m_ham_01_mk1_macro,macro.turret_dal_m_ham_02_mk1_macro,macro.turret_dal_t3bc_ham_macro].indexof.{$missileweaponmacro}">
+										<debug_text text="'MOD: Caldari -- %1 -- Failed: %2 %3 %4 -- Turret: %5 -- Ammo: %6'.[player.age,$DalShip.trueowner.id,$DalShip.name,$DalShip.idcode,$missileweaponmacro,$missilemacro]" context="false" filter="scripts" chance="0"/>
+										<set_value name="$failed" exact="true"/>
+									</do_elseif>
+									<remove_value name="$missilemacro"/>
+								</do_all>
+								<remove_value name="$missileweaponmacro"/>
+								<remove_value name="$missileweapon"/>
+							</do_all>
+							<remove_value name="$missileweaponmacros"/>
+							<remove_value name="$missilemacros"/>
+						</do_if>
+						<do_if value="$failed? and $failed == true">
+							<do_for_each name="$missileturret" in="$allmissileweapons">
+								<reset_turret turret="$missileturret"/>
+							</do_for_each>
+							<reset_weapongroups object="$DalShip"/>
+							<remove_value name="$failed"/>
+						</do_if>
+						<remove_value name="$missileweapons"/>
+						<remove_value name="$allmissileweapons"/>
+						<remove_value name="$missileamounts"/>
+					</do_if>
+				</do_for_each>
+				<remove_value name="$DalShips"/>
+				<find_station_by_true_owner groupname="$DalStations" faction="faction.daldari" multiple="true" space="player.galaxy"/>
+				<do_for_each name="$DalStation" in="$DalStations">
+					<do_if value="($DalStation.exists) and ($DalStation.ammostorage.missile.count)">
+						<create_list name="$missileweaponmacros"/>
+						<create_list name="$missileweapons"/>
+						<create_list name="$allmissileweapons"/>
+						<debug_text text="'MOD: Caldari -- %1 -- Checking: %2 %3 %4'.[player.age,$DalStation.trueowner.id,$DalStation.name,$DalStation.idcode]" context="false" filter="scripts" chance="0"/>
+						<evaluate_missile_storage object="$DalStation" level="1" amounts="$missileamounts" macros="$missilemacros"/>
+						<do_for_each name="$weaponDA" in="$DalStation.weapons.all.list">
+							<do_if value="($weaponDA.isclass.[class.missileturret,class.missilelauncher]) and ($missileweaponmacros.indexof.{$weaponDA.macro} lt 1)">
+								<append_to_list name="$missileweaponmacros" exact="$weaponDA.macro"/>
+								<append_to_list name="$missileweapons" exact="$weaponDA"/>
+							</do_if>
+							<do_if value="$weaponDA.isclass.[class.missileturret]">
+								<append_to_list name="$allmissileweapons" exact="$weaponDA"/>
+							</do_if>
+						</do_for_each>
+						<do_if value="$missileweaponmacros.count and $missilemacros.count">
+							<do_all exact="$missileweaponmacros.count" counter="$A">
+								<set_value name="$missileweaponmacro" exact="$missileweaponmacros.{$A}"/>
+								<set_value name="$missileweapon" exact="$missileweapons.{$A}"/>
+								<debug_text text="'MOD: Caldari -- %1 -- Checking: %2 %3 %4 -- Turret: %5'.[player.age,$DalStation.trueowner.id,$DalStation.name,$DalStation.idcode,$missileweaponmacro]" context="false" filter="scripts" chance="0"/>
+								<do_all exact="$missilemacros.count" counter="$B">
+									<set_value name="$missilemacro" exact="$missilemacros.{$B}"/>
+									<debug_text text="'MOD: Caldari -- %1 -- Checking: %2 %3 %4 -- Turret: %5 -- Ammo: %6'.[player.age,$DalStation.trueowner.id,$DalStation.name,$DalStation.idcode,$missileweaponmacro,$missilemacro]" context="false" filter="scripts" chance="0"/>
+									<do_if value="$missileweapon.ammo.iscompatible.{$missilemacro}">
+										<debug_text text="'MOD: Caldari -- %1 -- Fixing: %2 %3 %4 -- Turret: %5 -- Ammo: %6'.[player.age,$DalStation.trueowner.id,$DalStation.name,$DalStation.idcode,$missileweaponmacro,$missilemacro]" context="false" filter="scripts" chance="0"/>
+										<set_weapon_ammo object="$DalStation" macro="$missileweaponmacro" ammo="$missilemacro"/>
+										<remove_value name="$missilemacro"/>
+										<set_value name="$failed" exact="false"/>
+										<break/>
+									</do_if>
+									<do_elseif value="[macro.turret_dal_l_ham_01_mk1_macro,macro.turret_dal_m_ham_01_mk1_macro,macro.turret_dal_m_ham_02_mk1_macro,macro.turret_dal_t3bc_ham_macro].indexof.{$missileweaponmacro}">
+										<debug_text text="'MOD: Caldari -- %1 -- Failed: %2 %3 %4 -- Turret: %5 -- Ammo: %6'.[player.age,$DalStation.trueowner.id,$DalStation.name,$DalStation.idcode,$missileweaponmacro,$missilemacro]" context="false" filter="scripts" chance="0"/>
+										<set_value name="$failed" exact="true"/>
+									</do_elseif>
+									<remove_value name="$missilemacro"/>
+								</do_all>
+								<remove_value name="$missileweaponmacro"/>
+								<remove_value name="$missileweapon"/>
+							</do_all>
+							<remove_value name="$missileweaponmacros"/>
+							<remove_value name="$missilemacros"/>
+						</do_if>
+						<do_if value="$failed? and $failed == true">
+							<do_for_each name="$missileturret" in="$allmissileweapons">
+								<reset_turret turret="$missileturret"/>
+							</do_for_each>
+							<reset_weapongroups object="$DalStation"/>
+							<remove_value name="$failed"/>
+						</do_if>
+						<remove_value name="$missileweapons"/>
+						<remove_value name="$allmissileweapons"/>
+						<remove_value name="$missileamounts"/>
+					</do_if>
+				</do_for_each>
+				<remove_value name="$DalStations"/>
+			</actions>
+		</cue>
+	</cues>
 </mdscript>
