@@ -34,5 +34,7 @@
 		<entry name="missile_dal_lam_s_explosive_macro" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\macros\missile_dal_lam_s_explosive_macro"/>
 		<entry name="missile_dal_lam_s_kinetic_macro" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\macros\missile_dal_lam_s_kinetic_macro"/>
 		<entry name="missile_dal_lam_s_thermal_macro" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\macros\missile_dal_lam_s_thermal_macro"/>
+		<!-- Bullet -->
+		<entry name="bullet_weapon_dal_l_macro" value="extensions\egp_deadairfactiondaldari\assets\fx\weaponfx\macros\bullet_weapon_dal_l_macro"/>
 	</add>
 </diff>

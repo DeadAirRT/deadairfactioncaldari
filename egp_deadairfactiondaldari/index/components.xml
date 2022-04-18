@@ -25,5 +25,7 @@
 		<entry name="missile_dal_ham_l" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\missile_dal_ham_l"/>
 		<entry name="missile_dal_ham_m" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\missile_dal_ham_m"/>
 		<entry name="missile_dal_lam_s" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\missile_dal_lam_s"/>
+		<!-- Bullet -->
+		<entry name="bullet_weapon_dal_l" value="extensions\egp_deadairfactiondaldari\assets\fx\weaponfx\bullet_weapon_dal_l"/>
 	</add>
 </diff>
