@@ -6,15 +6,15 @@
 			<identification name="{4816304,216}" basename="{4816304,298}" description="{4816304,312}"/>
 			<ammunition value="1"/>
 			<missile amount="1" barrelamount="1" lifetime="8.4" range="8400" swarm="0" guided="1" icon="hud_ms_guided_light_mk1" retarget="1" tags="sham"/>
-			<explosiondamage value="337.5" shield="0"/>
-			<reload time="0.83"/>
+			<explosiondamage value="2109.375" shield="0"/>
+			<reload time="4.17"/>
 			<hull max="1"/>
 			<effects>
 				<explosion ref="missile_explosion_light_01"/>
 				<launch ref="missile_guided_muzzle"/>
 			</effects>
 			<weapon system="missile_guided"/>
-			<countermeasure resilience="0.9"/>
+			<countermeasure resilience="0.95"/>
 			<physics mass="0.37">
 				<inertia pitch="0.038" yaw="0.038" roll="0.038"/>
 				<drag forward="0.067" reverse="0.268" horizontal="0.132" vertical="0.132" pitch="0.018" yaw="0.018" roll="0.018"/>

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<diff>
+<add sel="//materiallibrary">
+  <collection name="caldarisky">
+	<material name="perimeter" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactiondaldari\assets\environments\cluster\evesky\perimeter" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="niyabainen" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactiondaldari\assets\environments\cluster\evesky\niyabainen" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="ikuchi" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactiondaldari\assets\environments\cluster\evesky\ikuchi" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="newcaldari" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactiondaldari\assets\environments\cluster\evesky\newcaldari" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="jita" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactiondaldari\assets\environments\cluster\evesky\jita" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="hirtamon" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactiondaldari\assets\environments\cluster\evesky\hirtamon" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="kisogo" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactiondaldari\assets\environments\cluster\evesky\kisogo" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="maila" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactiondaldari\assets\environments\cluster\evesky\maila" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+  </collection>
+</add>
+</diff>

@@ -1,24 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libraries.xsd">
-<add sel="//stations">
-  <station id="shipyard_dal" group="shipyard_arg">
-    <category tags="shipyard" faction="[daldari]" />
-  </station>
-
-  <station id="wharf_dal" group="wharf_arg">
-    <category tags="wharf" faction="[daldari]" />
-  </station>
-
-  <station id="equipmentdock_dal" group="equipmentdock_arg">
-    <category tags="equipmentdock" faction="[daldari]" />
-  </station>
-
-  <station id="tradestation_dal" group="tradestation_arg">
-    <category tags="tradestation" faction="[daldari]" />
-  </station>
-
-  <station id="defence_dal" group="defence_arg">
-    <category tags="defence" faction="[daldari]" />
-  </station>
-</add>
+	<add sel="//stations">
+		<station id="shipyard_dal" group="shipyard_dal">
+			<category tags="shipyard" faction="[daldari]"/>
+		</station>
+		<station id="wharf_dal" group="wharf_dal">
+			<category tags="wharf" faction="[daldari]"/>
+		</station>
+		<station id="equipmentdock_dal" group="equipmentdock_dal">
+			<category tags="equipmentdock" faction="[daldari]"/>
+		</station>
+		<station id="tradestation_dal" group="tradestation_dal">
+			<category tags="tradestation" faction="[daldari]"/>
+		</station>
+		<station id="defence_dal" group="defence_dal">
+			<category tags="defence" faction="[daldari]"/>
+		</station>
+	</add>
 </diff>

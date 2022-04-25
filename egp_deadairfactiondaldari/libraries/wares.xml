@@ -575,9 +575,9 @@
 			<price min="80017" average="90930" max="101841"/>
 			<production time="3" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="energycells" amount="200"/>
-					<ware ware="missilecomponents" amount="45"/>
-					<ware ware="smartchips" amount="36"/>
+					<ware ware="energycells" amount="60"/>
+					<ware ware="missilecomponents" amount="12"/>
+					<ware ware="smartchips" amount="6"/>
 				</primary>
 			</production>
 			<production time="3" amount="1" method="xenon" name="{20206,601}">
@@ -594,9 +594,14 @@
 					<ware ware="siliconcarbide" amount="3"/>
 				</primary>
 			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="200"/>
+				</primary>
+			</production>
 			<component ref="missile_dal_ham_l_em_macro" amount="1"/>
-			<restriction licence="capitalequipment"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
 			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -604,9 +609,9 @@
 			<price min="80017" average="90930" max="101841"/>
 			<production time="3" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="energycells" amount="200"/>
-					<ware ware="missilecomponents" amount="45"/>
-					<ware ware="smartchips" amount="36"/>
+					<ware ware="energycells" amount="60"/>
+					<ware ware="missilecomponents" amount="12"/>
+					<ware ware="smartchips" amount="6"/>
 				</primary>
 			</production>
 			<production time="3" amount="1" method="xenon" name="{20206,601}">
@@ -623,9 +628,14 @@
 					<ware ware="siliconcarbide" amount="3"/>
 				</primary>
 			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="120"/>
+				</primary>
+			</production>
 			<component ref="missile_dal_ham_l_explosive_macro" amount="1"/>
-			<restriction licence="capitalequipment"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
 			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -633,9 +643,9 @@
 			<price min="64014" average="72744" max="81473"/>
 			<production time="3" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="energycells" amount="200"/>
-					<ware ware="missilecomponents" amount="22"/>
-					<ware ware="smartchips" amount="18"/>
+					<ware ware="energycells" amount="60"/>
+					<ware ware="missilecomponents" amount="12"/>
+					<ware ware="smartchips" amount="6"/>
 				</primary>
 			</production>
 			<production time="3" amount="1" method="xenon" name="{20206,601}">
@@ -652,9 +662,14 @@
 					<ware ware="siliconcarbide" amount="3"/>
 				</primary>
 			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="120"/>
+				</primary>
+			</production>
 			<component ref="missile_dal_ham_l_kinetic_macro" amount="1"/>
-			<restriction licence="militaryequipment"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
 			<use threshold="0"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -662,9 +677,9 @@
 			<price min="70415" average="80018" max="89620"/>
 			<production time="3" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="energycells" amount="200"/>
-					<ware ware="missilecomponents" amount="45"/>
-					<ware ware="smartchips" amount="36"/>
+					<ware ware="energycells" amount="60"/>
+					<ware ware="missilecomponents" amount="12"/>
+					<ware ware="smartchips" amount="6"/>
 				</primary>
 			</production>
 			<production time="3" amount="1" method="xenon" name="{20206,601}">
@@ -681,9 +696,14 @@
 					<ware ware="siliconcarbide" amount="3"/>
 				</primary>
 			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="120"/>
+				</primary>
+			</production>
 			<component ref="missile_dal_ham_l_thermal_macro" amount="1"/>
-			<restriction licence="capitalequipment"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
 			<use threshold="0.3"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -693,7 +713,7 @@
 				<primary>
 					<ware ware="energycells" amount="20"/>
 					<ware ware="missilecomponents" amount="4"/>
-					<ware ware="smartchips" amount="3"/>
+					<ware ware="smartchips" amount="2"/>
 				</primary>
 			</production>
 			<production time="3" amount="1" method="xenon" name="{20206,601}">
@@ -710,9 +730,14 @@
 					<ware ware="siliconcarbide" amount="1"/>
 				</primary>
 			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="40"/>
+				</primary>
+			</production>
 			<component ref="missile_dal_ham_m_em_macro" amount="1"/>
-			<restriction licence="militaryequipment"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
 			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -722,7 +747,7 @@
 				<primary>
 					<ware ware="energycells" amount="20"/>
 					<ware ware="missilecomponents" amount="4"/>
-					<ware ware="smartchips" amount="3"/>
+					<ware ware="smartchips" amount="2"/>
 				</primary>
 			</production>
 			<production time="3" amount="1" method="xenon" name="{20206,601}">
@@ -739,9 +764,14 @@
 					<ware ware="siliconcarbide" amount="1"/>
 				</primary>
 			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="40"/>
+				</primary>
+			</production>
 			<component ref="missile_dal_ham_m_explosive_macro" amount="1"/>
-			<restriction licence="militaryequipment"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
 			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -750,8 +780,8 @@
 			<production time="2" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="20"/>
-					<ware ware="missilecomponents" amount="1"/>
-					<ware ware="smartchips" amount="1"/>
+					<ware ware="missilecomponents" amount="4"/>
+					<ware ware="smartchips" amount="2"/>
 				</primary>
 			</production>
 			<production time="3" amount="1" method="xenon" name="{20206,601}">
@@ -768,9 +798,15 @@
 					<ware ware="siliconcarbide" amount="1"/>
 				</primary>
 			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="40"/>
+				</primary>
+			</production>
 			<component ref="missile_dal_ham_m_kinetic_macro" amount="1"/>
 			<restriction licence="generaluseequipment"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
 			<use threshold="0"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -780,7 +816,7 @@
 				<primary>
 					<ware ware="energycells" amount="20"/>
 					<ware ware="missilecomponents" amount="4"/>
-					<ware ware="smartchips" amount="3"/>
+					<ware ware="smartchips" amount="2"/>
 				</primary>
 			</production>
 			<production time="3" amount="1" method="xenon" name="{20206,601}">
@@ -797,9 +833,14 @@
 					<ware ware="siliconcarbide" amount="1"/>
 				</primary>
 			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="40"/>
+				</primary>
+			</production>
 			<component ref="missile_dal_ham_m_thermal_macro" amount="1"/>
-			<restriction licence="militaryequipment"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
 			<use threshold="0.3"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -854,9 +895,14 @@
 					<ware ware="siliconcarbide" amount="1"/>
 				</primary>
 			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+				</primary>
+			</production>
 			<component ref="missile_dal_lam_s_em_macro" amount="1"/>
-			<restriction licence="militaryequipment"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
 			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -883,9 +929,14 @@
 					<ware ware="siliconcarbide" amount="1"/>
 				</primary>
 			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+				</primary>
+			</production>
 			<component ref="missile_dal_lam_s_explosive_macro" amount="1"/>
-			<restriction licence="militaryequipment"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
 			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -894,7 +945,7 @@
 			<production time="2" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="10"/>
-					<ware ware="missilecomponents" amount="1"/>
+					<ware ware="missilecomponents" amount="2"/>
 					<ware ware="smartchips" amount="1"/>
 				</primary>
 			</production>
@@ -912,9 +963,14 @@
 					<ware ware="siliconcarbide" amount="1"/>
 				</primary>
 			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+				</primary>
+			</production>
 			<component ref="missile_dal_lam_s_kinetic_macro" amount="1"/>
-			<restriction licence="generaluseequipment"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
 			<use threshold="0"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -941,9 +997,14 @@
 					<ware ware="siliconcarbide" amount="1"/>
 				</primary>
 			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+				</primary>
+			</production>
 			<component ref="missile_dal_lam_s_thermal_macro" amount="1"/>
-			<restriction licence="militaryequipment"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
 			<use threshold="0.3"/>
 			<owner faction="daldari"/>
 		</ware>
