@@ -9,7 +9,7 @@
 			<rotationspeed max="20"/>
 			<rotationacceleration max="40" />
 			<reload/>
-			<storage capacity="30"/>
+			<storage capacity="40"/>
 			<hull max="25000" threshold="0.2"/>
 		</properties>
 	</macro>

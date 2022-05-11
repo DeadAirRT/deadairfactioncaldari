@@ -839,6 +839,7 @@
 			<subordinate job="daldari_destroyer_escort_l"/>
 			<subordinate job="daldari_fighter_escort_s_carrier"/>
 			<subordinate job="daldari_frigate_escort_m"/>
+			<subordinate job="daldari_resupplier_escort_xl"/>
 		</subordinates>
 	</job>
 	<job id="daldari_destroyer_patrol_l_sector" name="{20204,3301}" comment="each sector">

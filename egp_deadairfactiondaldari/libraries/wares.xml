@@ -482,6 +482,13 @@
 					<ware ware="turretcomponents" amount="30"/>
 				</primary>
 			</production>
+			<production time="10" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="4"/>
+					<ware ware="energycells" amount="79"/>
+					<ware ware="hullparts" amount="24"/>
+				</primary>
+			</production>
 			<component ref="turret_dal_l_ham_01_mk1_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0"/>
@@ -494,6 +501,13 @@
 					<ware ware="advancedelectronics" amount="2"/>
 					<ware ware="energycells" amount="10"/>
 					<ware ware="turretcomponents" amount="10"/>
+				</primary>
+			</production>
+			<production time="10" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="1"/>
+					<ware ware="energycells" amount="75"/>
+					<ware ware="hullparts" amount="8"/>
 				</primary>
 			</production>
 			<component ref="turret_dal_m_ham_01_mk1_macro" amount="1"/>
@@ -510,6 +524,13 @@
 					<ware ware="turretcomponents" amount="10"/>
 				</primary>
 			</production>
+			<production time="10" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="1"/>
+					<ware ware="energycells" amount="75"/>
+					<ware ware="hullparts" amount="8"/>
+				</primary>
+			</production>
 			<component ref="turret_dal_m_ham_02_mk1_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0"/>
@@ -524,6 +545,13 @@
 					<ware ware="engineparts" amount="67"/>
 				</primary>
 			</production>
+			<production time="20" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="19"/>
+					<ware ware="energycells" amount="206"/>
+					<ware ware="hullparts" amount="108"/>
+				</primary>
+			</production>
 			<component ref="engine_dal_t3bc_macro" amount="1"/>
 			<restriction licence="generaluseequipment"/>
 			<use threshold="0"/>
@@ -536,6 +564,13 @@
 					<ware ware="advancedelectronics" amount="6"/>
 					<ware ware="energycells" amount="10"/>
 					<ware ware="turretcomponents" amount="30"/>
+				</primary>
+			</production>
+			<production time="10" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="4"/>
+					<ware ware="energycells" amount="79"/>
+					<ware ware="hullparts" amount="24"/>
 				</primary>
 			</production>
 			<component ref="turret_dal_t3bc_ham_macro" amount="1"/>

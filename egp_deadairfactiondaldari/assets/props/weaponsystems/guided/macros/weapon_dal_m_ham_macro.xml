@@ -7,7 +7,7 @@
       <ammunition tags="mham" />
       <bullet class="missile_dal_ham_m_kinetic_macro" />
       <reload />
-      <storage capacity="20" />
+      <storage capacity="25" />
       <hull max="1001" hittable="0" />
     </properties>
   </macro>
