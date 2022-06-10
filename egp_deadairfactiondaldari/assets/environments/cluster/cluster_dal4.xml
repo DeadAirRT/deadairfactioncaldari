@@ -6,18 +6,18 @@
 			<layer>
 				<waypoints/>
 				<lights>
-					<omni name="XU Omni01" shadow="0" r="33" g="40" b="56" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_ol" trigger="1" intensity="0.75">
+					<omni name="XU Omni01" shadow="0" r="255" g="255" b="255" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_ol" trigger="1" intensity="0.75">
 						<lightanimations/>
 						<offset>
-							<position x="-1.352928E+08" y="1.933208E+08" z="-3.62958E+08"/>
+							<position x="0" y="432915214" z="0"/>
 						</offset>
 					</omni>
-					<omni name="XU Omni02" shadow="0" r="61" g="67" b="81" range="1E+11" shadowrange="1E+11" lighteffect="1" trigger="1" intensity="0.75">
+					<ambient name="XU Ambient001" r="61" g="67" b="81" range="1E+11" intensity="0.3">
 						<lightanimations/>
 						<offset>
-							<position x="5.340145E+07" y="-2.135384E+07" z="3.62958E+08"/>
+							<position x="0" y="-367486341" z="0"/>
 						</offset>
-					</omni>
+					</ambient>
 				</lights>
 			</layer>
 		</layers>
@@ -105,6 +105,54 @@
 							<max x="3.650654E+08" y="3.56234E+08" z="3.760593E+08"/>
 							<center x="-1066008" y="-2.230669E+07" z="1.243445E+07"/>
 						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="ConnectionP1" tags="part  ">
+				<offset>
+					<position x="0" y="-45638000" z="0"/>
+					<quaternion qx="-0.866" qy="0" qz="0" qw="0.5"/>
+				</offset>
+				<parts>
+					<part name="planet">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.planet_cluster04_planet1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.8638E+07" y="3.8638E+07" z="3.8638E+07"/>
+							<center x="-80085.94" y="115316.4" z="38843.75"/>
+						</size>
+						<offset>
+							<position x="0" y="7.8125" z="31.25"/>
+						</offset>
+					</part>
+				</parts>
+			</connection>
+			<connection name="ConnectionP2" tags="part  ">
+				<offset>
+					<position x="0" y="-45638000" z="0"/>
+					<quaternion qx="-0.866" qy="0" qz="0" qw="0.5"/>
+				</offset>
+				<parts>
+					<part name="atmosphere">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.atmo_cluster04_planet1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.960395E+07" y="3.960395E+07" z="3.960395E+07"/>
+							<center x="-80078.13" y="115308.6" z="38875"/>
+						</size>
+						<offset>
+							<position x="-15.625" y="7.8125" z="31.25"/>
+						</offset>
 					</part>
 				</parts>
 			</connection>

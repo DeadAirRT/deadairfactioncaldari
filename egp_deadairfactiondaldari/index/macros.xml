@@ -34,6 +34,18 @@
 		<entry name="missile_dal_lam_s_explosive_macro" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\macros\missile_dal_lam_s_explosive_macro"/>
 		<entry name="missile_dal_lam_s_kinetic_macro" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\macros\missile_dal_lam_s_kinetic_macro"/>
 		<entry name="missile_dal_lam_s_thermal_macro" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\macros\missile_dal_lam_s_thermal_macro"/>
+		<entry name="missile_dal_hm_l_em_macro" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\macros\missile_dal_hm_l_em_macro"/>
+		<entry name="missile_dal_hm_l_explosive_macro" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\macros\missile_dal_hm_l_explosive_macro"/>
+		<entry name="missile_dal_hm_l_kinetic_macro" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\macros\missile_dal_hm_l_kinetic_macro"/>
+		<entry name="missile_dal_hm_l_thermal_macro" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\macros\missile_dal_hm_l_thermal_macro"/>
+		<entry name="missile_dal_hm_m_em_macro" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\macros\missile_dal_hm_m_em_macro"/>
+		<entry name="missile_dal_hm_m_explosive_macro" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\macros\missile_dal_hm_m_explosive_macro"/>
+		<entry name="missile_dal_hm_m_kinetic_macro" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\macros\missile_dal_hm_m_kinetic_macro"/>
+		<entry name="missile_dal_hm_m_thermal_macro" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\macros\missile_dal_hm_m_thermal_macro"/>
+		<entry name="missile_dal_lm_s_em_macro" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\macros\missile_dal_lm_s_em_macro"/>
+		<entry name="missile_dal_lm_s_explosive_macro" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\macros\missile_dal_lm_s_explosive_macro"/>
+		<entry name="missile_dal_lm_s_kinetic_macro" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\macros\missile_dal_lm_s_kinetic_macro"/>
+		<entry name="missile_dal_lm_s_thermal_macro" value="extensions\egp_deadairfactiondaldari\assets\props\weaponsystems\missile\macros\missile_dal_lm_s_thermal_macro"/>
 		<!-- Bullet -->
 		<entry name="bullet_weapon_dal_l_macro" value="extensions\egp_deadairfactiondaldari\assets\fx\weaponfx\macros\bullet_weapon_dal_l_macro"/>
 	</add>

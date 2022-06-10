@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="missile_dal_lm_s_kinetic_macro" class="missile">
+		<component ref="missile_dal_lam_s"/>
+		<properties>
+			<identification name="{4816304,228}" basename="{4816304,296}" description="{4816304,319}"/>
+			<ammunition value="1"/>
+			<missile amount="1" barrelamount="1" lifetime="16.8" range="18900" swarm="0" guided="1" icon="hud_ms_guided_light_mk1" retarget="1" tags="sham"/>
+			<explosiondamage value="2394" shield="0"/>
+			<reload time="5.56"/>
+			<hull max="1"/>
+			<effects>
+				<explosion ref="missile_explosion_light_01"/>
+				<launch ref="missile_guided_muzzle"/>
+			</effects>
+			<weapon system="missile_guided"/>
+			<countermeasure resilience="0.5"/>
+			<physics mass="0.37">
+				<inertia pitch="0.038" yaw="0.038" roll="0.038"/>
+				<drag forward="0.089" reverse="0.268" horizontal="0.132" vertical="0.132" pitch="0.018" yaw="0.018" roll="0.018"/>
+			</physics>
+			<lock time="1" range="12600"/>
+		</properties>
+		<connections>
+			<connection ref="con_engine01">
+				<macro ref="engine_missile_guided_mk1_macro" connection="ship"/>
+			</connection>
+		</connections>
+	</macro>
+</macros>
