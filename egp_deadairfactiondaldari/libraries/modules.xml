@@ -88,7 +88,7 @@
 		<module id="prod_dal_missilecomponents" group="prod_gen_missilecomponents">
 			<category ware="missilecomponents" tags="[production, module]" faction="[daldari]"/>
 			<compatibilities>
-				<limits production="10"/>
+				<limits production="14"/>
 				<production ware="missilecomponents" chance="100"/>
 			</compatibilities>
 		</module>

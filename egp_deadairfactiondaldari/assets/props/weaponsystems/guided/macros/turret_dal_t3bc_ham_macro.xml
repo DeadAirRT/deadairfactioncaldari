@@ -6,8 +6,8 @@
 			<identification name="{4816304,200}" basename="{4816304,290}" shortname="{4816304,201}" description="{4816304,300}"/>
 			<ammunition tags="lham"/>
 			<bullet class="missile_dal_ham_l_kinetic_macro"/>
-			<rotationspeed max="20"/>
-			<rotationacceleration max="40" />
+			<rotationspeed max="40"/>
+			<rotationacceleration max="80" />
 			<reload/>
 			<storage capacity="40"/>
 			<hull max="25000" threshold="0.2"/>

@@ -5,7 +5,7 @@
 		<properties>
 			<identification name="{4816304,203}" basename="{20105,1121}" shortname="{4816304,201}" description="{4816301,210}"/>
 			<bullet class="bullet_weapon_dal_l_macro"/>
-			<heat overheat="10000" cooldelay="1.13" coolrate="600" reenable="0"/>
+			<heat overheat="10000" cooldelay="1.0" coolrate="2000" reenable="7500"/>
 			<rotationspeed max="3"/>
 			<rotationacceleration max="6"/>
 			<reload/>
