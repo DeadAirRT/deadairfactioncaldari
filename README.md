@@ -3,8 +3,7 @@
 ## Adds a new faction - Caldari State
 - Uses Teladi ships with a focus on missiles and rail guns.
 - Has a complete economy and logic.
-- At war with Ministry, Teladi, Holy Order, Gallente, and Minmatar.
-- Allied with Paranid, Zyarth, and Amarr.
+- At war with Gallente and Minmatar.
 
 ## Adds 8 Clusters
 - 7 Clusters owned by Caldari state with a connection to Paranid and Xenon.
