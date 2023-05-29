@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_dal_xl_chimera_macro" class="shieldgenerator">
+		<component ref="ishield_dal_xl_chimera"/>
+		<properties>
+			<identification name="{4816304,902}"/>
+			<recharge max="313000" rate="1555" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_dal_l_caracal_macro" class="shieldgenerator">
+		<component ref="ishield_dal_l_caracal"/>
+		<properties>
+			<identification name="{4816304,900}"/>
+			<recharge max="243000" rate="870" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>

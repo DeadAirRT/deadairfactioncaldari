@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<diff>
-<replace sel="//connection[@name='con_turret_01']/@tags">turret medium standard mining missile unhittable</replace>
-<replace sel="//connection[@name='con_turret_02']/@tags">turret medium standard mining missile unhittable</replace>
-</diff>

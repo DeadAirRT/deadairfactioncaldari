@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<components>
+	<component name="ishield_dal_l_drake" class="shieldgenerator">
+		<connections>
+			<connection name="ParentConnection" tags="ishield_dal_l_drake component ishield shield unhittable" optional="0"/>
+		</connections>
+		<properties>
+			<recharge/>
+		</properties>
+	</component>
+</components>

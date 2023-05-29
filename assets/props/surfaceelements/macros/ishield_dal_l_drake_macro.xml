@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_dal_l_drake_macro" class="shieldgenerator">
+		<component ref="ishield_dal_l_drake"/>
+		<properties>
+			<identification name="{4816304,903}"/>
+			<recharge max="285000" rate="910" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="turret_dal_l_ham_01_mk1_macro" class="missileturret">
+		<component ref="turret_dal_l_ham_01_mk1"/>
+		<properties>
+			<identification name="{4816304,200}" basename="{4816304,290}" shortname="{4816304,201}" description="{4816304,300}"/>
+			<ammunition tags="lham"/>
+			<bullet class="missile_dal_ham_l_kinetic_macro"/>
+			<rotationspeed max="40"/>
+			<rotationacceleration max="80"/>
+			<reload/>
+			<storage capacity="100"/>
+			<hull max="25000" threshold="0.2"/>
+		</properties>
+	</macro>
+</macros>

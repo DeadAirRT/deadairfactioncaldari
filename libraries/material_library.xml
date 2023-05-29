@@ -1,0 +1,450 @@
+<?xml version="1.0"?>
+<diff>
+	<add sel="//materiallibrary">
+		<collection name="caldarisky">
+			<material name="perimeter" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" preload="1" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\environments\cluster\evesky\perimeter"/>
+					<property type="Float" name="diffuseStr" value="0.9"/>
+				</properties>
+			</material>
+			<material name="niyabainen" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" preload="1" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\environments\cluster\evesky\niyabainen"/>
+					<property type="Float" name="diffuseStr" value="0.9"/>
+				</properties>
+			</material>
+			<material name="ikuchi" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" preload="1" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\environments\cluster\evesky\ikuchi"/>
+					<property type="Float" name="diffuseStr" value="0.9"/>
+				</properties>
+			</material>
+			<material name="newcaldari" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" preload="1" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\environments\cluster\evesky\newcaldari"/>
+					<property type="Float" name="diffuseStr" value="0.9"/>
+				</properties>
+			</material>
+			<material name="jita" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" preload="1" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\environments\cluster\evesky\jita"/>
+					<property type="Float" name="diffuseStr" value="0.9"/>
+				</properties>
+			</material>
+			<material name="hirtamon" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" preload="1" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\environments\cluster\evesky\hirtamon"/>
+					<property type="Float" name="diffuseStr" value="0.9"/>
+				</properties>
+			</material>
+			<material name="kisogo" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" preload="1" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\environments\cluster\evesky\kisogo"/>
+					<property type="Float" name="diffuseStr" value="0.9"/>
+				</properties>
+			</material>
+			<material name="maila" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" preload="1" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\environments\cluster\evesky\maila"/>
+					<property type="Float" name="diffuseStr" value="0.9"/>
+				</properties>
+			</material>
+		</collection>
+		<collection name="caracal">
+			<material name="evemata" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactioncaldari\assets\textures\caracal\caracal_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactioncaldari\assets\textures\caracal\caracal_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\textures\caracal\caracal_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactioncaldari\assets\textures\caracal\caracal_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactioncaldari\assets\textures\caracal\caracal_emissive"/>
+					<property type="Float" name="diffuseStr" value="1.0"/>
+					<property type="Float" name="normalStr" value="1.0"/>
+					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.5"/>
+					<property type="Float" name="Smoothness" value="1.0"/>
+					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
+					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
+					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="Float" name="normal_detail_tiling" value="10.0"/>
+					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="normal_detailStr" value="0.05"/>
+					<property type="Float" name="color_dirt_tiling" value="5.0"/>
+					<property type="Float" name="color_dirt_tiling_v" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="diffuse_detailStr" value="1.0"/>
+					<property type="Float" name="diffuse_paintStr" value="1.0"/>
+				</properties>
+			</material>
+		</collection>
+		<collection name="charon">
+			<material name="evemata" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactioncaldari\assets\textures\charon\charon_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactioncaldari\assets\textures\charon\charon_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\textures\charon\charon_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactioncaldari\assets\textures\charon\charon_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactioncaldari\assets\textures\charon\charon_emissive"/>
+					<property type="Float" name="diffuseStr" value="1.0"/>
+					<property type="Float" name="normalStr" value="1.0"/>
+					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.5"/>
+					<property type="Float" name="Smoothness" value="1.0"/>
+					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
+					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
+					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="Float" name="normal_detail_tiling" value="10.0"/>
+					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="normal_detailStr" value="0.05"/>
+					<property type="Float" name="color_dirt_tiling" value="5.0"/>
+					<property type="Float" name="color_dirt_tiling_v" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="diffuse_detailStr" value="1.0"/>
+					<property type="Float" name="diffuse_paintStr" value="1.0"/>
+				</properties>
+			</material>
+		</collection>
+		<collection name="chimera">
+			<material name="evemata" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactioncaldari\assets\textures\chimera\chimera_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactioncaldari\assets\textures\chimera\chimera_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\textures\chimera\chimera_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactioncaldari\assets\textures\chimera\chimera_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactioncaldari\assets\textures\chimera\chimera_emissive"/>
+					<property type="Float" name="diffuseStr" value="1.0"/>
+					<property type="Float" name="normalStr" value="1.0"/>
+					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.5"/>
+					<property type="Float" name="Smoothness" value="1.0"/>
+					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
+					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
+					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="Float" name="normal_detail_tiling" value="10.0"/>
+					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="normal_detailStr" value="0.05"/>
+					<property type="Float" name="color_dirt_tiling" value="5.0"/>
+					<property type="Float" name="color_dirt_tiling_v" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="diffuse_detailStr" value="1.0"/>
+					<property type="Float" name="diffuse_paintStr" value="1.0"/>
+				</properties>
+			</material>
+		</collection>
+		<collection name="drake">
+			<material name="evemata" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactioncaldari\assets\textures\drake\drake_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactioncaldari\assets\textures\drake\drake_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\textures\drake\drake_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactioncaldari\assets\textures\drake\drake_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactioncaldari\assets\textures\drake\drake_emissive"/>
+					<property type="Float" name="diffuseStr" value="1.0"/>
+					<property type="Float" name="normalStr" value="1.0"/>
+					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.5"/>
+					<property type="Float" name="Smoothness" value="1.0"/>
+					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
+					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
+					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="Float" name="normal_detail_tiling" value="10.0"/>
+					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="normal_detailStr" value="0.05"/>
+					<property type="Float" name="color_dirt_tiling" value="5.0"/>
+					<property type="Float" name="color_dirt_tiling_v" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="diffuse_detailStr" value="1.0"/>
+					<property type="Float" name="diffuse_paintStr" value="1.0"/>
+				</properties>
+			</material>
+		</collection>
+		<collection name="leviathan">
+			<material name="evemata" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactioncaldari\assets\textures\leviathan\leviathanA_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactioncaldari\assets\textures\leviathan\leviathanA_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\textures\leviathan\leviathanA_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactioncaldari\assets\textures\leviathan\leviathanA_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactioncaldari\assets\textures\leviathan\leviathanA_emissive"/>
+					<property type="Float" name="diffuseStr" value="1.0"/>
+					<property type="Float" name="normalStr" value="1.0"/>
+					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.5"/>
+					<property type="Float" name="Smoothness" value="1.0"/>
+					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
+					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
+					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="Float" name="normal_detail_tiling" value="10.0"/>
+					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="normal_detailStr" value="0.05"/>
+					<property type="Float" name="color_dirt_tiling" value="5.0"/>
+					<property type="Float" name="color_dirt_tiling_v" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="diffuse_detailStr" value="1.0"/>
+					<property type="Float" name="diffuse_paintStr" value="1.0"/>
+				</properties>
+			</material>
+			<material name="evematb" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactioncaldari\assets\textures\leviathan\leviathanB_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactioncaldari\assets\textures\leviathan\leviathanB_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\textures\leviathan\leviathanB_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactioncaldari\assets\textures\leviathan\leviathanB_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactioncaldari\assets\textures\leviathan\leviathanB_emissive"/>
+					<property type="Float" name="diffuseStr" value="1.0"/>
+					<property type="Float" name="normalStr" value="1.0"/>
+					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.5"/>
+					<property type="Float" name="Smoothness" value="1.0"/>
+					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
+					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
+					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="Float" name="normal_detail_tiling" value="10.0"/>
+					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="normal_detailStr" value="0.05"/>
+					<property type="Float" name="color_dirt_tiling" value="5.0"/>
+					<property type="Float" name="color_dirt_tiling_v" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="diffuse_detailStr" value="1.0"/>
+					<property type="Float" name="diffuse_paintStr" value="1.0"/>
+				</properties>
+			</material>
+		</collection>
+		<collection name="naga">
+			<material name="evemata" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactioncaldari\assets\textures\naga\naga_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactioncaldari\assets\textures\naga\naga_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\textures\naga\naga_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactioncaldari\assets\textures\naga\naga_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactioncaldari\assets\textures\naga\naga_emissive"/>
+					<property type="Float" name="diffuseStr" value="1.0"/>
+					<property type="Float" name="normalStr" value="1.0"/>
+					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.5"/>
+					<property type="Float" name="Smoothness" value="1.0"/>
+					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
+					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
+					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="Float" name="normal_detail_tiling" value="10.0"/>
+					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="normal_detailStr" value="0.05"/>
+					<property type="Float" name="color_dirt_tiling" value="5.0"/>
+					<property type="Float" name="color_dirt_tiling_v" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="diffuse_detailStr" value="1.0"/>
+					<property type="Float" name="diffuse_paintStr" value="1.0"/>
+				</properties>
+			</material>
+		</collection>
+		<collection name="raven">
+			<material name="evemata" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactioncaldari\assets\textures\raven\raven_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactioncaldari\assets\textures\raven\raven_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\textures\raven\raven_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactioncaldari\assets\textures\raven\raven_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactioncaldari\assets\textures\raven\raven_emissive"/>
+					<property type="Float" name="diffuseStr" value="1.0"/>
+					<property type="Float" name="normalStr" value="1.0"/>
+					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.5"/>
+					<property type="Float" name="Smoothness" value="1.0"/>
+					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
+					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
+					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="Float" name="normal_detail_tiling" value="10.0"/>
+					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="normal_detailStr" value="0.05"/>
+					<property type="Float" name="color_dirt_tiling" value="5.0"/>
+					<property type="Float" name="color_dirt_tiling_v" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="diffuse_detailStr" value="1.0"/>
+					<property type="Float" name="diffuse_paintStr" value="1.0"/>
+				</properties>
+			</material>
+		</collection>
+		<collection name="rokh">
+			<material name="evemata" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactioncaldari\assets\textures\rokh\rokh_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactioncaldari\assets\textures\rokh\rokh_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\textures\rokh\rokh_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactioncaldari\assets\textures\rokh\rokh_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactioncaldari\assets\textures\rokh\rokh_emissive"/>
+					<property type="Float" name="diffuseStr" value="1.0"/>
+					<property type="Float" name="normalStr" value="1.0"/>
+					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.5"/>
+					<property type="Float" name="Smoothness" value="1.0"/>
+					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
+					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
+					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="Float" name="normal_detail_tiling" value="10.0"/>
+					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="normal_detailStr" value="0.05"/>
+					<property type="Float" name="color_dirt_tiling" value="5.0"/>
+					<property type="Float" name="color_dirt_tiling_v" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="diffuse_detailStr" value="1.0"/>
+					<property type="Float" name="diffuse_paintStr" value="1.0"/>
+				</properties>
+			</material>
+		</collection>
+		<collection name="tengu">
+			<material name="evemata" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactioncaldari\assets\textures\tengu\tenguA_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactioncaldari\assets\textures\tengu\tenguA_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\textures\tengu\tenguA_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactioncaldari\assets\textures\tengu\tenguA_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactioncaldari\assets\textures\tengu\tenguA_emissive"/>
+					<property type="Float" name="diffuseStr" value="1.0"/>
+					<property type="Float" name="normalStr" value="1.0"/>
+					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.5"/>
+					<property type="Float" name="Smoothness" value="1.0"/>
+					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
+					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
+					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="Float" name="normal_detail_tiling" value="10.0"/>
+					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="normal_detailStr" value="0.05"/>
+					<property type="Float" name="color_dirt_tiling" value="5.0"/>
+					<property type="Float" name="color_dirt_tiling_v" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="diffuse_detailStr" value="1.0"/>
+					<property type="Float" name="diffuse_paintStr" value="1.0"/>
+				</properties>
+			</material>
+			<material name="evematb" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactioncaldari\assets\textures\tengu\tenguB_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactioncaldari\assets\textures\tengu\tenguB_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\textures\tengu\tenguB_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactioncaldari\assets\textures\tengu\tenguB_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactioncaldari\assets\textures\tengu\tenguB_emissive"/>
+					<property type="Float" name="diffuseStr" value="1.0"/>
+					<property type="Float" name="normalStr" value="1.0"/>
+					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.5"/>
+					<property type="Float" name="Smoothness" value="1.0"/>
+					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
+					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
+					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="Float" name="normal_detail_tiling" value="10.0"/>
+					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="normal_detailStr" value="0.05"/>
+					<property type="Float" name="color_dirt_tiling" value="5.0"/>
+					<property type="Float" name="color_dirt_tiling_v" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="diffuse_detailStr" value="1.0"/>
+					<property type="Float" name="diffuse_paintStr" value="1.0"/>
+				</properties>
+			</material>
+			<material name="evematc" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactioncaldari\assets\textures\tengu\tenguC_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactioncaldari\assets\textures\tengu\tenguC_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\textures\tengu\tenguC_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactioncaldari\assets\textures\tengu\tenguC_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactioncaldari\assets\textures\tengu\tenguC_emissive"/>
+					<property type="Float" name="diffuseStr" value="1.0"/>
+					<property type="Float" name="normalStr" value="1.0"/>
+					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.5"/>
+					<property type="Float" name="Smoothness" value="1.0"/>
+					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
+					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
+					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="Float" name="normal_detail_tiling" value="10.0"/>
+					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="normal_detailStr" value="0.05"/>
+					<property type="Float" name="color_dirt_tiling" value="5.0"/>
+					<property type="Float" name="color_dirt_tiling_v" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="diffuse_detailStr" value="1.0"/>
+					<property type="Float" name="diffuse_paintStr" value="1.0"/>
+				</properties>
+			</material>
+			<material name="evematd" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
+				<properties>
+					<property type="BitMap" name="smooth_map" value="extensions\deadairfactioncaldari\assets\textures\tengu\tenguD_smoothness"/>
+					<property type="BitMap" name="metal_map" value="extensions\deadairfactioncaldari\assets\textures\tengu\tenguD_metallic"/>
+					<property type="BitMap" name="diffuse_map" value="extensions\deadairfactioncaldari\assets\textures\tengu\tenguD_diffuse"/>
+					<property type="BitMap" name="normal_map" value="extensions\deadairfactioncaldari\assets\textures\tengu\tenguD_normal"/>
+					<property type="BitMap" name="color_glow_map" value="extensions\deadairfactioncaldari\assets\textures\tengu\tenguD_emissive"/>
+					<property type="Float" name="diffuseStr" value="1.0"/>
+					<property type="Float" name="normalStr" value="1.0"/>
+					<property type="Float" name="color_glowStr" value="0.5"/>
+					<property type="Float" name="color_dirtStr" value="1.0"/>
+					<property type="Float" name="environmentStr" value="0.5"/>
+					<property type="Float" name="Smoothness" value="1.0"/>
+					<property type="Float" name="Metallness" value="1.0"/>
+					<property type="BitMap" name="diffuse_paint_map" value="assets\textures\generic\generic_p1_dirt_03_diff"/>
+					<property type="BitMap" name="color_dirt_map" value="assets\textures\generic\generic_p1_dirt_02_diff"/>
+					<property type="BitMap" name="diffuse_detail_map" value="assets\textures\generic\generic_p1_detail_02_diff"/>
+					<property type="BitMap" name="normal_detail_map" value="assets\textures\generic\generic_p1_detail_01_normal"/>
+					<property type="Float" name="normal_detail_tiling" value="10.0"/>
+					<property type="Float" name="normal_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="normal_detailStr" value="0.05"/>
+					<property type="Float" name="color_dirt_tiling" value="5.0"/>
+					<property type="Float" name="color_dirt_tiling_v" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling" value="10.0"/>
+					<property type="Float" name="diffuse_detail_tiling_v" value="5.0"/>
+					<property type="Float" name="diffuse_detailStr" value="1.0"/>
+					<property type="Float" name="diffuse_paintStr" value="1.0"/>
+				</properties>
+			</material>
+		</collection>
+	</add>
+</diff>

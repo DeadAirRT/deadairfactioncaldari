@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_dal_l_charon_macro" class="shieldgenerator">
+		<component ref="ishield_dal_l_charon"/>
+		<properties>
+			<identification name="{4816304,901}"/>
+			<recharge max="131666" rate="507" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>

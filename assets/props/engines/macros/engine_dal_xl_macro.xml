@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="engine_dal_xl_macro" class="engine">
+		<component ref="engine_tel_xl_allround_01_mk1"/>
+		<properties>
+			<identification name="{4816304,603}" basename="{20107,1001}" shortname="{4816304,604}" description="{20107,4002}"/>
+			<boost duration="35" thrust="2" attack="10" release="3"/>
+			<travel charge="15" thrust="32" attack="19" release="17"/>
+			<thrust forward="15534" reverse="15547"/>
+			<angular/>
+			<hull max="39390" threshold="0.3"/>
+			<effects>
+				<boosting ref="arg_boost_fx_xl"/>
+			</effects>
+			<sounds>
+				<enginedetail ref="enginedetail_ship_xl_01"/>
+			</sounds>
+		</properties>
+	</macro>
+</macros>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+	<add sel="//characters">
+		<character name="daldari.factionrepresentative">
+			<select macro="character_pioneers_female_asi_manager_01_macro"/>
+			<select macro="character_pioneer_male_asi_manager_01_macro"/>
+			<select macro="character_argon_female_asi_crew_02_macro"/>
+			<select macro="character_argon_male_asi_crew_02_macro"/>
+			<select macro="character_terran_female_asi_manager_01_macro"/>
+			<select macro="character_terran_male_asi_manager_01_macro"/>
+		</character>
+		<character name="daldari.trader">
+			<select macro="character_pioneer_male_asi_manager_01_macro"/>
+			<select macro="character_pioneers_female_asi_manager_01_macro"/>
+			<select macro="character_terran_male_asi_manager_01_macro"/>
+			<select macro="character_terran_female_asi_manager_01_macro"/>
+			<select macro="character_argon_male_asi_crew_02_macro"/>
+			<select macro="character_argon_female_asi_crew_02_macro"/>
+		</character>
+		<character name="daldari.pilot">
+			<select macro="character_pioneer_male_asi_pilot_01_macro"/>
+			<select macro="character_pioneers_female_asi_pilot_01_macro"/>
+			<select macro="character_terran_male_asi_pilot_01_macro"/>
+			<select macro="character_terran_female_asi_pilot_01_macro"/>
+			<select macro="character_argon_male_asi_pilot_01_macro"/>
+			<select macro="character_argon_female_asi_pilot_01_macro"/>
+		</character>
+		<character name="daldari.crew">
+			<select macro="character_pioneer_male_asi_crew_01_macro"/>
+			<select macro="character_pioneers_female_asi_crew_01_macro"/>
+			<select macro="character_terran_male_asi_crew_01_macro"/>
+			<select macro="character_terran_female_asi_crew_01_macro"/>
+			<select macro="character_argon_male_asi_crew_01_macro"/>
+			<select macro="character_argon_female_asi_crew_01_macro"/>
+			<select macro="character_yaki_male_asi_crew_01_macro"/>
+			<select macro="character_yaki_male_afr_crew_01_macro"/>
+			<select macro="character_yaki_female_asi_crew_01_macro"/>
+			<select macro="character_yaki_female_afr_crew_01_macro"/>
+		</character>
+		<character name="daldari.marine">
+			<select macro="character_pioneer_male_asi_marine_01_macro"/>
+			<select macro="character_pioneers_female_asi_marine_01_macro"/>
+			<select macro="character_terran_male_asi_marine_01_macro"/>
+			<select macro="character_terran_female_asi_marine_01_macro"/>
+			<select macro="character_argon_male_asi_pilot_01_macro"/>
+			<select macro="character_argon_female_asi_pilot_01_macro"/>
+			<select macro="character_yaki_male_asi_marine_01_macro"/>
+			<select macro="character_yaki_male_afr_marine_01_macro"/>
+			<select macro="character_yaki_female_asi_marine_01_macro"/>
+			<select macro="character_yaki_female_afr_marine_01_macro"/>
+		</character>
+	</add>
+</diff>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ship_dal_l_charon_macro" class="ship_l">
+		<component ref="ship_dal_l_charon"/>
+		<properties>
+			<identification name="{4816304,701}" basename="{4816304,701}" description="{4816304,801}" icon="ship_l_trade_01"/>
+			<software>
+				<software ware="software_dockmk2" compatible="1"/>
+				<software ware="software_flightassistmk1" default="1"/>
+				<software ware="software_scannerlongrangemk1" default="1"/>
+				<software ware="software_scannerlongrangemk2" compatible="1"/>
+				<software ware="software_scannerobjectmk1" default="1"/>
+				<software ware="software_scannerobjectmk2" compatible="1"/>
+				<software ware="software_targetmk1" default="1"/>
+				<software ware="software_trademk1" default="1"/>
+			</software>
+			<explosiondamage value="1000" shield="5000"/>
+			<storage missile="320" unit="20"/>
+			<hull max="133335"/>
+			<secrecy level="2"/>
+			<purpose primary="trade"/>
+			<people capacity="70"/>
+			<physics mass="754.71">
+				<inertia pitch="424.72" yaw="601.52" roll="429.89"/>
+				<drag forward="306.26" reverse="1296.46" horizontal="198.39" vertical="198.39" pitch="424.72" yaw="601.52" roll="429.89"/>
+			</physics>
+			<thruster tags="large"/>
+			<ship type="freighter"/>
+			<sound_occlusion inside="0.9"/>
+		</properties>
+		<connections>
+			<connection ref="con_cockpit">
+				<macro ref="bridge_arg_l_01_macro" connection="con_cockpit"/>
+			</connection>
+			<connection ref="con_storage01">
+				<macro ref="storage_dal_l_charon_macro" connection="ShipConnection"/>
+			</connection>
+			<connection ref="con_dock_xs">
+				<macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component"/>
+			</connection>
+		</connections>
+	</macro>
+</macros>

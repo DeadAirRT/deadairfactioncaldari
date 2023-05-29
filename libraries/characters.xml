@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="/characters">
+    <!--<character id="TEMP_manager_split_random" group="split.manager">
+      <category tags="[npc, crew, officer, trader, commander, fighterpilot, manager, marine, masstraffic, watchdog, pilot, traderpilot]" faction="[split, freesplit, faction.player]" race="split"/>
+      <owner list="[split, freesplit]"/>
+    </character>-->
+  <!-- Generic Argon Characters -->
+  <character id="trader_daldari_random" group="daldari.trader">
+    <category tags="[crew, pilot, aipilot, traderpilot, masstraffic]" faction="[daldari, faction.player]" race="argon"/>
+    <skills>
+      <skill type="piloting" min="7" max="15"/>
+      <skill type="morale" max="12"/>
+      <skill type="engineering" max="2"/>
+      <skill type="management" max="1"/>
+      <skill type="boarding" exact="0"/>
+    </skills>
+    <owner list="[daldari]"/>
+  </character>
+  <character id="fighter_daldari_random" group="daldari.pilot">
+    <category tags="[crew, officer, pilot, aipilot, fighterpilot, commander, masstraffic, watchdog, regular]" faction="[daldari, faction.player]" race="argon"/>
+    <skills>
+      <skill type="piloting" min="7" max="15"/>
+      <skill type="morale" max="12"/>
+      <skill type="engineering" max="2"/>
+      <skill type="management" exact="0"/>
+      <skill type="boarding" exact="0"/>
+    </skills>
+    <owner list="[daldari]"/>
+  </character>
+  <character id="manager_daldari_random" group="daldari.trader">
+    <category tags="[crew, officer, manager]" faction="[daldari, faction.player]" race="argon"/>
+    <skills>
+      <skill type="management" min="4" max="15"/>
+      <skill type="morale" max="12"/>
+      <skill type="piloting" min="2" max="4"/>
+      <skill type="engineering" exact="0"/>
+      <skill type="boarding" exact="0"/>
+    </skills>
+    <owner list="[daldari]"/>
+  </character>
+  <!-- regular -->
+  <character id="service_daldari_random" group="daldari.crew">
+    <category tags="[crew, service, regular, recruitable]" faction="[daldari, faction.player]" race="argon"/>
+    <skills>
+      <skill type="engineering" min="4" max="9"/>
+      <skill type="morale" min="2" max="9"/>
+      <skill type="piloting" min="1" max="9"/>
+      <skill type="management" exact="0"/>
+      <skill type="boarding" exact="0"/>
+    </skills>
+    <owner list="[daldari]"/>
+  </character>
+  <character id="marine_daldari_random" group="daldari.marine">
+    <category tags="[crew, marine, regular, recruitable]" faction="[daldari, faction.player]" race="argon"/>
+    <skills>
+      <skill type="boarding" min="5" max="9"/>
+      <skill type="morale" min="1" max="9"/>
+      <skill type="engineering" exact="0"/>
+      <skill type="piloting" min="1" max="9"/>
+      <skill type="management" exact="0"/>
+    </skills>
+	<owner list="[daldari]"/>
+  </character>
+  <character id="fighter_daldari_regular_random" group="daldari.pilot">
+    <category tags="[crew, officer, pilot, aipilot, fighterpilot, commander, masstraffic, watchdog, regular, recruitable]" faction="[daldari, faction.player]" race="argon"/>
+    <skills>
+      <skill type="piloting" min="7" max="9"/>
+      <skill type="morale" min="2" max="9"/>
+      <skill type="engineering" exact="0"/>
+      <skill type="management" exact="0"/>
+      <skill type="boarding" exact="0"/>
+    </skills>
+    <owner list="[daldari]"/>
+  </character>
+  <character id="manager_daldari_regular_random" group="daldari.trader">
+    <category tags="[crew, officer, manager, regular, recruitable]" faction="[daldari, faction.player]" race="argon"/>
+    <skills>
+      <skill type="management" min="5" max="9"/>
+      <skill type="morale" min="2" max="9"/>
+      <skill type="piloting" min="1" max="9"/>
+      <skill type="engineering" exact="0"/>
+      <skill type="boarding" exact="0"/>
+    </skills>
+    <owner list="[daldari]"/>
+  </character>
+  <!-- passengers -->
+  <character id="passenger_daldari_random" group="daldari.trader">
+    <category tags="[crew, passenger]" faction="[daldari, faction.player]" race="argon"/>
+    <skills>
+      <skill type="boarding" exact="0"/>
+      <skill type="engineering" exact="0"/>
+      <skill type="management" exact="0"/>
+      <skill type="morale" max="12"/>
+      <skill type="piloting" min="2" max="6"/>
+    </skills>
+    <owner list="[daldari]"/>
+  </character>
+  <character id="prisoner_daldari_random" group="argon.prisoner">
+    <category tags="[crew, prisoner]" faction="[daldari, faction.player]" race="argon"/>
+    <skills>
+      <skill type="boarding" exact="0"/>
+      <skill type="engineering" exact="0"/>
+      <skill type="management" exact="0"/>
+      <skill type="morale" max="12"/>
+      <skill type="piloting" min="2" max="6"/>
+    </skills>
+    <owner list="[daldari]"/>
+  </character>
+
+  <!-- Rookies -->
+  <character id="service_daldari_random_rookie" group="daldari.crew">
+    <category tags="[crew, service, rookie, recruitable]" faction="[daldari, faction.player]" race="argon"/>
+    <skills>
+      <skill type="engineering" max="6"/>
+      <skill type="morale" min="2" max="5"/>
+      <skill type="piloting" min="1" max="2"/>
+      <skill type="management" exact="0"/>
+      <skill type="boarding" exact="0"/>
+    </skills>
+    <owner list="[daldari]"/>
+  </character>
+  <character id="marine_daldari_random_rookie" group="daldari.marine">
+    <category tags="[crew, marine, rookie, recruitable]" faction="[daldari, faction.player]" race="argon"/>
+    <skills>
+      <skill type="boarding" min="1" max="6"/>
+      <skill type="morale" min="1" max="4"/>
+      <skill type="engineering" exact="0"/>
+      <skill type="piloting" min="1" max="2"/>
+      <skill type="management" exact="0"/>
+    </skills>
+	<owner list="[daldari]"/>
+  </character>
+  <character id="fighter_daldari_random_rookie" group="daldari.pilot">
+    <category tags="[crew, officer, pilot, aipilot, fighterpilot, commander, masstraffic, watchdog, rookie, recruitable]" faction="[daldari, faction.player]" race="argon"/>
+    <skills>
+      <skill type="piloting" min="4" max="6"/>
+      <skill type="morale" min="3" max="6"/>
+      <skill type="engineering" exact="0"/>
+      <skill type="management" exact="0"/>
+      <skill type="boarding" exact="0"/>
+    </skills>
+    <owner list="[daldari]"/>
+  </character>
+  <!-- Veteran -->
+  <character id="service_daldari_random_veteran" group="daldari.crew">
+    <category tags="[crew, service, veteran]" faction="[daldari, faction.player]" race="argon"/>
+    <skills>
+      <skill type="engineering" min="6" max="12"/>
+      <skill type="morale" min="6" max="12"/>
+      <skill type="piloting" min="3" max="9"/>
+      <skill type="management" exact="0"/>
+      <skill type="boarding" exact="0"/>
+    </skills>
+    <owner list="[daldari]"/>
+  </character>
+  <character id="marine_daldari_random_veteran" group="daldari.marine">
+    <category tags="[crew, marine, veteran]" faction="[daldari, faction.player]" race="argon"/>
+    <skills>
+      <skill type="boarding" min="6" max="12"/>
+      <skill type="morale" min="6" max="12"/>
+      <skill type="engineering" exact="0"/>
+      <skill type="piloting" min="3" max="9"/>
+      <skill type="management" exact="0"/>
+    </skills>
+	<owner list="[daldari]"/>
+  </character>
+  <!-- Elite -->
+  <character id="service_daldari_random_elite" group="daldari.crew">
+    <category tags="[crew, service, elite]" faction="[daldari, faction.player]" race="argon"/>
+    <skills>
+      <skill type="engineering" min="12" max="15"/>
+      <skill type="morale" min="12" max="15"/>
+      <skill type="piloting" min="6" max="12"/>
+      <skill type="management" min="6" max="12"/>
+      <skill type="boarding" min="6" max="12"/>
+    </skills>
+    <owner list="[daldari]"/>
+  </character>
+  <character id="marine_daldari_random_elite" group="daldari.marine">
+    <category tags="[crew, marine, elite]" faction="[daldari, faction.player]" race="argon"/>
+    <skills>
+      <skill type="boarding" min="12" max="15"/>
+      <skill type="morale" min="12" max="15"/>
+      <skill type="engineering" min="6" max="12"/>
+      <skill type="piloting" min="6" max="12"/>
+      <skill type="management" min="6" max="12"/>
+    </skills>
+	<owner list="[daldari]"/>
+  </character>
+  <character id="fighter_daldari_random_elite" group="daldari.pilot">
+    <category tags="[elitepilot]" faction="[daldari, faction.player]" race="argon"/>
+    <skills>
+      <skill type="piloting" min="12" max="15"/>
+      <skill type="morale" min="12" max="15"/>
+      <skill type="engineering" min="6" max="12"/>
+      <skill type="management" min="6" max="12"/>
+      <skill type="boarding" min="6" max="12"/>
+    </skills>
+    <owner list="[daldari]"/>
+  </character>
+
+  <character id="platform_trader_daldari_random" group="daldari.trader">
+    <category tags="[trader, licencetrader]" faction="[daldari, faction.player]" race="argon"/>
+    <skills>
+      <skill type="management" min="4" max="11"/>
+      <skill type="morale" max="12"/>
+      <skill type="piloting" min="2" max="4"/>
+      <skill type="engineering" max="1"/>
+      <skill type="boarding" exact="0"/>
+    </skills>
+    <owner list="[daldari]"/>
+    <stock ref="'default_trader'" />
+  </character>
+  <character id="ship_trader_daldari_random" group="daldari.trader">
+    <category tags="[trader, shiptrader]" faction="[daldari, faction.player]" race="argon"/>
+    <skills>
+      <skill type="management" min="4" max="11"/>
+      <skill type="morale" max="12"/>
+      <skill type="piloting" min="2" max="4"/>
+      <skill type="engineering" max="1"/>
+      <skill type="boarding" exact="0"/>
+    </skills>
+    <owner list="[daldari]"/>
+    <stock ref="'default_trader'" />
+  </character>
+  <character id="shadyguy_daldari_random" group="daldari.marine">
+    <category tags="[shadyguy]" faction="[daldari, faction.player]" race="argon" />
+    <skills>
+      <skill type="piloting" min="8" max="11"/>
+      <skill type="morale" max="12"/>
+      <skill type="engineering" max="2"/>
+      <skill type="management" exact="0"/>
+      <skill type="boarding" exact="0"/>
+    </skills>
+    <owner list="[daldari]"/>
+    <stock ref="'default_shadyguy'" />
+  </character>
+  <!-- TODO FACTION REP -->
+  <character id="factionrepresentative_daldari" group="daldari.factionrepresentative">
+    <category tags="[factionrepresentative]" faction="daldari" race="argon"/>
+    <skills>
+      <skill type="management" exact="15"/>
+      <skill type="morale" exact="15"/>
+      <skill type="boarding" exact="0"/>
+      <skill type="engineering" exact="15"/>
+      <skill type="piloting" exact="15"/>
+    </skills>
+    <page exact="10106"/>
+    <owner exact="daldari"/>
+  </character>
+  <!-- Casually clothed platform NPCs -->
+  <character id="daldari_casual" group="daldari.trader">
+    <category tags="[casual]" faction="[daldari, faction.player]" race="argon"/>
+    <skills>
+      <skill type="morale" max="3"/>
+      <skill type="piloting" max="3"/>
+      <skill type="engineering" max="3"/>
+      <skill type="management" max="3"/>
+      <skill type="boarding" max="3"/>
+    </skills>
+    <owner list="[daldari]"/>
+  </character>
+  </add>
+</diff>

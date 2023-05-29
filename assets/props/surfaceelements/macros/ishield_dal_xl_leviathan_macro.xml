@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_dal_xl_leviathan_macro" class="shieldgenerator">
+		<component ref="ishield_dal_xl_leviathan"/>
+		<properties>
+			<identification name="{4816304,904}"/>
+			<recharge max="879666" rate="1590" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>

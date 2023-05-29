@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_dal_l_tengu_macro" class="shieldgenerator">
+		<component ref="ishield_dal_l_tengu"/>
+		<properties>
+			<identification name="{4816304,908}"/>
+			<recharge max="270000" rate="890" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_dal_l_naga_macro" class="shieldgenerator">
+		<component ref="ishield_dal_l_naga"/>
+		<properties>
+			<identification name="{4816304,905}"/>
+			<recharge max="218700" rate="890" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>

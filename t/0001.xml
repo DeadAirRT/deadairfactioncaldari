@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language>
+	<page id="4816304" title="DeadAir T Files" descr="names used in DeadAir Mods" voice="yes">
+		<!-- 3323247 == deadair -->
+		<!--48163x69 == 3323247 since there is a character limit -->
+		<!--48163##-->
+		<t id="100">Caldari State</t>
+		<t id="101">The Caldari State is ruled by several mega-corporations. There is no central government to speak of - all territories within the State are owned and ruled by corporations. Duty and discipline are required traits in Caldari citizens, plus unquestioning loyalty to the corporation they live to serve. The corporations compete aggressively amongst themselves and with companies outside the State, resulting in a highly capitalistic society.</t>
+		<t id="102">CAL</t>
+		<t id="103">Caldari Capital Equipment Licence</t>
+		<t id="104">Caldari Capital Ship Licence</t>
+		<t id="105">Managing Partner of the State</t>
+		<t id="106">Member of the State</t>
+		<t id="107">Caldari General Use Equipment Licence</t>
+		<t id="108">Caldari General Use Ship Licence</t>
+		<t id="109">Caldari Military Equipment Licence</t>
+		<t id="110">Caldari Military Ship Licence</t>
+		<t id="111">Caldari Police Licence</t>
+		<t id="112">Caldari Capital Ship Building Module Licence</t>
+		<t id="113">Caldari Ancillary Ship Building Module Licence</t>
+		<t id="114">Caldari Advanced Module Licence</t>
+		<t id="115">Caldari Basic Module Licence</t>
+		<t id="116">Caldari Intermediate Module Licence</t>
+		<t id="117">Caldari Trade Offer Subscription</t>
+		<t id="118">State</t>
+		<t id="119">Caldari Ship Sale Contract</t>
+		<t id="120">Perimeter</t>
+		<t id="121">Niyabainen</t>
+		<t id="122">Ikuchi</t>
+		<t id="123">New Caldari</t>
+		<t id="124">Jita</t>
+		<t id="125">Hirtamon</t>
+		<t id="126">Kisogo</t>
+		<t id="127">xxx</t>
+		<t id="128">xxx</t>
+		<t id="129">xxx</t>
+		<t id="130">Maila</t>
+		<t id="131">xxx</t>
+		<t id="132">xxx</t>
+		<t id="199">Caldari</t>
+		<!-- Equipment -->
+		<t id="200">{4816304,102}(CAL) {20111,5031}(L) Heavy Assault Missile Launcher</t>
+		<t id="201">HAM</t>
+		<t id="202">{4816304,102}(CAL) {20111,5021}(M) Heavy Assault Missile Launcher</t>
+		<t id="203">{4816304,102}(CAL) {20111,5031}(L) Heavy Assault {20105,1121}(Dumbfire Launcher)</t>
+		<t id="204">{4816304,102}(CAL) {20111,3001}(XL) Oblivion Kinetic Doomsday</t>
+		<t id="205">{4816304,102}(CAL) {20111,5031}(L) Mjolnir(EM) Heavy Assault Missile</t>
+		<t id="206">{4816304,102}(CAL) {20111,5031}(L) Scourge(K) Heavy Assault Missile</t>
+		<t id="207">{4816304,102}(CAL) {20111,5031}(L) Inferno(T) Heavy Assault Missile</t>
+		<t id="208">{4816304,102}(CAL) {20111,5031}(L) Nova(E) Heavy Assault Missile</t>
+		<t id="209">{4816304,102}(CAL) {20111,5021}(M) Mjolnir(EM) Heavy Assault Missile</t>
+		<t id="210">{4816304,102}(CAL) {20111,5021}(M) Scourge(K) Heavy Assault Missile</t>
+		<t id="211">{4816304,102}(CAL) {20111,5021}(M) Inferno(T) Heavy Assault Missile</t>
+		<t id="212">{4816304,102}(CAL) {20111,5021}(M) Nova(E) Heavy Assault Missile</t>
+		<t id="213">{4816304,102}(CAL) {20111,5011}(S) Light Assault Missile Launcher</t>
+		<t id="214">{4816304,102}(CAL) {20111,5011}(S) Mjolnir(EM) Light Assault Missile</t>
+		<t id="215">{4816304,102}(CAL) {20111,5011}(S) Scourge(K) Light Assault Missile</t>
+		<t id="216">{4816304,102}(CAL) {20111,5011}(S) Inferno(T) Light Assault Missile</t>
+		<t id="217">{4816304,102}(CAL) {20111,5011}(S) Nova(E) Light Assault Missile</t>
+		<t id="218">LAM</t>
+		<t id="219">{4816304,102}(CAL) {20111,5031}(L) Mjolnir(EM) Heavy Missile</t>
+		<t id="220">{4816304,102}(CAL) {20111,5031}(L) Scourge(K) Heavy Missile</t>
+		<t id="221">{4816304,102}(CAL) {20111,5031}(L) Inferno(T) Heavy Missile</t>
+		<t id="222">{4816304,102}(CAL) {20111,5031}(L) Nova(E) Heavy Missile</t>
+		<t id="223">{4816304,102}(CAL) {20111,5021}(M) Mjolnir(EM) Heavy Missile</t>
+		<t id="224">{4816304,102}(CAL) {20111,5021}(M) Scourge(K) Heavy Missile</t>
+		<t id="225">{4816304,102}(CAL) {20111,5021}(M) Inferno(T) Heavy Missile</t>
+		<t id="226">{4816304,102}(CAL) {20111,5021}(M) Nova(E) Heavy Missile</t>
+		<t id="227">{4816304,102}(CAL) {20111,5011}(S) Mjolnir(EM) Light Missile</t>
+		<t id="228">{4816304,102}(CAL) {20111,5011}(S) Scourge(K) Light Missile</t>
+		<t id="229">{4816304,102}(CAL) {20111,5011}(S) Inferno(T) Light Missile</t>
+		<t id="230">{4816304,102}(CAL) {20111,5011}(S) Nova(E) Light Missile</t>
+		<t id="280">{4816304,102}(CAL) {20111,5031}(L){20111,5021}(M) {20107,9001}(Engine)</t>
+		<t id="290">{20111,5031}(L) Heavy Missile Launcher</t>
+		<t id="291">{20111,5021}(M) Heavy Missile Launcher</t>
+		<t id="292">{20111,5011}(S) Light Missile Launcher</t>
+		<t id="296">Light Missile</t>
+		<t id="297">Heavy Missile</t>
+		<t id="298">Light Assault Missile</t>
+		<t id="299">Heavy Assault Missile</t>
+		<!-- Turret Description -->
+		<t id="300">A launcher intended for use on cruiser-class spacecraft. While assault launchers do not possess the sheer damage-dealing capability of regular heavy missile launchers, their blend of speed and attack power lends them application across a good range of tactical situations.</t>
+		<t id="304">Using a targeting and tracking control system more advanced than any other in existence, this weapon launches and controls a storm of missile fire capable of neutralizing almost any target.</t>
+		<t id="305">(EM)An EMP warhead designed for use with heavy assault launchers. Heavy assault missiles can be fired at a greater rate than heavy missiles, at the expense of effective range.</t>
+		<t id="306">(K)A kinetic warhead designed for use with heavy assault launchers. Heavy assault missiles can be fired at a greater rate than heavy missiles, at the expense of effective range.</t>
+		<t id="307">(T)A plasma warhead designed for use with heavy assault launchers. Heavy assault missiles can be fired at a greater rate than heavy missiles, at the expense of effective range.</t>
+		<t id="308">(E)A nuclear warhead designed for use with heavy assault launchers. Heavy assault missiles can be fired at a greater rate than heavy missiles, at the expense of effective range.</t>
+		<t id="309">Favored by many for its average capacity and firing rate. Useful in both fast attack raids and longer battles.</t>
+		<t id="310">(EM)An EMP warhead designed for use with light assault launchers. Light assault missiles can be fired at a greater rate than light missiles, at the expense of effective range.</t>
+		<t id="311">(K)A kinetic warhead designed for use with light assault launchers. Light assault missiles can be fired at a greater rate than light missiles, at the expense of effective range.</t>
+		<t id="312">(T)A plasma warhead designed for use with light assault launchers. Light assault missiles can be fired at a greater rate than light missiles, at the expense of effective range.</t>
+		<t id="313">(E)A nuclear warhead designed for use with light assault launchers. Light assault missiles can be fired at a greater rate than light missiles, at the expense of effective range.</t>
+		<t id="314">(EM)First introduced by the armaments lab of the Wiyrkomi Corporation, the Mjolnir heavy missile is a solid investment with a large payload and steady performance.</t>
+		<t id="315">(K)The Scourge heavy missile is an old relic from the Caldari-Gallente War that is still in widespread use because of its low price and versatility.</t>
+		<t id="316">(T)Originally designed as a 'finisher' - the killing blow to a crippled ship - the Inferno heavy missile has since gone through various technological upgrades. The latest version has a lighter payload than the original, but much improved guidance systems.</t>
+		<t id="317">(E)The be-all and end-all of medium-sized missiles, the Nova heavy missile is a must for those who want a guaranteed kill no matter the cost.</t>
+		<t id="318">(EM)An advanced missile with a volatile payload of magnetized plasma, the Mjolnir light missile is specifically engineered to take down shield systems.</t>
+		<t id="319">(K)From its humble beginnings in tiny Minmatar design labs, the Scourge light missile has quickly established itself throughout the star cluster as a premier missile for light launchers.</t>
+		<t id="320">(T)The explosion the Inferno light missile creates upon impact is stunning enough for any display of fireworks - just ten times more deadly.</t>
+		<t id="321">(E)The Nova light missile is a tiny nuclear projectile based on a classic Minmatar design that has been in use since the early days of the Minmatar Resistance.</t>
+		<!-- Engines -->
+		<t id="600">{4816304,102}(CAL) {20111,5031}(L) {20107,9001}(Engine)</t>
+		<t id="601">{4816304,102}(CAL) {20111,5021}(M) {20107,9001}(Engine)</t>
+		<t id="602">{4816304,102}(CAL) {20111,5011}(S) {20107,9001}(Engine)</t>
+		<t id="603">{4816304,102}(CAL) {20111,5041}(XL) {20107,9001}(Engine)</t>
+		<t id="604">{4816304,102}(CAL) {20107,9001}(Engine)</t>
+		<!-- Ships -->
+		<t id="700">Caracal</t>
+		<t id="701">Charon</t>
+		<t id="702">Chimera</t>
+		<t id="703">Drake</t>
+		<t id="704">Leviathan</t>
+		<t id="705">Naga</t>
+		<t id="706">Raven</t>
+		<t id="707">Rokh</t>
+		<t id="708">Tengu</t>
+		<!-- Ship Desc -->
+		<t id="800">The Caracal is a powerful vessel that specializes in missile deployment. It has excellent shield defenses, but poor armor plating. Its missile arsenal, when fully stocked, is capable of making a piece-meal of almost anyone.</t>
+		<t id="801">As the makers of the Charon, the Caldari State are generally credited with pioneering the freighter class. Recognizing the need for a massive transport vehicle as deep space installations constantly increase in number, they set about making the ultimate in efficient mass transport - and were soon followed by the other empires.\n\Regardless, the Charon still stands out as the benchmark by which the other freighters were measured. Its massive size and titanic cargo hold are rivalled by none.</t>
+		<t id="802">The Chimera's design is based upon the Kairiola, a vessel holding tremendous historical significance for the Caldari. Initially a water freighter, the Kairiola was refitted in the days of the Gallente-Caldari war to act as a fighter carrier during the orbital bombardment of Caldari Prime.\n\It was most famously flown by the legendary Admiral Yakia Tovil-Toba directly into Gallente Prime's atmosphere, where it fragmented and struck several key locations on the planet. This event, where the good Admiral gave his life, marked the culmination of a week's concentrated campaign of distraction which enabled the Caldari to evacuate their people from their besieged home planet. Where the Chimera roams, the Caldari remember.</t>
+		<t id="803">Of the meticulous craftsmanship the Caldari are renowned for, the Drake was born. It was found beneath such a ship to rely on anything other than the time-honored combat tradition of missile fire.</t>
+		<t id="804">Citizens of the State, rejoice!\n\Today, a great milestone has been achieved by our glorious leaders. A stepping stone in the grand story of our empire has been traversed. Our individual fears may be quietened; the safety of our great nation has been secured.\n\Today, unyielding, we have walked the way of the warrior. In our hands have our fates been molded. On the Leviathan's back will our civilization be carried home and the taint of the Enemy purged from our souls.\n\Rejoice, citizens! Victory is at hand.\n\-Caldari State Information Bureau Pamphlet, YC 12</t>
+		<t id="805">The Naga was designed in YC 109 by Corporate Police Force as an anti-Guristas ship, sacrificing the usual robust Caldari Navy standards in favor of supporting battleship-class weaponry. It was rejected by Hyasyoda management for being overspecialized.\n\The Naga design remained in the Hyasyoda archives, forgotten (save for a cameo in the Gallente holo-series CPF Blue). In YC 113 the Caldari Navy entertained contracts for a new tier of gunboat battlecruiser. Hyasyoda quickly submitted and won with the Naga, underbidding both Kaalakiota and Ishukone.\n\The Naga is effective in any campaign where fast, mobile firepower is required.</t>
+		<t id="806">The Raven is the powerhouse of the Caldari Navy. With its myriad launcher slots and powerful shields, few ships can rival it in strength or majesty.</t>
+		<t id="807">Having long suffered the lack of an adequate hybrid platform, the Caldari State's capsule pilots found themselves rejoicing as the Rokh's design specs were released. A fleet vessel if ever there was one, this far-reaching and durable beast is expected to see a great deal of service on battlefields near and far.</t>
+		<t id="808">When we first saw the flock, we were surrounded, caught in a spectacle of stimuli. Brilliant colors, dancing lights, beautiful cacophonies, wafting ambrosia. Those birds surrounded us, each one a different shape, an altered species, a new wonder. I tried to follow a single bird, but my efforts were futile: Transformation is natural to their existence. Imagine it: an undulating mass, a changing mob, all those beasts partaking in wonderful transmogrification.\n\These were our augurs, our deliverers, our saviors. Standing amidst the flock, we should have feared their glory; instead, we drew hope. This moment is the first time I understood what it meant to be Caldari: Divinity in the flock, delivery in flux, one being, many changes.\n\- Janto Sitarbe, The Legendary Flock</t>
+		<!-- IG -->
+		<t id="900">IG L - Caracal Internal Generator</t>
+		<t id="901">IG L - Charon Internal Generator</t>
+		<t id="902">IG XL - Chimera Internal Generator</t>
+		<t id="903">IG L - Drake Internal Generator</t>
+		<t id="904">IG XL - Leviathan Internal Generator</t>
+		<t id="905">IG L - Naga Internal Generator</t>
+		<t id="906">IG L - Raven Internal Generator</t>
+		<t id="907">IG L - Rokh Internal Generator</t>
+		<t id="908">IG L - Tengu Internal Generator</t>
+		<!-- Stations -->
+		<t id="1101">Caldari Defence Platform</t>
+		<t id="1111">Caldari Trading Station</t>
+		<t id="1121">Caldari Equipment Dock</t>
+		<t id="1131">Caldari Shipyard</t>
+		<t id="1141">Caldari Wharf</t>
+	</page>
+</language>

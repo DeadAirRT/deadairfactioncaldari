@@ -1,0 +1,1686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<!-- daldari use missiles mostly -->
+	<add sel="/wares/ware[@id='module_arg_conn_base_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_conn_base_02']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_conn_base_03']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_conn_cross_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_conn_vertical_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_conn_vertical_02']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_def_claim_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_def_disc_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_def_tube_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_dock_m_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_dock_m_01_hightech']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_dock_m_01_lowtech']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_dock_m_02']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_dock_m_02_hightech']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_dock_m_02_lowtech']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_dock_tradestation_02']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_hab_l_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_hab_m_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_hab_s_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_pier_l_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_pier_l_02']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_pier_l_03']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_pier_tradestation_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_prod_foodrations_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_prod_meat_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_prod_medicalsupplies_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_prod_wheat_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_stor_container_l_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_stor_container_m_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_stor_container_s_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_stor_liquid_l_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_stor_liquid_m_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_stor_liquid_s_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_stor_solid_l_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_stor_solid_m_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_stor_solid_s_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_arg_stor_tradestation_l_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_build_dockarea_m_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_build_l_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_build_m_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_build_s_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_build_xl_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_equip_dockarea_m_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_equip_l_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_equip_xl_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_advancedcomposites_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_advancedelectronics_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_antimattercells_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_antimatterconverters_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_claytronics_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_dronecomponents_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_energycells_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_engineparts_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_graphene_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_hullparts_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_microchips_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_missilecomponents_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_plasmaconductors_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_quantumtubes_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_refinedmetals_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_scanningarrays_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_shieldcomponents_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_siliconwafers_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_spices_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_superfluidcoolant_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_turretcomponents_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_water_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_prod_weaponcomponents_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='shield_tel_l_standard_01_mk1']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='shield_tel_l_standard_01_mk2']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='shield_tel_m_standard_01_mk1']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='shield_tel_m_standard_01_mk2']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='shield_tel_m_standard_02_mk1']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='shield_tel_m_standard_02_mk2']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='shield_tel_s_standard_01_mk1']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='shield_tel_s_standard_01_mk2']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='shield_tel_s_standard_01_mk3']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='shield_tel_xl_standard_01_mk1']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_l_miner_liquid_01_a']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_l_miner_liquid_01_b']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_l_miner_solid_01_a']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_l_miner_solid_01_b']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_m_bomber_01_a']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_m_bomber_01_b']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_m_frigate_01_a']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_m_frigate_01_b']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_m_miner_liquid_01_a']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_m_miner_liquid_01_b']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_m_miner_solid_01_a']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_m_miner_solid_01_b']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_m_trans_container_01_a']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_m_trans_container_01_b']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_m_trans_container_02_a']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_m_trans_container_02_b']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_m_trans_container_03_a']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_s_fighter_01_a']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_s_fighter_01_b']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_s_fighter_02_a']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_s_fighter_02_b']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_s_miner_solid_01_a']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_s_scout_01_a']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_s_scout_01_b']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_s_scout_02_a']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_s_scout_02_b']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_s_trans_container_01_a']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_s_trans_container_01_b']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_xl_builder_01_a']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_xl_builder_01_b']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_xl_resupplier_01_a']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_xl_resupplier_01_b']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_xs_police_01_a']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_xs_police_02_a']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_xs_police_03_a']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='turret_tel_l_mining_01_mk1']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='turret_tel_m_mining_01_mk1']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='turret_tel_m_mining_02_mk1']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='weapon_gen_m_mining_01_mk1']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='weapon_gen_m_mining_01_mk2']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='weapon_gen_s_mining_01_mk1']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='weapon_gen_s_mining_01_mk2']">
+		<owner faction="daldari"/>
+	</add>
+	<!--
+  <add sel="/wares/ware[@id='xxx']">
+    <owner faction="daldari" />
+  </add>
+  -->
+	<!-- Turrets -->
+	<add sel="//wares">
+		<ware id="turret_dal_l_ham_01_mk1" name="{4816304,200}" description="{4816304,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="78257" average="86952" max="95647"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="6"/>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="turretcomponents" amount="30"/>
+				</primary>
+			</production>
+			<production time="10" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="4"/>
+					<ware ware="energycells" amount="79"/>
+					<ware ware="hullparts" amount="24"/>
+				</primary>
+			</production>
+			<component ref="turret_dal_l_ham_01_mk1_macro" amount="1"/>
+			<restriction licence="capitalequipment"/>
+			<use threshold="0"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="turret_dal_m_ham_01_mk1" name="{4816304,202}" description="{4816304,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="26316" average="29240" max="32164"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="2"/>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="turretcomponents" amount="10"/>
+				</primary>
+			</production>
+			<production time="10" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="1"/>
+					<ware ware="energycells" amount="75"/>
+					<ware ware="hullparts" amount="8"/>
+				</primary>
+			</production>
+			<component ref="turret_dal_m_ham_01_mk1_macro" amount="1"/>
+			<restriction licence="militaryequipment"/>
+			<use threshold="0"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="turret_dal_m_ham_02_mk1" name="{4816304,202}" description="{4816304,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="26316" average="29240" max="32164"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="2"/>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="turretcomponents" amount="10"/>
+				</primary>
+			</production>
+			<production time="10" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="1"/>
+					<ware ware="energycells" amount="75"/>
+					<ware ware="hullparts" amount="8"/>
+				</primary>
+			</production>
+			<component ref="turret_dal_m_ham_02_mk1_macro" amount="1"/>
+			<restriction licence="militaryequipment"/>
+			<use threshold="0"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="engine_dal_t3bc" name="{4816304,280}" description="{20107,3022}" group="engines" transport="equipment" volume="1" tags="engine equipment">
+			<price min="321518" average="357242" max="392966"/>
+			<production time="20" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="antimatterconverters" amount="147"/>
+					<ware ware="energycells" amount="25"/>
+					<ware ware="engineparts" amount="67"/>
+				</primary>
+			</production>
+			<production time="20" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="19"/>
+					<ware ware="energycells" amount="206"/>
+					<ware ware="hullparts" amount="108"/>
+				</primary>
+			</production>
+			<component ref="engine_dal_t3bc_macro" amount="1"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="turret_dal_t3bc_ham" name="{4816304,200}" description="{4816304,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="78257" average="86952" max="95647"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="6"/>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="turretcomponents" amount="30"/>
+				</primary>
+			</production>
+			<production time="10" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="4"/>
+					<ware ware="energycells" amount="79"/>
+					<ware ware="hullparts" amount="24"/>
+				</primary>
+			</production>
+			<component ref="turret_dal_t3bc_ham_macro" amount="1"/>
+			<restriction licence="capitalequipment"/>
+			<use threshold="0"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="weapon_dal_l" name="{4816304,203}" description="{4816304,300}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+			<price min="1036709" average="1240788" max="1344866"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="43"/>
+					<ware ware="energycells" amount="173"/>
+					<ware ware="weaponcomponents" amount="86"/>
+				</primary>
+			</production>
+			<component ref="weapon_dal_l_macro" amount="1"/>
+			<restriction licence="capitalequipment"/>
+			<use threshold="0"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="weapon_dal_xl" name="{4816304,204}" description="{4816304,304}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+			<price min="10367090" average="12407880" max="13448660"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="430"/>
+					<ware ware="energycells" amount="1730"/>
+					<ware ware="weaponcomponents" amount="860"/>
+				</primary>
+			</production>
+			<component ref="weapon_dal_xl_macro" amount="1"/>
+			<restriction licence="capitalequipment"/>
+			<use threshold="0"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_ham_l_em" name="{4816304, 205}" description="{4816304, 305}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="2502" average="5288" max="11043"/>
+			<production time="3" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="60"/>
+					<ware ware="missilecomponents" amount="12"/>
+					<ware ware="smartchips" amount="6"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="2"/>
+					<ware ware="ore" amount="2"/>
+					<ware ware="silicon" amount="2"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="100"/>
+					<ware ware="metallicmicrolattice" amount="4"/>
+					<ware ware="siliconcarbide" amount="3"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="200"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_ham_l_em_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.7"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_ham_l_explosive" name="{4816304, 208}" description="{4816304, 308}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="2502" average="5288" max="11043"/>
+			<production time="3" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="60"/>
+					<ware ware="missilecomponents" amount="12"/>
+					<ware ware="smartchips" amount="6"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="2"/>
+					<ware ware="ore" amount="2"/>
+					<ware ware="silicon" amount="2"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="100"/>
+					<ware ware="metallicmicrolattice" amount="4"/>
+					<ware ware="siliconcarbide" amount="3"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="120"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_ham_l_explosive_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.7"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_ham_l_kinetic" name="{4816304, 206}" description="{4816304, 306}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="1668" average="3525" max="7362"/>
+			<production time="3" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="60"/>
+					<ware ware="missilecomponents" amount="12"/>
+					<ware ware="smartchips" amount="6"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="2"/>
+					<ware ware="ore" amount="2"/>
+					<ware ware="silicon" amount="2"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="100"/>
+					<ware ware="metallicmicrolattice" amount="4"/>
+					<ware ware="siliconcarbide" amount="3"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="120"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_ham_l_kinetic_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_ham_l_thermal" name="{4816304, 207}" description="{4816304, 307}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="2085" average="4406" max="9203"/>
+			<production time="3" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="60"/>
+					<ware ware="missilecomponents" amount="12"/>
+					<ware ware="smartchips" amount="6"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="2"/>
+					<ware ware="ore" amount="2"/>
+					<ware ware="silicon" amount="2"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="100"/>
+					<ware ware="metallicmicrolattice" amount="4"/>
+					<ware ware="siliconcarbide" amount="3"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="120"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_ham_l_thermal_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.3"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_ham_m_em" name="{4816304, 209}" description="{4816304, 305}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="834" average="1763" max="3681"/>
+			<production time="2" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+					<ware ware="missilecomponents" amount="4"/>
+					<ware ware="smartchips" amount="2"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="2"/>
+					<ware ware="ore" amount="2"/>
+					<ware ware="silicon" amount="2"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="metallicmicrolattice" amount="1"/>
+					<ware ware="siliconcarbide" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="40"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_ham_m_em_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.7"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_ham_m_explosive" name="{4816304, 212}" description="{4816304, 308}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="834" average="1763" max="3681"/>
+			<production time="2" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+					<ware ware="missilecomponents" amount="4"/>
+					<ware ware="smartchips" amount="2"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="2"/>
+					<ware ware="ore" amount="2"/>
+					<ware ware="silicon" amount="2"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="metallicmicrolattice" amount="1"/>
+					<ware ware="siliconcarbide" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="40"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_ham_m_explosive_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.7"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_ham_m_kinetic" name="{4816304, 210}" description="{4816304, 306}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="556" average="1175" max="2454"/>
+			<production time="2" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+					<ware ware="missilecomponents" amount="4"/>
+					<ware ware="smartchips" amount="2"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="2"/>
+					<ware ware="ore" amount="1"/>
+					<ware ware="silicon" amount="1"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="metallicmicrolattice" amount="1"/>
+					<ware ware="siliconcarbide" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="40"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_ham_m_kinetic_macro" amount="1"/>
+			<restriction licence="generaluseequipment"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_ham_m_thermal" name="{4816304, 211}" description="{4816304, 307}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="695" average="1469" max="3068"/>
+			<production time="2" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+					<ware ware="missilecomponents" amount="4"/>
+					<ware ware="smartchips" amount="2"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="2"/>
+					<ware ware="ore" amount="2"/>
+					<ware ware="silicon" amount="2"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="metallicmicrolattice" amount="1"/>
+					<ware ware="siliconcarbide" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="40"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_ham_m_thermal_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.3"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="weapon_dal_m_ham" name="{4816304,202}" description="{4816304,300}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+			<price min="143964" average="164960" max="190955"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="11"/>
+					<ware ware="energycells" amount="60"/>
+					<ware ware="weaponcomponents" amount="32"/>
+				</primary>
+			</production>
+			<component ref="weapon_dal_m_ham_macro" amount="1"/>
+			<restriction licence="militaryequipment"/>
+			<use threshold="0"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="weapon_dal_s_lam" name="{4816304,213}" description="{4816304,309}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+			<price min="58459" average="66704" max="72948"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="advancedelectronics" amount="4"/>
+					<ware ware="energycells" amount="15"/>
+					<ware ware="weaponcomponents" amount="14"/>
+				</primary>
+			</production>
+			<component ref="weapon_dal_s_lam_macro" amount="1"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_lam_s_em" name="{4816304, 214}" description="{4816304, 310}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="417" average="881" max="1841"/>
+			<production time="2" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="missilecomponents" amount="2"/>
+					<ware ware="smartchips" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+					<ware ware="ore" amount="1"/>
+					<ware ware="silicon" amount="1"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="5"/>
+					<ware ware="metallicmicrolattice" amount="1"/>
+					<ware ware="siliconcarbide" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_lam_s_em_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.7"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_lam_s_explosive" name="{4816304, 217}" description="{4816304, 313}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="417" average="881" max="1841"/>
+			<production time="2" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="missilecomponents" amount="2"/>
+					<ware ware="smartchips" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+					<ware ware="ore" amount="1"/>
+					<ware ware="silicon" amount="1"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="5"/>
+					<ware ware="metallicmicrolattice" amount="1"/>
+					<ware ware="siliconcarbide" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_lam_s_explosive_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.7"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_lam_s_kinetic" name="{4816304, 215}" description="{4816304, 311}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="278" average="588" max="1227"/>
+			<production time="2" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="missilecomponents" amount="2"/>
+					<ware ware="smartchips" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+					<ware ware="ore" amount="1"/>
+					<ware ware="silicon" amount="1"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="5"/>
+					<ware ware="metallicmicrolattice" amount="1"/>
+					<ware ware="siliconcarbide" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_lam_s_kinetic_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_lam_s_thermal" name="{4816304, 216}" description="{4816304, 312}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="348" average="734" max="1534"/>
+			<production time="2" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="missilecomponents" amount="2"/>
+					<ware ware="smartchips" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+					<ware ware="ore" amount="1"/>
+					<ware ware="silicon" amount="1"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="5"/>
+					<ware ware="metallicmicrolattice" amount="1"/>
+					<ware ware="siliconcarbide" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_lam_s_thermal_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.3"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_hm_l_em" name="{4816304,219}" description="{4816304,314}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="2502" average="5288" max="11043"/>
+			<production time="3" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="60"/>
+					<ware ware="missilecomponents" amount="12"/>
+					<ware ware="smartchips" amount="6"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="2"/>
+					<ware ware="ore" amount="2"/>
+					<ware ware="silicon" amount="2"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="100"/>
+					<ware ware="metallicmicrolattice" amount="4"/>
+					<ware ware="siliconcarbide" amount="3"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="200"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_hm_l_em_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.7"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_hm_l_explosive" name="{4816304,222}" description="{4816304,317}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="2502" average="5288" max="11043"/>
+			<production time="3" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="60"/>
+					<ware ware="missilecomponents" amount="12"/>
+					<ware ware="smartchips" amount="6"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="2"/>
+					<ware ware="ore" amount="2"/>
+					<ware ware="silicon" amount="2"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="100"/>
+					<ware ware="metallicmicrolattice" amount="4"/>
+					<ware ware="siliconcarbide" amount="3"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="120"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_hm_l_explosive_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.7"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_hm_l_kinetic" name="{4816304,220}" description="{4816304,315}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="1668" average="3525" max="7362"/>
+			<production time="3" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="60"/>
+					<ware ware="missilecomponents" amount="12"/>
+					<ware ware="smartchips" amount="6"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="2"/>
+					<ware ware="ore" amount="2"/>
+					<ware ware="silicon" amount="2"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="100"/>
+					<ware ware="metallicmicrolattice" amount="4"/>
+					<ware ware="siliconcarbide" amount="3"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="120"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_hm_l_kinetic_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_hm_l_thermal" name="{4816304,221}" description="{4816304,316}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="2085" average="4406" max="9203"/>
+			<production time="3" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="60"/>
+					<ware ware="missilecomponents" amount="12"/>
+					<ware ware="smartchips" amount="6"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="2"/>
+					<ware ware="ore" amount="2"/>
+					<ware ware="silicon" amount="2"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="100"/>
+					<ware ware="metallicmicrolattice" amount="4"/>
+					<ware ware="siliconcarbide" amount="3"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="120"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_hm_l_thermal_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.3"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_hm_m_em" name="{4816304,223}" description="{4816304,314}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="834" average="1763" max="3681"/>
+			<production time="2" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+					<ware ware="missilecomponents" amount="4"/>
+					<ware ware="smartchips" amount="2"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="2"/>
+					<ware ware="ore" amount="2"/>
+					<ware ware="silicon" amount="2"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="metallicmicrolattice" amount="1"/>
+					<ware ware="siliconcarbide" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="40"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_hm_m_em_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.7"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_hm_m_explosive" name="{4816304,226}" description="{4816304,317}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="834" average="1763" max="3681"/>
+			<production time="2" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+					<ware ware="missilecomponents" amount="4"/>
+					<ware ware="smartchips" amount="2"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="2"/>
+					<ware ware="ore" amount="2"/>
+					<ware ware="silicon" amount="2"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="metallicmicrolattice" amount="1"/>
+					<ware ware="siliconcarbide" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="40"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_hm_m_explosive_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.7"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_hm_m_kinetic" name="{4816304,224}" description="{4816304,315}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="556" average="1175" max="2454"/>
+			<production time="2" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+					<ware ware="missilecomponents" amount="4"/>
+					<ware ware="smartchips" amount="2"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="2"/>
+					<ware ware="ore" amount="1"/>
+					<ware ware="silicon" amount="1"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="metallicmicrolattice" amount="1"/>
+					<ware ware="siliconcarbide" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="40"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_hm_m_kinetic_macro" amount="1"/>
+			<restriction licence="generaluseequipment"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_hm_m_thermal" name="{4816304,225}" description="{4816304,316}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="695" average="1469" max="3068"/>
+			<production time="2" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+					<ware ware="missilecomponents" amount="4"/>
+					<ware ware="smartchips" amount="2"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="2"/>
+					<ware ware="ore" amount="2"/>
+					<ware ware="silicon" amount="2"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="metallicmicrolattice" amount="1"/>
+					<ware ware="siliconcarbide" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="40"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_hm_m_thermal_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.3"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_lm_s_em" name="{4816304,227}" description="{4816304,318}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="417" average="881" max="1841"/>
+			<production time="2" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="missilecomponents" amount="2"/>
+					<ware ware="smartchips" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+					<ware ware="ore" amount="1"/>
+					<ware ware="silicon" amount="1"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="5"/>
+					<ware ware="metallicmicrolattice" amount="1"/>
+					<ware ware="siliconcarbide" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_lm_s_em_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.7"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_lm_s_explosive" name="{4816304,230}" description="{4816304,321}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="417" average="881" max="1841"/>
+			<production time="2" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="missilecomponents" amount="2"/>
+					<ware ware="smartchips" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+					<ware ware="ore" amount="1"/>
+					<ware ware="silicon" amount="1"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="5"/>
+					<ware ware="metallicmicrolattice" amount="1"/>
+					<ware ware="siliconcarbide" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_lm_s_explosive_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.7"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_lm_s_kinetic" name="{4816304,228}" description="{4816304,319}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="278" average="588" max="1227"/>
+			<production time="2" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="missilecomponents" amount="2"/>
+					<ware ware="smartchips" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+					<ware ware="ore" amount="1"/>
+					<ware ware="silicon" amount="1"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="5"/>
+					<ware ware="metallicmicrolattice" amount="1"/>
+					<ware ware="siliconcarbide" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_lm_s_kinetic_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="missile_dal_lm_s_thermal" name="{4816304,229}" description="{4816304,320}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+			<price min="348" average="734" max="1534"/>
+			<production time="2" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="10"/>
+					<ware ware="missilecomponents" amount="2"/>
+					<ware ware="smartchips" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="xenon" name="{20206,601}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+					<ware ware="ore" amount="1"/>
+					<ware ware="silicon" amount="1"/>
+				</primary>
+			</production>
+			<production time="2" amount="1" method="terran" name="{20206,901}">
+				<primary>
+					<ware ware="energycells" amount="5"/>
+					<ware ware="metallicmicrolattice" amount="1"/>
+					<ware ware="siliconcarbide" amount="1"/>
+				</primary>
+			</production>
+			<production time="3" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="20"/>
+				</primary>
+			</production>
+			<component ref="missile_dal_lm_s_thermal_macro" amount="1"/>
+			<container ref="sm_gen_pickup_equipment_01_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0.3"/>
+			<owner faction="daldari"/>
+		</ware>
+	</add>
+	<add sel="//wares">
+		<!-- SHIPS -->
+		<ware id="ship_dal_l_caracal" name="{4816304,700}" description="{4816304,800}" group="ships_argon" transport="ship" volume="1" tags="ship">
+			<price min="3985297" average="4688585" max="5391873"/>
+			<production time="30" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1485"/>
+					<ware ware="hullparts" amount="4373"/>
+				</primary>
+			</production>
+			<component ref="ship_dal_l_caracal_macro" amount="1"/>
+			<restriction licence="capitalship"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="ship_dal_l_raven" name="{4816304,706}" description="{4816304,806}" group="ships_argon" transport="ship" volume="1" tags="ship">
+			<price min="5304051" average="6240060" max="7176069"/>
+			<production time="30" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1977"/>
+					<ware ware="hullparts" amount="5820"/>
+				</primary>
+			</production>
+			<component ref="ship_dal_l_raven_macro" amount="1"/>
+			<restriction licence="capitalship"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="ship_dal_l_charon" name="{4816304,701}" description="{4816304,801}" group="ships_argon" transport="ship" volume="1" tags="ship">
+			<price min="2254893" average="2652815" max="3050737"/>
+			<production time="30" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="935"/>
+					<ware ware="hullparts" amount="2467"/>
+				</primary>
+			</production>
+			<component ref="ship_dal_l_charon_macro" amount="1"/>
+			<restriction licence="capitalship"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="ship_dal_l_rokh" name="{4816304,707}" description="{4816304,807}" group="ships_argon" transport="ship" volume="1" tags="ship">
+			<price min="5834477" average="6864090" max="7893703"/>
+			<production time="30" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="2175"/>
+					<ware ware="hullparts" amount="6402"/>
+				</primary>
+			</production>
+			<component ref="ship_dal_l_rokh_macro" amount="1"/>
+			<restriction licence="capitalship"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="ship_dal_l_naga" name="{4816304,705}" description="{4816304,805}" group="ships_argon" transport="ship" volume="1" tags="ship">
+			<price min="3622594" average="4261875" max="4901156"/>
+			<production time="30" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1350"/>
+					<ware ware="hullparts" amount="3975"/>
+				</primary>
+			</production>
+			<component ref="ship_dal_l_naga_macro" amount="1"/>
+			<restriction licence="capitalship"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="ship_dal_l_drake" name="{4816304,703}" description="{4816304,803}" group="ships_argon" transport="ship" volume="1" tags="ship">
+			<price min="4821927" average="5672855" max="6523783"/>
+			<production time="30" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1797"/>
+					<ware ware="hullparts" amount="5291"/>
+				</primary>
+			</production>
+			<component ref="ship_dal_l_drake_macro" amount="1"/>
+			<restriction licence="capitalship"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="ship_dal_l_tengu" name="{4816304,708}" description="{4816304,808}" group="ships_argon" transport="ship" volume="1" tags="ship">
+			<price min="4383595" average="5157170" max="5930746"/>
+			<production time="30" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1634"/>
+					<ware ware="hullparts" amount="4810"/>
+				</primary>
+			</production>
+			<component ref="ship_dal_l_tengu_macro" amount="1"/>
+			<restriction licence="capitalship"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="ship_dal_xl_chimera" name="{4816304,702}" description="{4816304,802}" group="ships_argon" transport="ship" volume="1" tags="ship">
+			<price min="7747325" average="9114500" max="10481675"/>
+			<production time="30" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="2900"/>
+					<ware ware="hullparts" amount="8500"/>
+				</primary>
+			</production>
+			<component ref="ship_dal_xl_chimera_macro" amount="1"/>
+			<restriction licence="capitalship"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="ship_dal_xl_leviathan" name="{4816304,704}" description="{4816304,804}" group="ships_argon" transport="ship" volume="1" tags="ship">
+			<price min="9684156" average="11393125" max="13102094"/>
+			<production time="30" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="3625"/>
+					<ware ware="hullparts" amount="10625"/>
+				</primary>
+			</production>
+			<component ref="ship_dal_xl_leviathan_macro" amount="1"/>
+			<restriction licence="capitalship"/>
+			<owner faction="daldari"/>
+		</ware>
+	</add>
+	<!-- ISHIELDS -->
+	<add sel="//wares">
+		<ware id="ishield_dal_l_caracal" name="{4816304,900}" description="{4816304,900}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<component ref="ishield_dal_l_caracal_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<production time="1" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<use threshold="0"/>
+		</ware>
+		<ware id="ishield_dal_l_charon" name="{4816304,901}" description="{4816304,901}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<component ref="ishield_dal_l_charon_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<production time="1" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<use threshold="0"/>
+		</ware>
+		<ware id="ishield_dal_l_drake" name="{4816304,903}" description="{4816304,903}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<component ref="ishield_dal_l_drake_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<production time="1" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<use threshold="0"/>
+		</ware>
+		<ware id="ishield_dal_l_naga" name="{4816304,905}" description="{4816304,905}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<component ref="ishield_dal_l_naga_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<production time="1" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<use threshold="0"/>
+		</ware>
+		<ware id="ishield_dal_l_raven" name="{4816304,906}" description="{4816304,906}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<component ref="ishield_dal_l_raven_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<production time="1" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<use threshold="0"/>
+		</ware>
+		<ware id="ishield_dal_l_rokh" name="{4816304,907}" description="{4816304,907}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<component ref="ishield_dal_l_rokh_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<production time="1" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<use threshold="0"/>
+		</ware>
+		<ware id="ishield_dal_l_tengu" name="{4816304,908}" description="{4816304,908}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<component ref="ishield_dal_l_tengu_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<production time="1" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<use threshold="0"/>
+		</ware>
+		<ware id="ishield_dal_xl_chimera" name="{4816304,902}" description="{4816304,902}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<component ref="ishield_dal_xl_chimera_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<production time="1" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<use threshold="0"/>
+		</ware>
+		<ware id="ishield_dal_xl_leviathan" name="{4816304,904}" description="{4816304,904}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<component ref="ishield_dal_xl_leviathan_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<production time="1" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<use threshold="0"/>
+		</ware>
+	</add>
+	<add sel="//wares">
+		<ware id="engine_dal_l_allround_01_mk1" name="{4816304,600}" description="{20107,3002}" group="engines" transport="equipment" volume="1" tags="engine equipment">
+			<price min="321518" average="357242" max="392966"/>
+			<production time="20" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="antimatterconverters" amount="147"/>
+					<ware ware="energycells" amount="25"/>
+					<ware ware="engineparts" amount="67"/>
+				</primary>
+			</production>
+			<production time="20" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="19"/>
+					<ware ware="energycells" amount="206"/>
+					<ware ware="hullparts" amount="108"/>
+				</primary>
+			</production>
+			<component ref="engine_dal_l_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="engine_dal_m_allround_01_mk3" name="{4816304,601}" description="{20107,2082}" group="engines" transport="equipment" volume="1" tags="engine equipment">
+			<price min="287722" average="319691" max="351660"/>
+			<production time="15" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="antimatterconverters" amount="90"/>
+					<ware ware="energycells" amount="60"/>
+					<ware ware="engineparts" amount="110"/>
+				</primary>
+			</production>
+			<production time="15" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="15"/>
+					<ware ware="energycells" amount="241"/>
+					<ware ware="hullparts" amount="88"/>
+				</primary>
+			</production>
+			<component ref="engine_dal_m_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="engine_dal_s_allround_01_mk3" name="{4816304,602}" description="{20107,1082}" group="engines" transport="equipment" volume="1" tags="engine equipment">
+			<price min="123301" average="137001" max="150701"/>
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="antimatterconverters" amount="40"/>
+					<ware ware="energycells" amount="40"/>
+					<ware ware="engineparts" amount="45"/>
+				</primary>
+			</production>
+			<production time="10" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="6"/>
+					<ware ware="energycells" amount="176"/>
+					<ware ware="hullparts" amount="38"/>
+				</primary>
+			</production>
+			<component ref="engine_dal_s_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="daldari"/>
+		</ware>
+		<ware id="engine_dal_xl_allround_01_mk1" name="{4816304,603}" description="{20107,4002}" group="engines" transport="equipment" volume="1" tags="engine equipment">
+			<price min="424061" average="471179" max="518297"/>
+			<production time="30" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="antimatterconverters" amount="193"/>
+					<ware ware="energycells" amount="50"/>
+					<ware ware="engineparts" amount="89"/>
+				</primary>
+			</production>
+			<production time="30" amount="1" method="closedloop" name="{20206,1201}">
+				<primary>
+					<ware ware="claytronics" amount="25"/>
+					<ware ware="energycells" amount="290"/>
+					<ware ware="hullparts" amount="142"/>
+				</primary>
+			</production>
+			<component ref="engine_dal_xl_macro"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0"/>
+			<owner faction="daldari"/>
+		</ware>
+	</add>
+</diff>

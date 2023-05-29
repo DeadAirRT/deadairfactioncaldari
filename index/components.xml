@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<add sel="//index">
+		<entry name="Cluster_DAL1" value="extensions\deadairfactioncaldari\assets\environments\cluster\cluster_dal1"/>
+		<entry name="Cluster_DAL2" value="extensions\deadairfactioncaldari\assets\environments\cluster\cluster_dal2"/>
+		<entry name="Cluster_DAL3" value="extensions\deadairfactioncaldari\assets\environments\cluster\cluster_dal3"/>
+		<entry name="Cluster_DAL4" value="extensions\deadairfactioncaldari\assets\environments\cluster\cluster_dal4"/>
+		<entry name="Cluster_DAL5" value="extensions\deadairfactioncaldari\assets\environments\cluster\cluster_dal5"/>
+		<entry name="Cluster_DAL6" value="extensions\deadairfactioncaldari\assets\environments\cluster\cluster_dal6"/>
+		<entry name="Cluster_DAL7" value="extensions\deadairfactioncaldari\assets\environments\cluster\cluster_dal7"/>
+		<entry name="Cluster_DAL8" value="extensions\deadairfactioncaldari\assets\environments\cluster\cluster_dal8"/>
+		<!-- Turrets -->
+		<entry name="turret_dal_*" value="extensions\deadairfactioncaldari\assets\props\weaponsystems\guided\turret_dal_*"/>
+		<entry name="turret_dal_l_ham_01_mk1" value="extensions\deadairfactioncaldari\assets\props\weaponsystems\guided\turret_dal_l_ham_01_mk1"/>
+		<entry name="turret_dal_m_ham_01_mk1" value="extensions\deadairfactioncaldari\assets\props\weaponsystems\guided\turret_dal_m_ham_01_mk1"/>
+		<entry name="turret_dal_m_ham_02_mk1" value="extensions\deadairfactioncaldari\assets\props\weaponsystems\guided\turret_dal_m_ham_02_mk1"/>
+		<entry name="weapon_dal_l" value="extensions\deadairfactioncaldari\assets\props\weaponsystems\capital\weapon_dal_l"/>
+		<entry name="weapon_dal_xl" value="extensions\deadairfactioncaldari\assets\props\weaponsystems\capital\weapon_dal_xl"/>
+		<entry name="weapon_dal_m_ham" value="extensions\deadairfactioncaldari\assets\props\weaponsystems\guided\weapon_dal_m_ham"/>
+		<entry name="weapon_dal_s_lam" value="extensions\deadairfactioncaldari\assets\props\weaponsystems\guided\weapon_dal_s_lam"/>
+		<!-- T3BC -->
+		<entry name="turret_dal_t3bc_ham" value="extensions\deadairfactioncaldari\assets\props\weaponsystems\guided\turret_dal_t3bc_ham"/>
+		<entry name="engine_dal_t3bc" value="extensions\deadairfactioncaldari\assets\props\engines\engine_dal_t3bc"/>
+		<!-- Missile -->
+		<entry name="missile_dal_ham_l" value="extensions\deadairfactioncaldari\assets\props\weaponsystems\missile\missile_dal_ham_l"/>
+		<entry name="missile_dal_ham_m" value="extensions\deadairfactioncaldari\assets\props\weaponsystems\missile\missile_dal_ham_m"/>
+		<entry name="missile_dal_lam_s" value="extensions\deadairfactioncaldari\assets\props\weaponsystems\missile\missile_dal_lam_s"/>
+		<!-- Bullet -->
+		<entry name="bullet_weapon_dal_l" value="extensions\deadairfactioncaldari\assets\fx\weaponfx\bullet_weapon_dal_l"/>
+		<!-- Ships / Ishield -->
+		<entry name="ship_dal_l_caracal" value="extensions\deadairfactioncaldari\assets\units\size_l\ship_dal_l_caracal"/>
+		<entry name="ship_dal_l_charon" value="extensions\deadairfactioncaldari\assets\units\size_l\ship_dal_l_charon"/>
+		<entry name="ship_dal_l_drake" value="extensions\deadairfactioncaldari\assets\units\size_l\ship_dal_l_drake"/>
+		<entry name="ship_dal_l_naga" value="extensions\deadairfactioncaldari\assets\units\size_l\ship_dal_l_naga"/>
+		<entry name="ship_dal_l_raven" value="extensions\deadairfactioncaldari\assets\units\size_l\ship_dal_l_raven"/>
+		<entry name="ship_dal_l_rokh" value="extensions\deadairfactioncaldari\assets\units\size_l\ship_dal_l_rokh"/>
+		<entry name="ship_dal_l_tengu" value="extensions\deadairfactioncaldari\assets\units\size_l\ship_dal_l_tengu"/>
+		<entry name="ship_dal_xl_chimera" value="extensions\deadairfactioncaldari\assets\units\size_xl\ship_dal_xl_chimera"/>
+		<entry name="ship_dal_xl_leviathan" value="extensions\deadairfactioncaldari\assets\units\size_xl\ship_dal_xl_leviathan"/>
+		<entry name="ishield_dal_l_caracal" value="extensions\deadairfactioncaldari\assets\props\surfaceelements\ishield_dal_l_caracal"/>
+		<entry name="ishield_dal_l_charon" value="extensions\deadairfactioncaldari\assets\props\surfaceelements\ishield_dal_l_charon"/>
+		<entry name="ishield_dal_l_drake" value="extensions\deadairfactioncaldari\assets\props\surfaceelements\ishield_dal_l_drake"/>
+		<entry name="ishield_dal_l_naga" value="extensions\deadairfactioncaldari\assets\props\surfaceelements\ishield_dal_l_naga"/>
+		<entry name="ishield_dal_l_raven" value="extensions\deadairfactioncaldari\assets\props\surfaceelements\ishield_dal_l_raven"/>
+		<entry name="ishield_dal_l_rokh" value="extensions\deadairfactioncaldari\assets\props\surfaceelements\ishield_dal_l_rokh"/>
+		<entry name="ishield_dal_l_tengu" value="extensions\deadairfactioncaldari\assets\props\surfaceelements\ishield_dal_l_tengu"/>
+		<entry name="ishield_dal_xl_chimera" value="extensions\deadairfactioncaldari\assets\props\surfaceelements\ishield_dal_xl_chimera"/>
+		<entry name="ishield_dal_xl_leviathan" value="extensions\deadairfactioncaldari\assets\props\surfaceelements\ishield_dal_xl_leviathan"/>
+	</add>
+</diff>
