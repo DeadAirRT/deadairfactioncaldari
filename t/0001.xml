@@ -35,7 +35,7 @@
 		<t id="128">xxx</t>
 		<t id="129">xxx</t>
 		<t id="130">Maila</t>
-		<t id="131">xxx</t>
+		<t id="131">Caldari Basic Design</t>
 		<t id="132">xxx</t>
 		<t id="199">Caldari</t>
 		<!-- Equipment -->
@@ -98,6 +98,15 @@
 		<t id="319">(K)From its humble beginnings in tiny Minmatar design labs, the Scourge light missile has quickly established itself throughout the star cluster as a premier missile for light launchers.</t>
 		<t id="320">(T)The explosion the Inferno light missile creates upon impact is stunning enough for any display of fireworks - just ten times more deadly.</t>
 		<t id="321">(E)The Nova light missile is a tiny nuclear projectile based on a classic Minmatar design that has been in use since the early days of the Minmatar Resistance.</t>
+		<!-- Shields -->
+		<t id="500">{4816304,102}(CAL) {20111,5031}(L) {20106,1001}(Shield Generator) {20111,101}(Mk1)</t>
+		<t id="501">{4816304,102}(CAL) {20111,5031}(L) {20106,1001}(Shield Generator) {20111,201}(Mk2)</t>
+		<t id="502">{4816304,102}(CAL) {20111,5021}(M) {20106,1001}(Shield Generator) {20111,101}(Mk1)</t>
+		<t id="503">{4816304,102}(CAL) {20111,5021}(M) {20106,1001}(Shield Generator) {20111,201}(Mk2)</t>
+		<t id="504">{4816304,102}(CAL) {20111,5011}(S) {20106,1001}(Shield Generator) {20111,101}(Mk1)</t>
+		<t id="505">{4816304,102}(CAL) {20111,5011}(S) {20106,1001}(Shield Generator) {20111,201}(Mk2)</t>
+		<t id="506">{4816304,102}(CAL) {20111,5011}(S) {20106,1001}(Shield Generator) {20111,301}(Mk3)</t>
+		<t id="507">{4816304,102}(CAL) {20111,5041}(XL) {20106,1001}(Shield Generator) {20111,101}(Mk1)</t>
 		<!-- Engines -->
 		<t id="600">{4816304,102}(CAL) {20111,5031}(L) {20107,9001}(Engine)</t>
 		<t id="601">{4816304,102}(CAL) {20111,5021}(M) {20107,9001}(Engine)</t>

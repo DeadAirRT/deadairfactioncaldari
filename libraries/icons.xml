@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE icons SYSTEM "icons.dtd" >
 <icons>
 	<icon name="faction_daldari" texture="extensions\deadairfactioncaldari\assets\fx\gui\textures\factions\faction_daldari.tga" height="256" width="256"/>
 	<icon name="upgrade_*" texture="extensions\deadairfactioncaldari\assets\fx\gui\textures\upgrades\*.tga" height="256" width="256"/>
 	<icon name="ship_dal_*" texture="extensions\deadairfactioncaldari\assets\fx\gui\textures\ships\*.tga" height="256" width="256"/>
+	<icon name="paintmod_daldari" texture="extensions\deadairfactioncaldari\assets\fx\gui\textures\paintmods\paintmod_daldari" height="256" width="256"/>
 	<icon name="upgrade_ishield_dal_l_caracal_macro" texture="extensions\deadairfactioncaldari\assets\fx\gui\textures\upgrades\ishield_dal_macro" height="256" width="256"/>
 	<icon name="upgrade_ishield_dal_l_charon_macro" texture="extensions\deadairfactioncaldari\assets\fx\gui\textures\upgrades\ishield_dal_macro" height="256" width="256"/>
 	<icon name="upgrade_ishield_dal_l_drake_macro" texture="extensions\deadairfactioncaldari\assets\fx\gui\textures\upgrades\ishield_dal_macro" height="256" width="256"/>
