@@ -140,25 +140,25 @@
 					<position x="-0.0" y="-26.0418" z="-258.671"/>
 				</offset>
 			</connection>
-			<connection group="engines" name="con_shieldgen_m_engines_1" tags="medium shield hittable ">
+			<connection group="engines" name="con_shieldgen_m_engines_1" tags="medium shield hittable standard">
 				<offset>
 					<position x="-77.9998" y="26.318399999999997" z="-281.65"/>
 					<quaternion qw="-0.9888249606718764" qx="0.14908109715092044" qy="-0.0" qz="0.00015370276486536386"/>
 				</offset>
 			</connection>
-			<connection group="engines" name="con_shieldgen_m_engines_2" tags="medium shield hittable ">
+			<connection group="engines" name="con_shieldgen_m_engines_2" tags="medium shield hittable standard">
 				<offset>
 					<position x="77.9998" y="26.318399999999997" z="-281.65"/>
 					<quaternion qw="-0.9888249606718764" qx="0.14908109715092044" qy="-0.0" qz="0.00015370276486536386"/>
 				</offset>
 			</connection>
-			<connection group="engines" name="con_shieldgen_m_engines_3" tags="medium shield hittable ">
+			<connection group="engines" name="con_shieldgen_m_engines_3" tags="medium shield hittable standard">
 				<offset>
 					<position x="-77.9997" y="-21.147199999999998" z="-262.3743"/>
 					<quaternion qw="-0.0007808267155528357" qx="-0.9999973215704538" qy="-0.0001719998833098847" qz="-0.0021719985264480783"/>
 				</offset>
 			</connection>
-			<connection group="engines" name="con_shieldgen_m_engines_4" tags="medium shield hittable ">
+			<connection group="engines" name="con_shieldgen_m_engines_4" tags="medium shield hittable standard">
 				<offset>
 					<position x="77.9997" y="-21.147199999999998" z="-262.3743"/>
 					<quaternion qw="-0.0007808267155528357" qx="-0.9999973215704538" qy="-0.0001719998833098847" qz="-0.0021719985264480783"/>
