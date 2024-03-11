@@ -309,13 +309,13 @@
 					<quaternion qw="-5.8826794862792294e-05" qx="0.0" qy="-0.0" qz="0.9999999982697041"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_l_1" tags="large shield hittable">
+			<connection name="con_shieldgen_l_1" tags="large shield hittable standard">
 				<offset>
 					<position x="248.96820000000002" y="46.6403" z="839.5763999999999"/>
 					<quaternion qw="-0.9894402043350619" qx="-0.0" qy="0.0" qz="0.14494165048525948"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_l_2" tags="large shield hittable">
+			<connection name="con_shieldgen_l_2" tags="large shield hittable standard">
 				<offset>
 					<position x="248.96820000000002" y="46.6004" z="-401.0796"/>
 					<quaternion qw="-0.9894402043350619" qx="-0.0" qy="0.0" qz="0.14494165048525948"/>
