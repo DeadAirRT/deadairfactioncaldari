@@ -6,7 +6,7 @@
 			<identification name="{4816304,226}" basename="{4816304,297}" description="{4816304,317}"/>
 			<ammunition value="1"/>
 			<missile amount="1" barrelamount="1" lifetime="42" range="31500" swarm="0" guided="1" icon="hud_ms_smart_heavy_mk1" retarget="1" tags="mham"/>
-			<explosiondamage value="5320" noshield="5320"/>
+			<explosiondamage value="6650" noshield="6650"/>
 			<reload time="11.11"/>
 			<hull max="1"/>
 			<effects>
@@ -15,8 +15,8 @@
 			</effects>
 			<weapon system="missile_guided"/>
 			<countermeasure resilience="0.5"/>
-			<physics mass="0.37">
-				<inertia pitch="0.271" yaw="0.271" roll="0.271"/>
+			<physics mass="0.6725">
+				<inertia pitch="0.1681" yaw="0.1681" roll="0.1681"/>
 				<drag forward="0.13" reverse="0.336" horizontal="0.53" vertical="0.53" pitch="0.128" yaw="0.128" roll="0.128"/>
 			</physics>
 			<lock time="2" range="21000"/>

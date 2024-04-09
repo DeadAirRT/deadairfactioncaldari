@@ -14,7 +14,7 @@
 				<software ware="software_targetmk1" default="1"/>
 				<software ware="software_trademk1" compatible="1"/>
 			</software>
-			<explosiondamage value="1000" shield="5000"/>
+			<explosiondamage value="100" shield="1000"/>
 			<storage missile="720" unit="20"/>
 			<hull max="166665"/>
 			<secrecy level="2"/>
@@ -22,7 +22,7 @@
 			<people capacity="81"/>
 			<physics mass="365.92">
 				<inertia pitch="252.81" yaw="358.05" roll="255.89"/>
-				<drag forward="234.8" reverse="993.96" horizontal="264.52" vertical="264.52" pitch="252.81" yaw="358.05" roll="255.89"/>
+				<drag forward="234.8" reverse="993.96" horizontal="264.52" vertical="264.52" pitch="252.81" yaw="315.08" roll="319.86"/>
 			</physics>
 			<thruster tags="large"/>
 			<ship type="battleship"/>
@@ -37,6 +37,9 @@
 			</connection>
 			<connection ref="con_dock_xs">
 				<macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component"/>
+			</connection>
+			<connection ref="con_shipstorage_xs_01">
+				<macro ref="shipstorage_gen_xs_01_macro" connection="object"/>
 			</connection>
 		</connections>
 	</macro>

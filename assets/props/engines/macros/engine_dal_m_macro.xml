@@ -4,8 +4,8 @@
 		<component ref="engine_tel_m_allround_01_mk3"/>
 		<properties>
 			<identification name="{4816304,601}" basename="{20107,1001}" shortname="{4816304,604}" description="{20107,2082}"/>
-			<boost duration="20" thrust="4" attack="2.25" release="1.5"/>
-			<travel charge="1.5" thrust="18" attack="20" release="16"/>
+			<boost duration="20" thrust="4" attack="4.5" release="3"/>
+			<travel charge="1.5" thrust="18" attack="10" release="8"/>
 			<thrust forward="1512" reverse="1496"/>
 			<angular/>
 			<hull integrated="1"/>

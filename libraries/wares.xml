@@ -339,7 +339,7 @@
 	<!-- Turrets -->
 	<add sel="//wares">
 		<ware id="turret_dal_l_ham_01_mk1" name="{4816304,200}" description="{4816304,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="78257" average="86952" max="95647"/>
+			<price min="224056" average="312162" max="480216"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="6"/>
@@ -356,11 +356,12 @@
 			</production>
 			<component ref="turret_dal_l_ham_01_mk1_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
-			<use threshold="0"/>
+			<use threshold="0" factions="daldari"/>
+			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
 		<ware id="turret_dal_m_ham_01_mk1" name="{4816304,202}" description="{4816304,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="26316" average="29240" max="32164"/>
+			<price min="34598" average="48206" max="74158"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="2"/>
@@ -377,11 +378,12 @@
 			</production>
 			<component ref="turret_dal_m_ham_01_mk1_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
-			<use threshold="0"/>
+			<use threshold="0" factions="daldari"/>
+			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
 		<ware id="turret_dal_m_ham_02_mk1" name="{4816304,202}" description="{4816304,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="26316" average="29240" max="32164"/>
+			<price min="34598" average="48206" max="74158"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="2"/>
@@ -398,7 +400,8 @@
 			</production>
 			<component ref="turret_dal_m_ham_02_mk1_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
-			<use threshold="0"/>
+			<use threshold="0" factions="daldari"/>
+			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
 		<ware id="engine_dal_t3bc" name="{4816304,280}" description="{20107,3022}" group="engines" transport="equipment" volume="1" tags="engine equipment">
@@ -423,7 +426,7 @@
 			<owner faction="daldari"/>
 		</ware>
 		<ware id="turret_dal_t3bc_ham" name="{4816304,200}" description="{4816304,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="78257" average="86952" max="95647"/>
+			<price min="224056" average="312162" max="480216"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="6"/>
@@ -440,7 +443,8 @@
 			</production>
 			<component ref="turret_dal_t3bc_ham_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
-			<use threshold="0"/>
+			<use threshold="0" factions="daldari"/>
+			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
 		<ware id="weapon_dal_l" name="{4816304,203}" description="{4816304,300}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -454,7 +458,8 @@
 			</production>
 			<component ref="weapon_dal_l_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
-			<use threshold="0"/>
+			<use threshold="0" factions="daldari"/>
+			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
 		<ware id="weapon_dal_xl" name="{4816304,204}" description="{4816304,304}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -745,7 +750,7 @@
 			<owner faction="daldari"/>
 		</ware>
 		<ware id="weapon_dal_m_ham" name="{4816304,202}" description="{4816304,300}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
-			<price min="143964" average="164960" max="190955"/>
+			<price min="85286" average="118666" max="182366"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="11"/>
@@ -755,11 +760,12 @@
 			</production>
 			<component ref="weapon_dal_m_ham_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
-			<use threshold="0"/>
+			<use threshold="0" factions="daldari"/>
+			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
 		<ware id="weapon_dal_s_lam" name="{4816304,213}" description="{4816304,309}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
-			<price min="58459" average="66704" max="72948"/>
+			<price min="24546" average="34248" max="52746"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="advancedelectronics" amount="4"/>
@@ -769,7 +775,8 @@
 			</production>
 			<component ref="weapon_dal_s_lam_macro" amount="1"/>
 			<restriction licence="generaluseequipment"/>
-			<use threshold="0"/>
+			<use threshold="0" factions="daldari"/>
+			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
 		<ware id="missile_dal_lam_s_em" name="{4816304, 214}" description="{4816304, 310}" group="missiles" transport="equipment" volume="1" tags="equipment missile">

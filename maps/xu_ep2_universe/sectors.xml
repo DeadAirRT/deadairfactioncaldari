@@ -190,6 +190,18 @@
         </offset>
         <macro ref="ZoneDALc_Cluster_DAL4_Sector001_macro" connection="sector" />
 	  </connection>
+	  <connection name="ZoneDALcw_Cluster_DAL4_Sector001_connection" ref="zones">
+        <offset>
+          <position x="-125000" y="0" z="0" />
+        </offset>
+        <macro ref="ZoneDALcw_Cluster_DAL4_Sector001_macro" connection="sector" />
+	  </connection>
+	  <connection name="ZoneDALce_Cluster_DAL4_Sector001_connection" ref="zones">
+        <offset>
+          <position x="125000" y="0" z="0" />
+        </offset>
+        <macro ref="ZoneDALce_Cluster_DAL4_Sector001_macro" connection="sector" />
+	  </connection>
     </connections>
   </macro>
   
