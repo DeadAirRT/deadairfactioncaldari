@@ -1,116 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
-<add sel="//macros/macro[@name='XU_EP2_universe_macro']/connections">
-	<connection name="Cluster_DAL1_connection" ref="clusters">
-		<offset>
-			<position x="105000000" y="0" z="-60620000" />
-        </offset>
-        <macro ref="Cluster_DAL1_macro" connection="galaxy" />
-	</connection>
-	<connection name="Cluster_DAL2_connection" ref="clusters">
-		<offset>
-			<position x="105000000" y="0" z="-77940000" />
-        </offset>
-        <macro ref="Cluster_DAL2_macro" connection="galaxy" />
-	</connection>
-	<connection name="Cluster_DAL3_connection" ref="clusters">
-		<offset>
-			<position x="120000000" y="0" z="-51960000" />
-        </offset>
-        <macro ref="Cluster_DAL3_macro" connection="galaxy" />
-	</connection>
-	<connection name="Cluster_DAL4_connection" ref="clusters">
-		<offset>
-			<position x="120000000" y="0" z="-69280000" />
-        </offset>
-        <macro ref="Cluster_DAL4_macro" connection="galaxy" />
-	</connection>
-	<connection name="Cluster_DAL5_connection" ref="clusters">
-		<offset>
-			<position x="120000000" y="0" z="-86600000" />
-        </offset>
-        <macro ref="Cluster_DAL5_macro" connection="galaxy" />
-	</connection>
-	<connection name="Cluster_DAL6_connection" ref="clusters">
-		<offset>
-			<position x="135000000" y="0" z="-60620000" />
-        </offset>
-        <macro ref="Cluster_DAL6_macro" connection="galaxy" />
-	</connection>
-	<connection name="Cluster_DAL7_connection" ref="clusters">
-		<offset>
-			<position x="135000000" y="0" z="-77940000" />
-        </offset>
-        <macro ref="Cluster_DAL7_macro" connection="galaxy" />
-	</connection>
-	<connection name="Cluster_DAL8_connection" ref="clusters">
-		<offset>
-			<position x="30000000" y="0" z="34640000" />
-        </offset>
-        <macro ref="Cluster_DAL8_macro" connection="galaxy" />
-	</connection>
-	
-	<!-- Intra Connections -->
-<!--
-	<connection name="ClusterGateDAL1ToDAL3" ref="destination" path="../Cluster_DAL1_connection/Cluster_DAL1_Sector001_connection/ZoneDAL2_Cluster_DAL1_Sector001_connection/connection_ClusterGateDAL1ToDAL3">
-		<macro connection="destination" path="../../../../../Cluster_DAL3_connection/Cluster_DAL3_Sector001_connection/ZoneDAL5_Cluster_DAL3_Sector001_connection/connection_ClusterGateDAL3ToDAL1" />
-	</connection>
--->
-	<connection name="ClusterGateDAL1ToDAL4" ref="destination" path="../Cluster_DAL1_connection/Cluster_DAL1_Sector001_connection/ZoneDAL3_Cluster_DAL1_Sector001_connection/connection_ClusterGateDAL1ToDAL4">
-		<macro connection="destination" path="../../../../../Cluster_DAL4_connection/Cluster_DAL4_Sector001_connection/ZoneDAL6_Cluster_DAL4_Sector001_connection/connection_ClusterGateDAL4ToDAL1" />
-	</connection>
-	<connection name="ClusterGateDAL1ToDAL2" ref="destination" path="../Cluster_DAL1_connection/Cluster_DAL1_Sector001_connection/ZoneDAL4_Cluster_DAL1_Sector001_connection/connection_ClusterGateDAL1ToDAL2">
-		<macro connection="destination" path="../../../../../Cluster_DAL2_connection/Cluster_DAL2_Sector001_connection/ZoneDAL1_Cluster_DAL2_Sector001_connection/connection_ClusterGateDAL2ToDAL1" />
-	</connection>
-
-	<connection name="ClusterGateDAL2ToDAL5" ref="destination" path="../Cluster_DAL2_connection/Cluster_DAL2_Sector001_connection/ZoneDAL3_Cluster_DAL2_Sector001_connection/connection_ClusterGateDAL2ToDAL5">
-		<macro connection="destination" path="../../../../../Cluster_DAL5_connection/Cluster_DAL5_Sector001_connection/ZoneDAL6_Cluster_DAL5_Sector001_connection/connection_ClusterGateDAL5ToDAL2" />
-	</connection>
-
-	<connection name="ClusterGateDAL3ToDAL6" ref="destination" path="../Cluster_DAL3_connection/Cluster_DAL3_Sector001_connection/ZoneDAL3_Cluster_DAL3_Sector001_connection/connection_ClusterGateDAL3ToDAL6">
-		<macro connection="destination" path="../../../../../Cluster_DAL6_connection/Cluster_DAL6_Sector001_connection/ZoneDAL6_Cluster_DAL6_Sector001_connection/connection_ClusterGateDAL6ToDAL3" />
-	</connection>
-	
-	<connection name="ClusterGateDAL4ToDAL6" ref="destination" path="../Cluster_DAL4_connection/Cluster_DAL4_Sector001_connection/ZoneDAL2_Cluster_DAL4_Sector001_connection/connection_ClusterGateDAL4ToDAL6">
-		<macro connection="destination" path="../../../../../Cluster_DAL6_connection/Cluster_DAL6_Sector001_connection/ZoneDAL5_Cluster_DAL6_Sector001_connection/connection_ClusterGateDAL6ToDAL4" />
-	</connection>
-	<connection name="ClusterGateDAL4ToDAL5" ref="destination" path="../Cluster_DAL4_connection/Cluster_DAL4_Sector001_connection/ZoneDAL4_Cluster_DAL4_Sector001_connection/connection_ClusterGateDAL4ToDAL5">
-		<macro connection="destination" path="../../../../../Cluster_DAL5_connection/Cluster_DAL5_Sector001_connection/ZoneDAL1_Cluster_DAL5_Sector001_connection/connection_ClusterGateDAL5ToDAL4" />
-	</connection>
-	
-	<connection name="ClusterGateDAL5ToDAL7" ref="destination" path="../Cluster_DAL5_connection/Cluster_DAL5_Sector001_connection/ZoneDAL2_Cluster_DAL5_Sector001_connection/connection_ClusterGateDAL5ToDAL7">
-		<macro connection="destination" path="../../../../../Cluster_DAL7_connection/Cluster_DAL7_Sector001_connection/ZoneDAL5_Cluster_DAL7_Sector001_connection/connection_ClusterGateDAL7ToDAL5" />
-	</connection>
-
-	<connection name="ClusterGateDAL6ToDAL7" ref="destination" path="../Cluster_DAL6_connection/Cluster_DAL6_Sector001_connection/ZoneDAL4_Cluster_DAL6_Sector001_connection/connection_ClusterGateDAL6ToDAL7">
-		<macro connection="destination" path="../../../../../Cluster_DAL7_connection/Cluster_DAL7_Sector001_connection/ZoneDAL1_Cluster_DAL7_Sector001_connection/connection_ClusterGateDAL7ToDAL6" />
-	</connection>
-
-	<!-- Inter Connections -->
-	<connection name="ClusterGateDAL1To37" ref="destination" path="../Cluster_DAL1_connection/Cluster_DAL1_Sector001_connection/ZoneDAL5_Cluster_DAL1_Sector001_connection/connection_ClusterGateDAL1To37">
-		<macro connection="destination" path="../../../../../Cluster_37_connection/Cluster_37_Sector001_connection/ZoneDAL3_Cluster_37_Sector001_connection/connection_ClusterGate37ToDAL1" />
-	</connection>
-	<connection name="ClusterGateDAL1To21" ref="destination" path="../Cluster_DAL1_connection/Cluster_DAL1_Sector001_connection/ZoneDAL1_Cluster_DAL1_Sector001_connection/connection_ClusterGateDAL1To21">
-		<macro connection="destination" path="../../../../../Cluster_21_connection/Cluster_21_Sector002_connection/ZoneDAL4_Cluster_21_Sector002_connection/connection_ClusterGate21ToDAL1" />
-	</connection>
-	<connection name="ClusterGateDAL8To03" ref="destination" path="../Cluster_DAL8_connection/Cluster_DAL8_Sector001_connection/ZoneDAL4_Cluster_DAL8_Sector001_connection/connection_ClusterGateDAL8To03">
-		<macro connection="destination" path="../../../../../Cluster_03_connection/Cluster_03_Sector001_connection/ZoneDAL1_Cluster_03_Sector001_connection/connection_ClusterGate03ToDAL8" />
-	</connection>
-	<!-- Misc Connections -->
-	<connection name="ClusterGateDAL7ToDAM7" ref="destination" path="../Cluster_DAL7_connection/Cluster_DAL7_Sector001_connection/ZoneDAL2_Cluster_DAL7_Sector001_connection/connection_ClusterGateDAL7ToDAM7">
-		<macro connection="destination" path="../../../../../Cluster_DAM7_connection/Cluster_DAM7_Sector001_connection/ZoneDAM4_Cluster_DAM7_Sector001_connection/connection_ClusterGateDAM7ToDAL7" />
-	</connection>
-	<connection name="ClusterGateDAL8To418" ref="destination" path="../Cluster_DAL8_connection/Cluster_DAL8_Sector001_connection/ZoneDAL1_Cluster_DAL8_Sector001_connection/connection_ClusterGateDAL8To418">
-		<macro connection="destination" path="../../../../../Cluster_418_connection/Cluster_418_Sector001_connection/ZoneDAL4_Cluster_418_Sector001_connection/connection_ClusterGate418ToDAL8" />
-	</connection>
-	<!--<connection name="Cluster_AAA_connection" ref="clusters">
-		<offset>
-			<position x="YYY" y="0" z="ZZZ" />
-        </offset>
-        <macro ref="Cluster_AAA_macro" connection="galaxy" />
-	</connection>-->
-	<!--<connection name="ClusterGateXXToYY" ref="destination" path="../Cluster_XX_connection/Cluster_XX_Sector001_connection/ZoneDAL#_Cluster_XX_Sector001_connection/connection_ClusterGateXXToYY">
-		<macro connection="destination" path="../../../../../Cluster_YY_connection/Cluster_YY_Sector001_connection/ZoneDAL#_Cluster_YY_Sector001_connection/connection_ClusterGateYYToXX" />
-	</connection>-->
-</add>
+<diff>
+	<add sel="/macros/macro[@name='XU_EP2_universe_macro']/connections">
+		<connection name="Cluster_DAL1_connection" ref="clusters">
+			<offset>
+				<position x="90000000" y="0" z="-86600000"/>
+			</offset>
+			<macro ref="Cluster_DAL1_macro" connection="galaxy"/>
+		</connection>
+		<connection name="Cluster_DAL2_connection" ref="clusters">
+			<offset>
+				<position x="90000000" y="0" z="-121240000"/>
+			</offset>
+			<macro ref="Cluster_DAL2_macro" connection="galaxy"/>
+		</connection>
+		<connection name="Cluster_DAL3_connection" ref="clusters">
+			<offset>
+				<position x="120000000" y="0" z="-69280000"/>
+			</offset>
+			<macro ref="Cluster_DAL3_macro" connection="galaxy"/>
+		</connection>
+		<connection name="Cluster_DAL4_connection" ref="clusters">
+			<offset>
+				<position x="105000000" y="0" z="-95260000"/>
+			</offset>
+			<macro ref="Cluster_DAL4_macro" connection="galaxy"/>
+		</connection>
+		<connection name="Cluster_DAL5_connection" ref="clusters">
+			<offset>
+				<position x="105000000" y="0" z="-129900000"/>
+			</offset>
+			<macro ref="Cluster_DAL5_macro" connection="galaxy"/>
+		</connection>
+		<connection name="Cluster_DAL6_connection" ref="clusters">
+			<offset>
+				<position x="135000000" y="0" z="-77940000"/>
+			</offset>
+			<macro ref="Cluster_DAL6_macro" connection="galaxy"/>
+		</connection>
+		<connection name="Cluster_DAL7_connection" ref="clusters">
+			<offset>
+				<position x="135000000" y="0" z="-112580000"/>
+			</offset>
+			<macro ref="Cluster_DAL7_macro" connection="galaxy"/>
+		</connection>
+		<connection name="Cluster_DAL8_connection" ref="clusters">
+			<offset>
+				<position x="45000000" y="0" z="-25980000"/>
+			</offset>
+			<macro ref="Cluster_DAL8_macro" connection="galaxy"/>
+		</connection>
+		<!-- Intra Connections -->
+		<connection name="ClusterGateDAL1ToDAL4" ref="destination" path="../Cluster_DAL1_connection/Cluster_DAL1_Sector001_connection/ZoneDAL3_Cluster_DAL1_Sector001_connection/connection_ClusterGateDAL1ToDAL4">
+			<macro connection="destination" path="../../../../../Cluster_DAL4_connection/Cluster_DAL4_Sector001_connection/ZoneDAL6_Cluster_DAL4_Sector001_connection/connection_ClusterGateDAL4ToDAL1"/>
+		</connection>
+		<connection name="ClusterGateDAL2ToDAL5" ref="destination" path="../Cluster_DAL2_connection/Cluster_DAL2_Sector001_connection/ZoneDAL3_Cluster_DAL2_Sector001_connection/connection_ClusterGateDAL2ToDAL5">
+			<macro connection="destination" path="../../../../../Cluster_DAL5_connection/Cluster_DAL5_Sector001_connection/ZoneDAL6_Cluster_DAL5_Sector001_connection/connection_ClusterGateDAL5ToDAL2"/>
+		</connection>
+		<connection name="ClusterGateDAL3ToDAL6" ref="destination" path="../Cluster_DAL3_connection/Cluster_DAL3_Sector001_connection/ZoneDAL3_Cluster_DAL3_Sector001_connection/connection_ClusterGateDAL3ToDAL6">
+			<macro connection="destination" path="../../../../../Cluster_DAL6_connection/Cluster_DAL6_Sector001_connection/ZoneDAL6_Cluster_DAL6_Sector001_connection/connection_ClusterGateDAL6ToDAL3"/>
+		</connection>
+		<connection name="ClusterGateDAL4ToDAL6" ref="destination" path="../Cluster_DAL4_connection/Cluster_DAL4_Sector001_connection/ZoneDAL2_Cluster_DAL4_Sector001_connection/connection_ClusterGateDAL4ToDAL6">
+			<macro connection="destination" path="../../../../../Cluster_DAL6_connection/Cluster_DAL6_Sector001_connection/ZoneDAL5_Cluster_DAL6_Sector001_connection/connection_ClusterGateDAL6ToDAL4"/>
+		</connection>
+		<connection name="ClusterGateDAL4ToDAL5" ref="destination" path="../Cluster_DAL4_connection/Cluster_DAL4_Sector001_connection/ZoneDAL4_Cluster_DAL4_Sector001_connection/connection_ClusterGateDAL4ToDAL5">
+			<macro connection="destination" path="../../../../../Cluster_DAL5_connection/Cluster_DAL5_Sector001_connection/ZoneDAL1_Cluster_DAL5_Sector001_connection/connection_ClusterGateDAL5ToDAL4"/>
+		</connection>
+		<connection name="ClusterGateDAL5ToDAL7" ref="destination" path="../Cluster_DAL5_connection/Cluster_DAL5_Sector001_connection/ZoneDAL2_Cluster_DAL5_Sector001_connection/connection_ClusterGateDAL5ToDAL7">
+			<macro connection="destination" path="../../../../../Cluster_DAL7_connection/Cluster_DAL7_Sector001_connection/ZoneDAL5_Cluster_DAL7_Sector001_connection/connection_ClusterGateDAL7ToDAL5"/>
+		</connection>
+		<connection name="ClusterGateDAL6ToDAL7" ref="destination" path="../Cluster_DAL6_connection/Cluster_DAL6_Sector001_connection/ZoneDAL4_Cluster_DAL6_Sector001_connection/connection_ClusterGateDAL6ToDAL7">
+			<macro connection="destination" path="../../../../../Cluster_DAL7_connection/Cluster_DAL7_Sector001_connection/ZoneDAL1_Cluster_DAL7_Sector001_connection/connection_ClusterGateDAL7ToDAL6"/>
+		</connection>
+		<!-- Inter Connections -->
+		<connection name="ClusterGateDAL1To21" ref="destination" path="../Cluster_DAL1_connection/Cluster_DAL1_Sector001_connection/ZoneDAL1_Cluster_DAL1_Sector001_connection/connection_ClusterGateDAL1To21">
+			<macro connection="destination" path="../../../../../Cluster_21_connection/Cluster_21_Sector002_connection/ZoneDAL4_Cluster_21_Sector002_connection/connection_ClusterGate21ToDAL1"/>
+		</connection>
+		<connection name="ClusterGateDAL1To37" ref="destination" path="../Cluster_DAL1_connection/Cluster_DAL1_Sector001_connection/ZoneDAL5_Cluster_DAL1_Sector001_connection/connection_ClusterGateDAL1To37">
+			<macro connection="destination" path="../../../../../Cluster_37_connection/Cluster_37_Sector001_connection/ZoneDAL3_Cluster_37_Sector001_connection/connection_ClusterGate37ToDAL1"/>
+		</connection>
+		<connection name="ClusterGateDAL3ToDAM2" ref="destination" path="../Cluster_DAL3_connection/Cluster_DAL3_Sector001_connection/ZoneDAL1_Cluster_DAL3_Sector001_connection/connection_ClusterGateDAL3ToDAM2">
+			<macro connection="destination" path="../../../../../Cluster_DAM2_connection/Cluster_DAM2_Sector001_connection/ZoneDAM6_Cluster_DAM2_Sector001_connection/connection_ClusterGateDAM2ToDAL3"/>
+		</connection>
+		<connection name="ClusterGateDAL8To04" ref="destination" path="../Cluster_DAL8_connection/Cluster_DAL8_Sector001_connection/ZoneDAL6_Cluster_DAL8_Sector001_connection/connection_ClusterGateDAL8To04">
+			<macro connection="destination" path="../../../../../Cluster_04_connection/Cluster_04_Sector002_connection/ZoneDAL3_Cluster_04_Sector002_connection/connection_ClusterGate04ToDAL8"/>
+		</connection>
+		<connection name="ClusterGateDAL8To713" ref="destination" path="../Cluster_DAL8_connection/Cluster_DAL8_Sector001_connection/ZoneDAL1_Cluster_DAL8_Sector001_connection/connection_ClusterGateDAL8To713">
+			<macro connection="destination" path="../../../../../Cluster_713_connection/Cluster_713_Sector001_connection/ZoneDAL4_Cluster_713_Sector001_connection/connection_ClusterGate713ToDAL8"/>
+		</connection>
+	</add>
 </diff>
+<!--<connection name="Cluster_AAA_connection" ref="clusters">
+	<offset>
+		<position x="YYY" y="0" z="ZZZ" />
+	</offset>
+	<macro ref="Cluster_AAA_macro" connection="galaxy" />
+</connection>-->
+<!--<connection name="ClusterGateXXToYY" ref="destination" path="../Cluster_XX_connection/Cluster_XX_Sector001_connection/ZoneDAL#_Cluster_XX_Sector001_connection/connection_ClusterGateXXToYY">
+	<macro connection="destination" path="../../../../../Cluster_YY_connection/Cluster_YY_Sector001_connection/ZoneDAL#_Cluster_YY_Sector001_connection/connection_ClusterGateYYToXX" />
+</connection>-->

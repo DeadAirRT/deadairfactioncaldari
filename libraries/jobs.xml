@@ -49,8 +49,11 @@
 	<job id="daldari_food_trader_s" name="{20204,1801}">
 		<modifiers commandeerable="true"/>
 		<orders>
-			<order order="Middleman" default="true">
-				<param name="range" value="5"/>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
 			</order>
 		</orders>
 		<basket basket="foodrations"/>
@@ -69,8 +72,11 @@
 	<job id="daldari_medical_trader_s" name="{20204,10011}">
 		<modifiers commandeerable="true"/>
 		<orders>
-			<order order="Middleman" default="true">
-				<param name="range" value="5"/>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
 			</order>
 		</orders>
 		<basket basket="medicalsupplies"/>
@@ -89,8 +95,11 @@
 	<job id="daldari_energycell_trader_l" name="{20204,101}">
 		<modifiers commandeerable="true"/>
 		<orders>
-			<order order="Middleman" default="true">
-				<param name="range" value="5"/>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
 			</order>
 		</orders>
 		<basket basket="energycells"/>
@@ -109,8 +118,11 @@
 	<job id="daldari_energycell_trader_m" name="{20204,201}">
 		<modifiers commandeerable="true"/>
 		<orders>
-			<order order="Middleman" default="true">
-				<param name="range" value="5"/>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
 			</order>
 		</orders>
 		<basket basket="energycells"/>
@@ -129,8 +141,11 @@
 	<job id="daldari_energycell_trader_s" name="{20204,201}">
 		<modifiers commandeerable="true"/>
 		<orders>
-			<order order="Middleman" default="true">
-				<param name="range" value="5"/>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
 			</order>
 		</orders>
 		<basket basket="energycells"/>
@@ -218,8 +233,11 @@
 	<job id="daldari_construction_trader_m" name="{20204,401}">
 		<modifiers commandeerable="true"/>
 		<orders>
-			<order order="Middleman" default="true">
-				<param name="range" value="5"/>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
 			</order>
 		</orders>
 		<basket basket="construction_stations"/>
@@ -1300,7 +1318,7 @@
 	<!-- Mass Traffic -->
 	<job id="masstraffic_daldari_police">
 		<task task="masstraffic.police"/>
-		<location class="station" policefaction="daldari"/>
+		<location class="station" faction="daldari" stationfaction="daldari" policefaction="daldari"/>
 		<quota station="1"/>
 		<masstraffic ref="masstraffic_teladi_police_daldari">
 			<owner exact="faction.daldari" overridenpc="true"/>
@@ -1322,7 +1340,7 @@
 			</order>
 		</orders>
 		<category faction="daldari" tags="[daexpedition]" size="ship_xl"/>
-		<quota galaxy="2" maxgalaxy="2"/>
+		<quota galaxy="1" maxgalaxy="1"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" faction="daldari" relation="self" comparison="exact" matchextension="false"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
 		<ship>
@@ -1334,8 +1352,10 @@
 		</ship>
 		<subordinates>
 			<subordinate job="daldari_destroyer_escort_l" assignment="attack" group="1"/>
-			<subordinate job="daldari_fighter_escort_s_carrier" assignment="attack" group="2"/>
-			<subordinate job="daldari_frigate_escort_m" assignment="attack" group="3"/>
+			<subordinate job="daldari_destroyer_escort_l" assignment="attack" group="1"/>
+			<subordinate job="daldari_frigate_escort_m" assignment="attack" group="2"/>
+			<subordinate job="daldari_frigate_escort_m" assignment="attack" group="2"/>
+			<subordinate job="daldari_fighter_escort_s_carrier" assignment="interception" group="4"/>
 		</subordinates>
 	</job>
 	<job id="daldari_trader_escort_s_da" name="{20204,5501}" startactive="false">
@@ -1829,7 +1849,7 @@
 			<owner exact="daldari" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="daldari_DALTraderTagdaldari_L_job" name="{33232474,2255}">
+	<job id="daldari_DALTraderTagdaldari_L_job" name="{33232474,2255}" startactive="false">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="TradeRoutine" default="true">
@@ -1837,6 +1857,8 @@
 				<param name="maxbuy" value="5"/>
 				<param name="minsell" value="0"/>
 				<param name="maxsell" value="5"/>
+				<param name="buyfromfactions" value="['own']"/>
+				<param name="selltofactions" value="['own']"/>
 			</order>
 		</orders>
 		<basket basket="all_container"/>
@@ -1852,7 +1874,7 @@
 			<owner exact="daldari" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="daldari_DAMTraderTagdaldari_M_job" name="{33232474,2256}">
+	<job id="daldari_DAMTraderTagdaldari_M_job" name="{33232474,2256}" startactive="false">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="TradeRoutine" default="true">
@@ -1860,6 +1882,8 @@
 				<param name="maxbuy" value="5"/>
 				<param name="minsell" value="0"/>
 				<param name="maxsell" value="5"/>
+				<param name="buyfromfactions" value="['own']"/>
+				<param name="selltofactions" value="['own']"/>
 			</order>
 		</orders>
 		<basket basket="all_container"/>
@@ -1875,7 +1899,7 @@
 			<owner exact="daldari" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="daldari_DALMinerTagdaldari_L_job" name="{33232474,2257}">
+	<job id="daldari_DALMinerTagdaldari_L_job" name="{33232474,2257}" startactive="false">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="MiningRoutine" default="true">
@@ -1898,7 +1922,7 @@
 			<owner exact="daldari" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="daldari_DAMMinerTagdaldari_M_job" name="{33232474,2258}">
+	<job id="daldari_DAMMinerTagdaldari_M_job" name="{33232474,2258}" startactive="false">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="MiningRoutine" default="true">
@@ -1921,7 +1945,7 @@
 			<owner exact="daldari" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="daldari_DALGasMinerTagdaldari_L_job" name="{33232474,2259}">
+	<job id="daldari_DALGasMinerTagdaldari_L_job" name="{33232474,2259}" startactive="false">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="MiningRoutine" default="true">
@@ -1944,7 +1968,7 @@
 			<owner exact="daldari" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="daldari_DAMGasMinerTagdaldari_M_job" name="{33232474,2260}">
+	<job id="daldari_DAMGasMinerTagdaldari_M_job" name="{33232474,2260}" startactive="false">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="MiningRoutine" default="true">

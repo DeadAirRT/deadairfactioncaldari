@@ -127,6 +127,15 @@
 	<add sel="/wares/ware[@id='module_gen_build_xl_01']">
 		<owner faction="daldari"/>
 	</add>
+	<add sel="/wares/ware[@id='module_gen_conn_observationdeck_01']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_conn_observationdeck_02']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_conn_observationdeck_03']">
+		<owner faction="daldari"/>
+	</add>
 	<add sel="/wares/ware[@id='module_gen_equip_dockarea_m_01']">
 		<owner faction="daldari"/>
 	</add>
@@ -211,10 +220,16 @@
 	<add sel="/wares/ware[@id='ship_tel_l_miner_liquid_01_b']">
 		<owner faction="daldari"/>
 	</add>
+	<add sel="/wares/ware[@id='ship_tel_l_miner_liquid_02_a']">
+		<owner faction="daldari"/>
+	</add>
 	<add sel="/wares/ware[@id='ship_tel_l_miner_solid_01_a']">
 		<owner faction="daldari"/>
 	</add>
 	<add sel="/wares/ware[@id='ship_tel_l_miner_solid_01_b']">
+		<owner faction="daldari"/>
+	</add>
+	<add sel="/wares/ware[@id='ship_tel_l_miner_solid_02_a']">
 		<owner faction="daldari"/>
 	</add>
 	<add sel="/wares/ware[@id='ship_tel_m_bomber_01_a']">
@@ -339,12 +354,12 @@
 	<!-- Turrets -->
 	<add sel="//wares">
 		<ware id="turret_dal_l_ham_01_mk1" name="{4816304,200}" description="{4816304,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="224056" average="312162" max="480216"/>
+			<price min="83380" average="119660" max="138233"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="advancedelectronics" amount="6"/>
+					<ware ware="advancedelectronics" amount="40"/>
 					<ware ware="energycells" amount="10"/>
-					<ware ware="turretcomponents" amount="30"/>
+					<ware ware="turretcomponents" amount="70"/>
 				</primary>
 			</production>
 			<production time="10" amount="1" method="closedloop" name="{20206,1201}">
@@ -361,10 +376,10 @@
 			<owner faction="daldari"/>
 		</ware>
 		<ware id="turret_dal_m_ham_01_mk1" name="{4816304,202}" description="{4816304,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="34598" average="48206" max="74158"/>
+			<price min="9268" average="13892" max="22468"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="advancedelectronics" amount="2"/>
+					<ware ware="advancedelectronics" amount="4"/>
 					<ware ware="energycells" amount="10"/>
 					<ware ware="turretcomponents" amount="10"/>
 				</primary>
@@ -383,10 +398,10 @@
 			<owner faction="daldari"/>
 		</ware>
 		<ware id="turret_dal_m_ham_02_mk1" name="{4816304,202}" description="{4816304,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-			<price min="34598" average="48206" max="74158"/>
+			<price min="9268" average="13892" max="22468"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="advancedelectronics" amount="2"/>
+					<ware ware="advancedelectronics" amount="4"/>
 					<ware ware="energycells" amount="10"/>
 					<ware ware="turretcomponents" amount="10"/>
 				</primary>
@@ -429,9 +444,9 @@
 			<price min="224056" average="312162" max="480216"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="advancedelectronics" amount="6"/>
+					<ware ware="advancedelectronics" amount="40"/>
 					<ware ware="energycells" amount="10"/>
-					<ware ware="turretcomponents" amount="30"/>
+					<ware ware="turretcomponents" amount="70"/>
 				</primary>
 			</production>
 			<production time="10" amount="1" method="closedloop" name="{20206,1201}">
@@ -507,6 +522,7 @@
 			<component ref="missile_dal_ham_l_em_macro" amount="1"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
 			<restriction licence="generaluseequipment"/>
+			<use threshold="0" factions="daldari"/>
 			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -541,6 +557,7 @@
 			<component ref="missile_dal_ham_l_explosive_macro" amount="1"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
 			<restriction licence="generaluseequipment"/>
+			<use threshold="0" factions="daldari"/>
 			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -609,7 +626,8 @@
 			<component ref="missile_dal_ham_l_thermal_macro" amount="1"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
 			<restriction licence="generaluseequipment"/>
-			<use threshold="0.3"/>
+			<use threshold="0" factions="daldari"/>
+			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
 		<ware id="missile_dal_ham_m_em" name="{4816304, 209}" description="{4816304, 305}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
@@ -643,6 +661,7 @@
 			<component ref="missile_dal_ham_m_em_macro" amount="1"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
 			<restriction licence="generaluseequipment"/>
+			<use threshold="0" factions="daldari"/>
 			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -677,6 +696,7 @@
 			<component ref="missile_dal_ham_m_explosive_macro" amount="1"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
 			<restriction licence="generaluseequipment"/>
+			<use threshold="0" factions="daldari"/>
 			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -746,7 +766,8 @@
 			<component ref="missile_dal_ham_m_thermal_macro" amount="1"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
 			<restriction licence="generaluseequipment"/>
-			<use threshold="0.3"/>
+			<use threshold="0" factions="daldari"/>
+			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
 		<ware id="weapon_dal_m_ham" name="{4816304,202}" description="{4816304,300}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -810,6 +831,7 @@
 			<component ref="missile_dal_lam_s_em_macro" amount="1"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
 			<restriction licence="generaluseequipment"/>
+			<use threshold="0" factions="daldari"/>
 			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -844,6 +866,7 @@
 			<component ref="missile_dal_lam_s_explosive_macro" amount="1"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
 			<restriction licence="generaluseequipment"/>
+			<use threshold="0" factions="daldari"/>
 			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -878,6 +901,7 @@
 			<component ref="missile_dal_lam_s_kinetic_macro" amount="1"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
 			<restriction licence="generaluseequipment"/>
+			<use threshold="0" factions="daldari"/>
 			<use threshold="0"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -912,7 +936,8 @@
 			<component ref="missile_dal_lam_s_thermal_macro" amount="1"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
 			<restriction licence="generaluseequipment"/>
-			<use threshold="0.3"/>
+			<use threshold="0" factions="daldari"/>
+			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
 		<ware id="missile_dal_hm_l_em" name="{4816304,219}" description="{4816304,314}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
@@ -946,6 +971,7 @@
 			<component ref="missile_dal_hm_l_em_macro" amount="1"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
 			<restriction licence="generaluseequipment"/>
+			<use threshold="0" factions="daldari"/>
 			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -980,6 +1006,7 @@
 			<component ref="missile_dal_hm_l_explosive_macro" amount="1"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
 			<restriction licence="generaluseequipment"/>
+			<use threshold="0" factions="daldari"/>
 			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -1048,7 +1075,8 @@
 			<component ref="missile_dal_hm_l_thermal_macro" amount="1"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
 			<restriction licence="generaluseequipment"/>
-			<use threshold="0.3"/>
+			<use threshold="0" factions="daldari"/>
+			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
 		<ware id="missile_dal_hm_m_em" name="{4816304,223}" description="{4816304,314}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
@@ -1082,6 +1110,7 @@
 			<component ref="missile_dal_hm_m_em_macro" amount="1"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
 			<restriction licence="generaluseequipment"/>
+			<use threshold="0" factions="daldari"/>
 			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -1116,6 +1145,7 @@
 			<component ref="missile_dal_hm_m_explosive_macro" amount="1"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
 			<restriction licence="generaluseequipment"/>
+			<use threshold="0" factions="daldari"/>
 			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -1185,7 +1215,8 @@
 			<component ref="missile_dal_hm_m_thermal_macro" amount="1"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
 			<restriction licence="generaluseequipment"/>
-			<use threshold="0.3"/>
+			<use threshold="0" factions="daldari"/>
+			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
 		<ware id="missile_dal_lm_s_em" name="{4816304,227}" description="{4816304,318}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
@@ -1219,6 +1250,7 @@
 			<component ref="missile_dal_lm_s_em_macro" amount="1"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
 			<restriction licence="generaluseequipment"/>
+			<use threshold="0" factions="daldari"/>
 			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -1253,6 +1285,7 @@
 			<component ref="missile_dal_lm_s_explosive_macro" amount="1"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
 			<restriction licence="generaluseequipment"/>
+			<use threshold="0" factions="daldari"/>
 			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
@@ -1321,7 +1354,8 @@
 			<component ref="missile_dal_lm_s_thermal_macro" amount="1"/>
 			<container ref="sm_gen_pickup_equipment_01_macro"/>
 			<restriction licence="generaluseequipment"/>
-			<use threshold="0.3"/>
+			<use threshold="0" factions="daldari"/>
+			<use threshold="0.7"/>
 			<owner faction="daldari"/>
 		</ware>
 	</add>

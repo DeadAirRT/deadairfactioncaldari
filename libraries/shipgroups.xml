@@ -23,12 +23,10 @@
 			<select macro="ship_tel_s_trans_container_01_b_macro" weight="100"/>
 		</group>
 		<group name="dal_miner_solid_l">
-			<select macro="ship_tel_l_miner_solid_01_a_macro" weight="100"/>
-			<select macro="ship_tel_l_miner_solid_01_b_macro" weight="100"/>
+			<select macro="ship_tel_l_miner_solid_02_a_macro" weight="100"/>
 		</group>
 		<group name="dal_miner_liquid_l">
-			<select macro="ship_tel_l_miner_liquid_01_a_macro" weight="100"/>
-			<select macro="ship_tel_l_miner_liquid_01_b_macro" weight="100"/>
+			<select macro="ship_tel_l_miner_liquid_02_a_macro" weight="100"/>
 		</group>
 		<group name="dal_miner_solid_m">
 			<select macro="ship_tel_m_miner_solid_01_a_macro" weight="100"/>
@@ -42,14 +40,12 @@
 			<select macro="ship_tel_s_miner_solid_01_a_macro" weight="100"/>
 		</group>
 		<group name="dal_miner_solid_mixed">
-			<select macro="ship_tel_l_miner_solid_01_a_macro" weight="100"/>
-			<select macro="ship_tel_l_miner_solid_01_b_macro" weight="100"/>
+			<select macro="ship_tel_l_miner_solid_02_a_macro" weight="100"/>
 			<select macro="ship_tel_m_miner_solid_01_a_macro" weight="100"/>
 			<select macro="ship_tel_m_miner_solid_01_b_macro" weight="100"/>
 		</group>
 		<group name="dal_miner_liquid_mixed">
-			<select macro="ship_tel_l_miner_liquid_01_a_macro" weight="100"/>
-			<select macro="ship_tel_l_miner_liquid_01_b_macro" weight="100"/>
+			<select macro="ship_tel_l_miner_liquid_02_a_macro" weight="100"/>
 			<select macro="ship_tel_m_miner_liquid_01_a_macro" weight="100"/>
 			<select macro="ship_tel_m_miner_liquid_01_b_macro" weight="100"/>
 		</group>

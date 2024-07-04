@@ -210,9 +210,9 @@
 			</conditions>
 			<actions>
 				<do_if value="md.$DADynamicVarTable.$DAGateZoneMacros?">
-					<set_value name="$LocMacroList" exact="[macro.ZoneDAL1_Cluster_DAL8_Sector001_macro,macro.ZoneDAL4_Cluster_418_Sector001_macro]"/>
+					<set_value name="$LocMacroList" exact="[macro.ZoneDAL1_Cluster_DAL1_Sector001_macro,macro.ZoneDAL4_Cluster_21_Sector002_macro,macro.ZoneDAL5_Cluster_DAL1_Sector001_macro,macro.ZoneDAL3_Cluster_37_Sector001_macro,macro.ZoneDAL6_Cluster_DAL8_Sector001_macro,macro.ZoneDAL3_Cluster_04_Sector002_macro,macro.ZoneDAL1_Cluster_DAL8_Sector001_macro,macro.ZoneDAL4_Cluster_713_Sector001_macro]"/>
 					<do_if value="faction.damarr?">
-						<append_list_elements name="$LocMacroList" other="[macro.ZoneDAL2_Cluster_DAL7_Sector001_macro,macro.ZoneDAM4_Cluster_DAM7_Sector001_macro]"/>
+						<append_list_elements name="$LocMacroList" other="[macro.ZoneDAL1_Cluster_DAL3_Sector001_macro,macro.ZoneDAM6_Cluster_DAM2_Sector001_macro]"/>
 					</do_if>
 					<do_for_each name="$LocMacro" in="$LocMacroList">
 						<do_if value="not md.$DADynamicVarTable.$DAGateZoneMacros.indexof.{$LocMacro}">
