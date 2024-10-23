@@ -81,6 +81,9 @@
 		<connection name="ClusterGateDAL3ToDAM2" ref="destination" path="../Cluster_DAL3_connection/Cluster_DAL3_Sector001_connection/ZoneDAL1_Cluster_DAL3_Sector001_connection/connection_ClusterGateDAL3ToDAM2">
 			<macro connection="destination" path="../../../../../Cluster_DAM2_connection/Cluster_DAM2_Sector001_connection/ZoneDAM6_Cluster_DAM2_Sector001_connection/connection_ClusterGateDAM2ToDAL3"/>
 		</connection>
+		<connection name="ClusterGateDAL7ToDAM7" ref="destination" path="../Cluster_DAL7_connection/Cluster_DAL7_Sector001_connection/ZoneDAL3_Cluster_DAL7_Sector001_connection/connection_ClusterGateDAL7ToDAM7">
+			<macro connection="destination" path="../../../../../Cluster_DAM7_connection/Cluster_DAM7_Sector001_connection/ZoneDAM3_Cluster_DAM7_Sector001_connection/connection_ClusterGateDAM7ToDAL7" />
+		</connection>
 		<connection name="ClusterGateDAL8To04" ref="destination" path="../Cluster_DAL8_connection/Cluster_DAL8_Sector001_connection/ZoneDAL6_Cluster_DAL8_Sector001_connection/connection_ClusterGateDAL8To04">
 			<macro connection="destination" path="../../../../../Cluster_04_connection/Cluster_04_Sector002_connection/ZoneDAL3_Cluster_04_Sector002_connection/connection_ClusterGate04ToDAL8"/>
 		</connection>

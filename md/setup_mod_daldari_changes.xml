@@ -170,22 +170,23 @@
 				</cue>
 			</cues>
 		</cue>
-		<cue name="PaintTheShips" instantiate="true">
+		<cue name="PaintTheShips_v2" instantiate="true" namespace="this">
 			<conditions>
 				<event_job_ship_activated/>
 				<check_value value="event.param.trueowner == faction.daldari"/>
-				<check_any>
-					<check_value value="event.param.isclass.[class.ship_s,class.ship_m]"/>
-					<check_value value="event.param.isclass.[class.ship_l,class.ship_xl] and event.param.primarypurpose != purpose.fight"/>
-				</check_any>
-				<check_any>
-					<check_value value="event.param.haspaintmod.{ware.paintmod_0001}"/>
-					<check_value value="not event.param.haspaintmod"/>
-				</check_any>
+				<check_value value="event.param.isclass.[class.ship_s,class.ship_m,class.ship_l,class.ship_xl]"/>
 			</conditions>
 			<actions>
-				<set_value name="$DaldariPaint" exact="ware.paintmod_daldari"/>
-				<add_paint_mod object="event.param" ware="$DaldariPaint"/>
+				<do_if value="[macro.ship_dal_l_caracal_macro,macro.ship_dal_l_charon_macro,macro.ship_dal_l_drake_macro,macro.ship_dal_l_naga_macro,macro.ship_dal_l_raven_macro,macro.ship_dal_l_rokh_macro,macro.ship_dal_l_tengu_macro,macro.ship_dal_xl_chimera_macro,macro.ship_dal_xl_leviathan_macro].indexof.{event.param.macro}">
+					<set_value name="$PaintMod" exact="ware.paintmod_0001"/>
+				</do_if>
+				<do_else>
+					<set_value name="$PaintMod" exact="ware.paintmod_daldari"/>
+				</do_else>
+				<do_if value="$PaintMod?">
+					<add_paint_mod object="event.param" ware="$PaintMod"/>
+				</do_if>
+				<remove_value name="$PaintMod"/>
 			</actions>
 		</cue>
 		<cue name="DeadAirScriptsIntegration" instantiate="true">
@@ -195,6 +196,7 @@
 					<event_cue_signalled cue="md.Setup.Start"/>
 				</check_any>
 			</conditions>
+			<delay exact="5s"/>
 			<actions>
 				<do_if value="md.$DADynamicVarTable.$DAGateEnable?">
 					<signal_cue_instantly cue="IntegrateDeadAirGate"/>
@@ -212,7 +214,7 @@
 				<do_if value="md.$DADynamicVarTable.$DAGateZoneMacros?">
 					<set_value name="$LocMacroList" exact="[macro.ZoneDAL1_Cluster_DAL1_Sector001_macro,macro.ZoneDAL4_Cluster_21_Sector002_macro,macro.ZoneDAL5_Cluster_DAL1_Sector001_macro,macro.ZoneDAL3_Cluster_37_Sector001_macro,macro.ZoneDAL6_Cluster_DAL8_Sector001_macro,macro.ZoneDAL3_Cluster_04_Sector002_macro,macro.ZoneDAL1_Cluster_DAL8_Sector001_macro,macro.ZoneDAL4_Cluster_713_Sector001_macro]"/>
 					<do_if value="faction.damarr?">
-						<append_list_elements name="$LocMacroList" other="[macro.ZoneDAL1_Cluster_DAL3_Sector001_macro,macro.ZoneDAM6_Cluster_DAM2_Sector001_macro]"/>
+						<append_list_elements name="$LocMacroList" other="[macro.ZoneDAL1_Cluster_DAL3_Sector001_macro,macro.ZoneDAM6_Cluster_DAM2_Sector001_macro,macro.ZoneDAL3_Cluster_DAL7_Sector001_macro,macro.ZoneDAM3_Cluster_DAM7_Sector001_macro]"/>
 					</do_if>
 					<do_for_each name="$LocMacro" in="$LocMacroList">
 						<do_if value="not md.$DADynamicVarTable.$DAGateZoneMacros.indexof.{$LocMacro}">
